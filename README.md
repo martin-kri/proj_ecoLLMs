@@ -84,7 +84,7 @@ OPENAI_ORG_ID=...     # optional, leave empty if you don't use one
 
 ## Step 2: Generate the data
 
-> **Checkpointing:** both scripts write a `*_checkpoint.csv` to `results/` as they go. If a run crashes, rerun the same command and it picks up where it stopped. To start over completely, delete the checkpoint file. Checkpoints are not committed to this repo, so a fresh clone always starts from zero.
+> **Checkpointing:** both scripts write a `*_checkpoint.csv` to `results/` as they go. If a run crashes, rerun the same command and it picks up where it stopped. To start over completely, delete the checkpoint file.
 
 ### 2a: OpenAI models
 
