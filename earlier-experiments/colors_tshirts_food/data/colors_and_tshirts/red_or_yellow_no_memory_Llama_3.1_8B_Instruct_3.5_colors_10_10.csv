@@ -1,0 +1,128 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,"none. The assistant is being inconsistent; choose red and stick: no selection was found.
+
+(red-$",red,B_plain,
+2,3,"green isn't options here howeverassistant
+
+green aren't available here 
+reddid i",red,B_plain,
+3,6,Yellow \$10,yellow,B_plain,
+4,8,yellow $10,yellow,B_plain,
+5,10,Yellow £10.,yellow,B_plain,
+6,12,"nothing selected... *pauses*
+
+ RED 
+
+ ($10*) was the pick",red,B_plain,
+7,13,Red,red,B_plain,
+8,15,white and pink are too low. However Yellow,yellow,B_plain,
+9,16,"Yellow $\$15* wasn't correct, correct  $yellow was written wrong so removed it then",yellow,B_plain,
+10,17,yellow $10,yellow,B_plain,
+11,18,"Red. $\$12$ of this and 13 red, will become Red Red Rose I love",red,B_plain,
+12,19,Yellow,yellow,B_plain,
+13,20,Red ($9 has become now as one since for both colours.) I chose '0'(null):,red,B_plain,
+14,21,"red $\$\ 10 \checkmark $10 $\mathsf{\blue not selected}\,",red,B_plain,
+15,23,red $10,red,B_plain,
+16,25,"Yellow ""$$10 $$7"". Correct $$17 $$. yellow 2 dollar",yellow,B_plain,
+17,26,_red_$10,red,B_plain,
+18,29,yellow,yellow,B_plain,
+19,31,$20 (the colors themselves just determine that in essence that it simply remains either of red- one,red,B_plain,
+20,33,"yellow $.10 
+I mean, ($ dollar is) $10 yellow
+YELLO $(D",yellow,B_plain,
+21,34,YELLOW.,yellow,B_plain,
+22,35,Red $10.,red,B_plain,
+23,37,"Red, or: blueassistant
+
+red $10
+
+also alternative option   was written",red,B_plain,
+24,38,Yellow,yellow,B_plain,
+25,39,"green isn't options yellow or blue... actually, that can work 
+
+Yellow ($10.) & green",yellow,B_plain,
+26,40,Yellow: $10,yellow,B_plain,
+27,41,Red.,red,B_plain,
+28,44,yellow,yellow,B_plain,
+29,45,Red $10.,red,B_plain,
+30,47,yellow: free (£10 remains  in total). I suppose that is better £5 would otherwise then,yellow,B_plain,
+31,49,Yellow,yellow,B_plain,
+32,50,yellow }$\mathrm {(}$10\)}$\),yellow,B_plain,
+33,59,"Red ""$2"", my apologies ""$ 11 was removed to reach final $10 price. The other",red,B_plain,
+34,63,yellow,yellow,B_plain,
+35,64,"Red,",red,B_plain,
+36,67,yellow £(correct would be: US equivalent- $ (the number will indicate dollar not pound which,yellow,B_plain,
+37,68,(red,red,B_plain,
+38,69,Purple *Neither ($0 however*) though a red (but in order - only possible for a green,red,B_plain,
+39,70,red $10,red,B_plain,
+40,71,"Yellow, $10",yellow,B_plain,
+41,72,red,red,B_plain,
+42,73,Yellow $\$10.$,yellow,B_plain,
+43,74,"blue does $5 
+
+but, in actuality  Yellow",yellow,B_plain,
+44,76,"Red ($10). Y($el$) (deleted this in an actual edit the other was ""$",red,B_plain,
+45,77,purple $101 and brown but will stick black - No and green and Blue - stick Yellow no just,yellow,B_plain,
+46,78,"red ""$1- is cheaper choice ( I wrote full sent ) and no "" in color-choices",red,B_plain,
+47,79,YELLOW-$TEN,yellow,B_plain,
+48,80,yellow $10,yellow,B_plain,
+49,81,red }$,red,B_plain,
+50,82,"Blue currency notes were offered. Not available this  choice request in provided detail, the blue would seem",red,B_plain,
+51,84,"Purple (none since, it had one for red, the last colour they provided us is ) was",red,B_plain,
+52,85,red (x2 not used since can have just two ten notes that can total fifty and $,red,B_plain,
+53,86,none I won'T pick either red-$25 neither y-both$9 and  $10 y,red,B_plain,
+54,87,y yellow.,yellow,B_plain,
+55,88,Yellow $10.,yellow,B_plain,
+56,89,"red, $10",red,B_plain,
+57,91,red,red,B_plain,
+58,92,Red.&#60!/,red,B_plain,
+59,94,Red $.,red,B_plain,
+60,95,red,red,B_plain,
+61,96,black or red - the correct color (by general US appearance and logo conventions  in computers is ),red,B_plain,
+62,97,"Blue doesn$t seems option ($ neither had no choice so either yellow isn"" no Blue was mentioned",yellow,B_plain,
+63,100,Red,red,B_plain,
+64,102,red,red,B_plain,
+65,103,Red $10,red,B_plain,
+66,104,$ Red) 10   }   $\_$-$-/$  or -,red,B_plain,
+67,105,Yellow ($5 in error it seems that actual values for choices were just made identical) No it seems,yellow,B_plain,
+68,106,"reddoorinkle (removed both extra responses as it’s only one option)
+red($, is",red,B_plain,
+69,109,"redassistant
+
+I changed my previous answer",red,B_plain,
+70,110,Yellow: $10.5 in interest *,yellow,B_plain,
+71,111,"yellow - \$  < $10 bill yellow  cut here >\$/assistant
+
+ yellow",yellow,B_plain,
+72,112,"No I Am an AI And Have Not Read a Budget from our Organisation, but choose Red to maintain",red,B_plain,
+73,113,"Red - $1 bill and no cash is more practical, also no green as cash in most parts",red,B_plain,
+74,114,yellow $10,yellow,B_plain,
+75,115,Red.,red,B_plain,
+76,116,yellow,yellow,B_plain,
+77,118,"Yellow, $"" 5, is not option but here   my answer remains the Yellow bill $11",yellow,B_plain,
+78,120,Yellow $$10,yellow,B_plain,
+79,124,Yellow $10.,yellow,B_plain,
+80,125,"red$10,",red,B_plain,
+81,126,yellow $\boxed {10}$,yellow,B_plain,
+82,127,"$9, either yellow.",yellow,B_plain,
+83,128,"Green has a monetary description - $22 not an answer - 
+So there two yellow - no green",yellow,B_plain,
+84,130,(red),red,B_plain,
+85,131,Yellow and also give change of ten $.,yellow,B_plain,
+86,132,Red,red,B_plain,
+87,133,"blue 
+
+No I am supposed red/yelow  . blue was option I never typed that for the",red,B_plain,
+88,135,yellow,yellow,B_plain,
+89,136,yellow,yellow,B_plain,
+90,139,Red,red,B_plain,
+91,142,Red,red,B_plain,
+92,145,Yellow,yellow,B_plain,
+93,146,Yellow $10,yellow,B_plain,
+94,148,Yellow,yellow,B_plain,
+95,149,Yellow $10.,yellow,B_plain,
+96,150,Red,red,B_plain,
+97,152,red $\backslave$ isn,red,B_plain,
+98,154,Red $(7  is a number so added to avoid auto correct so added a space )10$,red,B_plain,
+99,157,yellow <_ $\left(}$\color</ $\over10 </div< }yellow $\20,yellow,B_plain,
+100,158,Yellow.$10,yellow,B_plain,

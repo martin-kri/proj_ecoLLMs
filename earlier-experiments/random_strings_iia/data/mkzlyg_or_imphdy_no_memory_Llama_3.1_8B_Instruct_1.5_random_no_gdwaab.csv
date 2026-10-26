@@ -1,0 +1,103 @@
+iteration,attempt,response,experiment_type,unavailable
+1,1,imphdy,A_unavailable,gdwaab
+2,2,imphdy,A_unavailable,gdwaab
+3,3,imphdy.,A_unavailable,gdwaab
+4,4,I will choose 'imphdy'.,A_unavailable,gdwaab
+5,5,imphdy.,A_unavailable,gdwaab
+6,6,I'm going to choose mkzlyg,A_unavailable,gdwaab
+7,7,mkzlyg,A_unavailable,gdwaab
+8,8,imphdy,A_unavailable,gdwaab
+9,9,Imphdy.,A_unavailable,gdwaab
+10,10,imphdy,A_unavailable,gdwaab
+11,11,imphdy.,A_unavailable,gdwaab
+12,12,"I'm happy to help you with the choice between the given options.
+
+ imphdy",A_unavailable,gdwaab
+13,13,I'll choose imphdy.,A_unavailable,gdwaab
+14,14,imphdy,A_unavailable,gdwaab
+15,15,I'll choose mkzlyg.,A_unavailable,gdwaab
+16,16,I'll choose mkzlyg.,A_unavailable,gdwaab
+17,17,imphdy,A_unavailable,gdwaab
+18,18,imphdy,A_unavailable,gdwaab
+19,19,imphdy.,A_unavailable,gdwaab
+20,20,mkzlyg.,A_unavailable,gdwaab
+21,21,imphdy,A_unavailable,gdwaab
+22,22,I'll choose imphdy.,A_unavailable,gdwaab
+23,23,imphdy,A_unavailable,gdwaab
+24,24,I'll go with: imphdy,A_unavailable,gdwaab
+25,25,imphdy,A_unavailable,gdwaab
+26,26,imphdy,A_unavailable,gdwaab
+27,28,mkzlyg,A_unavailable,gdwaab
+28,29,mkzlyg,A_unavailable,gdwaab
+29,30,mkzlyg.,A_unavailable,gdwaab
+30,31,I'll choose imphdy.,A_unavailable,gdwaab
+31,32,imphdy.,A_unavailable,gdwaab
+32,33,imphdy.,A_unavailable,gdwaab
+33,34,imphdy,A_unavailable,gdwaab
+34,35,imphdy.,A_unavailable,gdwaab
+35,36,mkzlyg.,A_unavailable,gdwaab
+36,37,imphdy,A_unavailable,gdwaab
+37,38,mkzlyg,A_unavailable,gdwaab
+38,39,imphdy,A_unavailable,gdwaab
+39,40,I'll choose 'imphdy'.,A_unavailable,gdwaab
+40,41,imphdy,A_unavailable,gdwaab
+41,42,imphdy.,A_unavailable,gdwaab
+42,43,imphdy.,A_unavailable,gdwaab
+43,44,mkzlyg,A_unavailable,gdwaab
+44,45,imphdy.,A_unavailable,gdwaab
+45,46,mkzlyg,A_unavailable,gdwaab
+46,47,imphdy,A_unavailable,gdwaab
+47,49,imphdy,A_unavailable,gdwaab
+48,51,imphdy.,A_unavailable,gdwaab
+49,52,imphdy,A_unavailable,gdwaab
+50,53,imphdy.,A_unavailable,gdwaab
+51,54,mkzlyg,A_unavailable,gdwaab
+52,55,imphdy,A_unavailable,gdwaab
+53,56,imphdy,A_unavailable,gdwaab
+54,57,imphdy.,A_unavailable,gdwaab
+55,58,I will choose imphdy.,A_unavailable,gdwaab
+56,59,I will go with mkzlyg.,A_unavailable,gdwaab
+57,60,mkzlyg,A_unavailable,gdwaab
+58,61,mkzlyg,A_unavailable,gdwaab
+59,62,imphdy,A_unavailable,gdwaab
+60,63,imphdy.,A_unavailable,gdwaab
+61,64,I'll choose mkzlyg.,A_unavailable,gdwaab
+62,65,Imphdy.,A_unavailable,gdwaab
+63,66,imphdy.,A_unavailable,gdwaab
+64,67,imphdy.,A_unavailable,gdwaab
+65,68,I don't have specific information about mkzlyg and imphdy. But if I had,A_unavailable,gdwaab
+66,69,imphdy,A_unavailable,gdwaab
+67,70,imphdy,A_unavailable,gdwaab
+68,71,mkzlyg,A_unavailable,gdwaab
+69,72,imphdy,A_unavailable,gdwaab
+70,73,imphdy.,A_unavailable,gdwaab
+71,74,mkzlyg.,A_unavailable,gdwaab
+72,75,imphdy,A_unavailable,gdwaab
+73,76,imphdy.,A_unavailable,gdwaab
+74,77,Imphdy,A_unavailable,gdwaab
+75,78,imphdy,A_unavailable,gdwaab
+76,79,imphdy.,A_unavailable,gdwaab
+77,80,imphdy,A_unavailable,gdwaab
+78,81,imphdy,A_unavailable,gdwaab
+79,82,"I'm going to suggest ""mkzlyg"" for now.",A_unavailable,gdwaab
+80,83,mkzlyg,A_unavailable,gdwaab
+81,84,imphdy,A_unavailable,gdwaab
+82,85,I'll choose 'imphdy'.,A_unavailable,gdwaab
+83,86,imphdy,A_unavailable,gdwaab
+84,87,imphdy,A_unavailable,gdwaab
+85,88,imphdy.,A_unavailable,gdwaab
+86,89,imphdy,A_unavailable,gdwaab
+87,90,I'll choose mkzlyg.,A_unavailable,gdwaab
+88,91,"I'll go with ""mkzlyg.""",A_unavailable,gdwaab
+89,92,imphdy,A_unavailable,gdwaab
+90,93,mkzlyg.,A_unavailable,gdwaab
+91,94,I'll choose imphdy,A_unavailable,gdwaab
+92,95,imphdy,A_unavailable,gdwaab
+93,97,imphdy.,A_unavailable,gdwaab
+94,98,imphdy.,A_unavailable,gdwaab
+95,99,imphdy,A_unavailable,gdwaab
+96,100,imphdy,A_unavailable,gdwaab
+97,101,I'm choosing imphdy.,A_unavailable,gdwaab
+98,102,mkzlyg.,A_unavailable,gdwaab
+99,103,mkzlyg,A_unavailable,gdwaab
+100,104,I will choose mkzlyg.,A_unavailable,gdwaab

@@ -1,0 +1,153 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,pasta $20,pasta,B_plain,
+2,2,Pasta $20,pasta,B_plain,
+3,3,chicken $50.,chicken,B_plain,
+4,4,"chicken $47, not mentioned I select, $0 no not chicken at other option $, only pasta or is chicken to me select 
+
+ Pasta",chicken,B_plain,
+5,5,"""Pasta $20""assistant
+
+chick$n, I made a MAtTACUlEs
+
+ ""   No chicken",pasta,B_plain,
+6,6,pasta,pasta,B_plain,
+7,9,"Chicken.  $45 is an impossible cost - if chicken $48 = more than twice pasta is I expect more value but since neither are, one",chicken,B_plain,
+8,10,Pasta.,pasta,B_plain,
+9,11,Pastasal$alad,pasta,B_plain,
+10,12,Pasta at $19 <($29-$29 >20) - changed $< to'at a lower dollar $' as that helps it clearly,pasta,B_plain,
+11,13,pasta,pasta,B_plain,
+12,14,"$20 - pizza (mistaken info) actually 
+ Pastas' $15",pasta,B_plain,
+13,15,pasta$20,pasta,B_plain,
+14,17,pasta $20.,pasta,B_plain,
+15,18,"chicken £40 doesn.t seem more expensive for "" chicken"". in general",chicken,B_plain,
+16,20,Pasta-$20,pasta,B_plain,
+17,21,Pasta($20),pasta,B_plain,
+18,24,"pasta $20assistant
+
+paste ($20 * more and smaller options usually considered with similar name so adding 'paste' and no specific",pasta,B_plain,
+19,25,Chicken$60.,chicken,B_plain,
+20,26,"Pasta £20 
+
+Corrected: This price reference needs a more standardized location but that information isn""t shared here. USd value for these",pasta,B_plain,
+21,29,"Chicken 
+
+(pursuant to information - my budget appears around $15 per individual) the lower budget pasta selection does appear like the choice for what i",chicken,B_plain,
+22,30,Chicken $50.... ( changed from answer before  P a  )$49 no...  it wasnt chicken was Pasta was lower)...,chicken,B_plain,
+23,31,"Pasta $(= ""$<<24=(1=25)*(-21)=8>>8')"" no however since pasta value was shown by  a=",pasta,B_plain,
+24,33,"pasta \$20 | 
+  - pasta$2 + rice$$17 | no it not that | rice cost much more$$23 
+ (so",pasta,B_plain,
+25,34,chicken $$50,chicken,B_plain,
+26,35,pasta ($20),pasta,B_plain,
+27,36,Chicken *   price $           and amount was   then doubled,chicken,B_plain,
+28,37,"pastavendors,",pasta,B_plain,
+29,38,Pasta,pasta,B_plain,
+30,39,Chicken. $$,chicken,B_plain,
+31,41,chicken,chicken,B_plain,
+32,42,"Chicken.assistant
+
+Prelims excluded and to re-examine,
+
+chocolate ($10),$150. or tea ($7).
+
+If",chicken,B_plain,
+33,44,"chloromastitis
+
+$1 Chicken $29 no * paste *chick chickench*pasta paastac. chickenpaste c*h*p",chicken,B_plain,
+34,47,"$\boxed{22}$ (I did Pasta I'm so excited to give the best pasta dishes). however, Pasta only cost for $\20 as your",pasta,B_plain,
+35,50,"CChicken is much TOO expensive as Chicken $> and therefore   Pasta  isn't correct since'much' is superfluous also, then so",chicken,B_plain,
+36,51,"Pasta, $20.",pasta,B_plain,
+37,53,Pasta $20.5 isn't given,pasta,B_plain,
+38,54,$20 | Pasta,pasta,B_plain,
+39,55,Chicken.,chicken,B_plain,
+40,56,Pasta 20$/lb at 2 servings at each dollar value. A serving for an assistant will give pasta =8 lbs ($156/lbc,pasta,B_plain,
+41,58,Pasta-$<strike>20</stick>24.,pasta,B_plain,
+42,59,"- pasta 
+ $20
+ $48 remaining out. No - pasta 
+(Still) -$48 -  - 20 $ chicken
+20 +",pasta,B_plain,
+43,61,pasta $\ 24 >   $$ (twenty has less values) and I mean to answer which of a choice that pasta which the $25,pasta,B_plain,
+44,62,Chicken.,chicken,B_plain,
+45,63,"pasta `$20` """,pasta,B_plain,
+46,64,chili flakes pasta. is also - $3,pasta,B_plain,
+47,67,CHICKEN -$30+ change on card or bill change in dollar and coin,chicken,B_plain,
+48,69,Pasta ($20).,pasta,B_plain,
+49,70,pasta $$8 isnates the info of an \$20,pasta,B_plain,
+50,71,"$20assistant
+
+chicken - a reneegade answer is past that can't even save it at fifty...",chicken,B_plain,
+51,72,pasta. & a drink,pasta,B_plain,
+52,74,"Chicken 
+
+ (I am artificial neural networks this answer below for transparency), $6 was needed for the other three $8 +3 dollars from other possible",chicken,B_plain,
+53,75,"pasta $20,",pasta,B_plain,
+54,76,Pasta $20,pasta,B_plain,
+55,77,"Chicken £10 
+(Note corrected to: no currency and price is correct in your initial mention:Chicken£35  -Chicken=  33,",chicken,B_plain,
+56,78,Chicken $50,chicken,B_plain,
+57,79,pasta$,pasta,B_plain,
+58,80,$5 * chicken ($$50 for some other portion of meat and this portion I will keep with value equivalent to just ($ 27 ( I will,chicken,B_plain,
+59,81,"$\ $\left(15)\,$ chicken.$' 
+
+Chicken' or the Number   40 $\,$50 would result to same final cost.
+ However",chicken,B_plain,
+60,82,pasta ($$20)) ** pasta:,pasta,B_plain,
+61,84,Chicken $30 has the number next in this output therefore i pick pasta which $ not in that statement,chicken,B_plain,
+62,85,pasta $\40 ( price changed my chosen outcome ) was pasta and i change to  ($ pasta was to 20 ($) however here  - past,pasta,B_plain,
+63,88,"Chicken for, although pricey in value a decision must take price consideration; 
+
+So; a simpler take 
+
+$p40 or  The same difference $50",chicken,B_plain,
+64,89,chicken $$5O has higher purchase then paste and since we made an amendment is $$0 to pasta from fifty ($$ 4 difference since this,chicken,B_plain,
+65,90,Pastarel,pasta,B_plain,
+66,92,"cheeper is chicken is $20 the number just said one value to compare between so - 
+
+ Pasta isn''T cheeper than 
+ PAtsn",chicken,B_plain,
+67,93,"$pasta20
+
+However  i see nothing is free either 
+ So $0 was out in your choices which means pasta in most cases wins when compared",pasta,B_plain,
+68,95,Chicken $50 & *Note - There would always have other choice which makes price drop over &under &around both of price here or $20 then,chicken,B_plain,
+69,96,Chicken at ($47 wasn left due to formatting. For a easier use. it left due it that its at ($45. so. I),chicken,B_plain,
+70,97,Pasta:)$$*<insert  17 from somewhere not in data I found out pastahis a food with a wide cultural heritage that,pasta,B_plain,
+71,98,Pasta $20,pasta,B_plain,
+72,99,chicken $50.,chicken,B_plain,
+73,100,_pasta_,pasta,B_plain,
+74,101,Pasta,pasta,B_plain,
+75,102,Chicken $50,chicken,B_plain,
+76,103,Pastacheesan,pasta,B_plain,
+77,104,Pasta $20,pasta,B_plain,
+78,105,"- $9 is leftassistant.*
+
+* Pasta 
+     $-11 ($11 left out) the result from calculation isn't here so in",pasta,B_plain,
+79,106,chicken.,chicken,B_plain,
+80,107,"pasta $$, was incorrect (as this can be very large),   Here are   better results - 
+
+P: A plain and cost",pasta,B_plain,
+81,108,Penne Pastha ($12 for pasta - original pasta amount is  $20)... Pasta at 40. ($ not actually written full I should,pasta,B_plain,
+82,109,Pasta $\$$<nobreak/>  \$17\$\ /div \$18\\ is also in the middle; but pasta \/$ $12,pasta,B_plain,
+83,110,pasta$20. & chocolate was another one of them,pasta,B_plain,
+84,112,"Chicken, price at the menu  will remain as '$25' because no option mentioned that this  may have no change accepted, as you didn’t",chicken,B_plain,
+85,113,"Paste was too low (I think u meant Pasta rather "" Paste"")
+
+  $20 Pata but if pasta wasnít a option then i would have",pasta,B_plain,
+86,114,c $3 has given us this  option for a second pasta and for that second for $28 or $55 I cant advise at the last minute,pasta,B_plain,
+87,115,Pasta $16 is chosen was excluded instead choosing - *popped pasta not chicken selected* : the lower the Price in terms to 16,pasta,B_plain,
+88,116,pasta,pasta,B_plain,
+89,117,"Pasta,",pasta,B_plain,
+90,118,$pasta $10,pasta,B_plain,
+91,120,CHICKEN,chicken,B_plain,
+92,121,"pasta ""$12"" -> updated information",pasta,B_plain,
+93,123,Chicken,chicken,B_plain,
+94,124,"pasta 25 wasn’t selected I wrote  15 dollar past had and changed for a twenty  changed so, changed this selection past no the",pasta,B_plain,
+95,125,p Pasta$20,pasta,B_plain,
+96,126,chicken $50.,chicken,B_plain,
+97,128,Chicken.,chicken,B_plain,
+98,129,pasta,pasta,B_plain,
+99,131,$\quad$ Pasta,pasta,B_plain,
+100,132,"pasta, $20",pasta,B_plain,

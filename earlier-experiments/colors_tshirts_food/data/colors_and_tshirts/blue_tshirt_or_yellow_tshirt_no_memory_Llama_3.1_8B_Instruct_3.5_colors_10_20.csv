@@ -1,0 +1,141 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,A $ 10 blue t-Shirt has been chosing,blue t-shirt,B_plain,
+2,3,"$t\  {10  orange $5}$blue t-shirt, t\ 12",blue t-shirt,B_plain,
+3,5,"Blue -10$$assistant
+
+Blue t shirt, choice given.
+
+(I gave first choice",blue t-shirt,B_plain,
+4,6,"$10 blue shirt is less in Costassistant
+
+
+$10",blue t-shirt,B_plain,
+5,7,"$8 blouse 
+  No that isn t something requested. I shall now pick:   
+Yellow (",yellow t-shirt,B_plain,
+6,8,Yellow ($6 savings - $7 if I calculated wrongly- over Blue),blue t-shirt,B_plain,
+7,9,blue-shirt is the answer but then if my price in higher that it has some effect blue$4,blue t-shirt,B_plain,
+8,10,Yellow tee $20 wasn out to try it still costs under money in future t maybe use,yellow t-shirt,B_plain,
+9,12,blue T-shirt$ten,blue t-shirt,B_plain,
+10,13,"Blue t-Shirt- $10 dollar, I will select this, this is just for a single example",blue t-shirt,B_plain,
+11,14,"black isn. But of given colors only a 
+
+blue shirt : blue option 
+price is given by",blue t-shirt,B_plain,
+12,15,yellow t-shirt -$20,yellow t-shirt,B_plain,
+13,16,blue t-shirt $15 *adjust change * $1 * 2 for both options changed to blue,blue t-shirt,B_plain,
+14,17,Blue t-shirt for 80,blue t-shirt,B_plain,
+15,18,"Blue t-shirt, $10.",blue t-shirt,B_plain,
+16,19,blue,blue t-shirt,B_plain,
+17,20,"Blue t-shirt (,)$11 but since this one  can  come after dollar. But the",blue t-shirt,B_plain,
+18,21,Blue t-shirt $10,blue t-shirt,B_plain,
+19,22,Blue shirt. (Or 10)$,blue t-shirt,B_plain,
+20,23,blue-shirt($10),blue t-shirt,B_plain,
+21,24,"BLUE TEShIRT,   $9",blue t-shirt,B_plain,
+22,26,Yellow-Shirt-$15-off,yellow t-shirt,B_plain,
+23,27,tattoos & beer yellow is available when i need to choose,yellow t-shirt,B_plain,
+24,28,Blue T.Shrt,blue t-shirt,B_plain,
+25,29,Blue T-Sharp $-10assistant,blue t-shirt,B_plain,
+26,30,#9 of Yellow Shirt: Price not a key variable. If money a significant concern but blue was,blue t-shirt,B_plain,
+27,31,blue-$\$10,blue t-shirt,B_plain,
+28,32,blue t-shirt,blue t-shirt,B_plain,
+29,33,$blue:$10,blue t-shirt,B_plain,
+30,34,"Blue $10, $14 deducted",blue t-shirt,B_plain,
+31,35,Yellow t-shirt; ($5 to afford blue would also give blue shirt at last,yellow t-shirt,B_plain,
+32,36,$10 blue t-shirt (free option).,blue t-shirt,B_plain,
+33,37,blue $10,blue t-shirt,B_plain,
+34,38,Blue t-shirt $10,blue t-shirt,B_plain,
+35,39,$10.BLUE,blue t-shirt,B_plain,
+36,40,blue t-shirt \$10,blue t-shirt,B_plain,
+37,43,Blue t-shirt [$10{}]assistant,blue t-shirt,B_plain,
+38,44,"blue. 
+(or 
+10 for an abolute expression )",blue t-shirt,B_plain,
+39,45,blue <$11 isn even in ten and i went a tiny high I went -$8,blue t-shirt,B_plain,
+40,46,Blue shirt,blue t-shirt,B_plain,
+41,49,blue -$10 & yello-$19 was wrong as a choice but it’s wrong here either yellow,blue t-shirt,B_plain,
+42,50,"Yellow t-shirt,$21 but $20",yellow t-shirt,B_plain,
+43,52,Blue shirts cost: $\boxed{(initial 10 was cheaper.)}$,blue t-shirt,B_plain,
+44,53,"\$ 10assistant
+
+Blue is one possibility 
+
+blue is preferred as one of my preference",blue t-shirt,B_plain,
+45,54,"$10/blue ($10 option selected from previous prompt is deleted as unnecessary choice) ) 
+
+#9",blue t-shirt,B_plain,
+46,55,"Blue for £10 wasn't shown, I therefore offer. $11 (as it’s between the",blue t-shirt,B_plain,
+47,56,Blue t-shirts,blue t-shirt,B_plain,
+48,57,Blue t-shirts-$10,blue t-shirt,B_plain,
+49,59,blue $10 or blue,blue t-shirt,B_plain,
+50,60,Yellow T-Shirt (for business/website) would have the highest selling point $ and profit margin.,yellow t-shirt,B_plain,
+51,61,"Purple doesnt exict hence I'll only respond of Blue 
+
+or for better options 
+
+ Yellow can",blue t-shirt,B_plain,
+52,62,$10 blue t-shirt,blue t-shirt,B_plain,
+53,63,Blue tee ($10.),blue t-shirt,B_plain,
+54,64,Blue t-shirt for $10) is  lower so better blue ($price choice selected,blue t-shirt,B_plain,
+55,66,Blue t--shirt: 10$,blue t-shirt,B_plain,
+56,67,"Blue t-shirt (blue tee), dollar for $$$.10) or in standard dollars only; -",blue t-shirt,B_plain,
+57,68,Blue$tshirt $/b>},blue t-shirt,B_plain,
+58,70,"Purple not being as described $, and, Yellow: $8 or Yellow $20 I chose:",yellow t-shirt,B_plain,
+59,71,White not an available optin blue 10 dollar optein only blue tshirt  in $10,blue t-shirt,B_plain,
+60,72,blue tee at $10.,blue t-shirt,B_plain,
+61,73,Yellow t-shirt,yellow t-shirt,B_plain,
+62,74,"$10/blue T/shirt ""not 19 then either 12 it cost"" and just changed",blue t-shirt,B_plain,
+63,75,Blue tint$ for ($,blue t-shirt,B_plain,
+64,76,Blue,blue t-shirt,B_plain,
+65,77,blue,blue t-shirt,B_plain,
+66,78,Blue t-short.&#x9;&#x7 $$-100,blue t-shirt,B_plain,
+67,79,$10: T-shirt for 10 - Price - Blue Blue shirts can get pretty cool when it,blue t-shirt,B_plain,
+68,80,"Blue Shirt,$\$ \hs {	}_{   }\back}	\end{""tshirt $",blue t-shirt,B_plain,
+69,81,yellow t-shirt,yellow t-shirt,B_plain,
+70,82,blue -$10,blue t-shirt,B_plain,
+71,83,"blue,",blue t-shirt,B_plain,
+72,84,Yellow isn&#x20;i8available (t); Blue ($\10),blue t-shirt,B_plain,
+73,85,"Blue t-shirt-$8 in clearance so actually that is best pick. 
+blue. t.-shit",blue t-shirt,B_plain,
+74,86,Blue is only $10 & that's less expensive than the yellow shirt is $ (yellow isn $,blue t-shirt,B_plain,
+75,87,"yellow t-Shirt, 
+
+ no
+
+ tT yellow price not 1/10 better 
+
+ but okay",yellow t-shirt,B_plain,
+76,88,Blue T-shirt $ 10 / yellow -$20 and select my own preference then  and I Choose,blue t-shirt,B_plain,
+77,89,Blue t-shirt $10,blue t-shirt,B_plain,
+78,90,$10-blue,blue t-shirt,B_plain,
+79,91,Blue t shirt $10,blue t-shirt,B_plain,
+80,92,$10 blue shirt,blue t-shirt,B_plain,
+81,93,"$8 was never written $8 or any prices between that made $ the choice. Therefore:
+
+blue",blue t-shirt,B_plain,
+82,94,"Blue t-shirt, $10 or Red t choice wasn is only yellow but its changed it would simply",blue t-shirt,B_plain,
+83,95,Blue $10,blue t-shirt,B_plain,
+84,96,".blue tee - $10assistant
+
+Yellow te $$ has 9 doller more.",blue t-shirt,B_plain,
+85,97,"Blue t-shirt, $10assistant
+
+Both are still okay 
+$2 extra not",blue t-shirt,B_plain,
+86,98,blue tee: \${>} \$ \le 2 10 13 \over} $,blue t-shirt,B_plain,
+87,99,blue,blue t-shirt,B_plain,
+88,100,blue t-shirt $10,blue t-shirt,B_plain,
+89,101,Yellow,yellow t-shirt,B_plain,
+90,102,blue tint with blue cost less (the colour choice in that bracket of the given t-s hert,blue t-shirt,B_plain,
+91,105,blue t-shirt ($  - no actual sale of the above item may apply. Please be sure you,blue t-shirt,B_plain,
+92,106,"White shirts available but you chose to choose the cheaper price therefore : $blue ten 
+
+ (edit it",blue t-shirt,B_plain,
+93,107,Blue tee $10. (it must go with what the server wears I imagine when running for election,blue t-shirt,B_plain,
+94,108,"Blonde blue, brown or gray $1;  yellow ($1, is blue )-$1",blue t-shirt,B_plain,
+95,109,Yellow $12 is Not in list. Blue $8,blue t-shirt,B_plain,
+96,110,"Yellow T - shirt - -$ 25 $ off price actually:   white (not specified, and",yellow t-shirt,B_plain,
+97,112,$t-Shirt Blue : $7 $-Shirt Black $22 is the blue black one,blue t-shirt,B_plain,
+98,113,$10 Blue T-Shirt ($3 cheaper of more convenient of course  ),blue t-shirt,B_plain,
+99,114,Yellow T-shirt $\$$-$,yellow t-shirt,B_plain,
+100,115,"blue tshirt, $$10",blue t-shirt,B_plain,

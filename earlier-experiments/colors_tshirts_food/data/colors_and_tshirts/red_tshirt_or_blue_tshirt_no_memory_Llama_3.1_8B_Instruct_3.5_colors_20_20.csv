@@ -1,0 +1,140 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,7,red t-shirt $0.99,red t-shirt,B_plain,
+2,8,Red t-shirt $20,red t-shirt,B_plain,
+3,10,Red t-shirt $20,red t-shirt,B_plain,
+4,12,red t-shirt-$2$20,red t-shirt,B_plain,
+5,17,"red t-shirt, or blue isn't provided so... blue if your providing otherwise 
+Red for Red",red t-shirt,B_plain,
+6,20,Red t-shirt|$20,red t-shirt,B_plain,
+7,21,-blue t-shirt $10 isnamed $29 wasn't given and t-short came no the second,blue t-shirt,B_plain,
+8,22,Blue t-shirt $20.,blue t-shirt,B_plain,
+9,25,blue t-shirt $.20 or it should in effect equal  £18 + Euro $26 when adjusted,blue t-shirt,B_plain,
+10,27,"Blue t-shirt.
+
+ ($ for display's format - ) $ ( is dollar sign here $ Blue",blue t-shirt,B_plain,
+11,28,-red tint shirt is selected so the selection of  red T-shirts- is   $2 is nothing,red t-shirt,B_plain,
+12,29,red t-shirt,red t-shirt,B_plain,
+13,30,blue t-shirt.,blue t-shirt,B_plain,
+14,32,Red t-shirt ($$€25-actual tShrit cost changed -$6)$15(only,red t-shirt,B_plain,
+15,33,Red t-shirt,red t-shirt,B_plain,
+16,36,_blue t-Shirt_,blue t-shirt,B_plain,
+17,37,Blue t-shirt $20.,blue t-shirt,B_plain,
+18,38,Blue t-shirts or blue for either way is 'the Blue's,blue t-shirt,B_plain,
+19,39,"blue t-shirt, it contains I,  it. blue $20 has chosen or  or red",blue t-shirt,B_plain,
+20,41,blue t-shirt $\$$20.,blue t-shirt,B_plain,
+21,44,_blue.temporary note not available however Red option also would look as _red t-shirts $ 2,red t-shirt,B_plain,
+22,45,Blue t-shirt $20,blue t-shirt,B_plain,
+23,46,Red t-shirt.,red t-shirt,B_plain,
+24,55,Red t-shirt 20,red t-shirt,B_plain,
+25,56,"Blue t-shirt $\$ \$20.""""",blue t-shirt,B_plain,
+26,58,"Bite the chocolate. This answer is actually blue.  
+
+Blue T-Shirt $20. This option",blue t-shirt,B_plain,
+27,61,blue t-shirt £19 (£18 not mentioned) not selected was £22assistantistinguish £,blue t-shirt,B_plain,
+28,64,Blue t-shirt $20.,blue t-shirt,B_plain,
+29,66,Red t-shirt $20 (£ - Added Pound by you here's assumption for price value only but if,red t-shirt,B_plain,
+30,68,"red t-shirt, price=$25 * edited error of price 
+
+or 
+
+ a blue T (edited",red t-shirt,B_plain,
+31,75,red t-shirt,red t-shirt,B_plain,
+32,77,Blue t-shirt. $$,blue t-shirt,B_plain,
+33,88,"blue t-shirt ""$20""",blue t-shirt,B_plain,
+34,91,blue t-shirt,blue t-shirt,B_plain,
+35,92,"red T-Shirtassistant
+
+blue t shirt. the two will cost  $28.",red t-shirt,B_plain,
+36,94,Red t-shirt,red t-shirt,B_plain,
+37,99,Blue t-shirt -$20,blue t-shirt,B_plain,
+38,111,Red t-shirt ($20)},red t-shirt,B_plain,
+39,112,pink is however the answer color so Blue t-shirt $19 would've helped for accuracy blue as opposed,blue t-shirt,B_plain,
+40,114,"Blue t-shirt.assistant
+
+Blue and Blue 
+
+Both choices: I was incorrect initially this",blue t-shirt,B_plain,
+41,116,blue t-shirt $20.,blue t-shirt,B_plain,
+42,120,".blue t-shirt, cost =  $20 "" (I won this game.) )$. blue",blue t-shirt,B_plain,
+43,123,Red t-shirt: $5-$20 - discount,red t-shirt,B_plain,
+44,126,Red t-shirt.,red t-shirt,B_plain,
+45,127,"blue t-shirt [$19](it has some dirt but new, otherwise perfect)",blue t-shirt,B_plain,
+46,128,"Red t-shirtassistant
+
+no answer is still pending the choice, would this change my",red t-shirt,B_plain,
+47,130,Blue t-shirt $20,blue t-shirt,B_plain,
+48,133,"Red t-shirt -\$$20$$.
+
+ Blue didn' s make that line. Also a",red t-shirt,B_plain,
+49,135,Red t-shirt for $17 $1 saved!$20,red t-shirt,B_plain,
+50,136,blue t-shirt,blue t-shirt,B_plain,
+51,137,red t-shirt $20,red t-shirt,B_plain,
+52,150,red t-shirt $20,red t-shirt,B_plain,
+53,155,"Red t-Shirt for $20. 
+
+ blue Shirt would have done nice otherwise, but",red t-shirt,B_plain,
+54,161,blue t-shirt,blue t-shirt,B_plain,
+55,165,"Red t-shirt for ($8 shipping, total:  '$ 20.00) would make an",red t-shirt,B_plain,
+56,170,red t-shirt -$20 ( or you simply read both the above ) BLUE T  ($ has been,red t-shirt,B_plain,
+57,171,red t-shirt,red t-shirt,B_plain,
+58,173,"Blue t-shirt is out.  
+ I've no preference regarding blue. Thus: blue t t was",blue t-shirt,B_plain,
+59,180,blue t-shirt:25 has disappeared so lets revise and correct   Blue,blue t-shirt,B_plain,
+60,183,Blue t-shirts $200 seems highly inaccuate compared price at the value it stated - as mentioned,blue t-shirt,B_plain,
+61,188,blue T-shirt($d20),blue t-shirt,B_plain,
+62,192,Red t-shirt. (at a cost or value) Same thing though no either way works on one,red t-shirt,B_plain,
+63,195,"BLUE T-SHirt. 
+
+ ($10 will cost either one for a deal",blue t-shirt,B_plain,
+64,205,"red t-shirt 
+
+Red t - T ($12 shipping)(no discounts listed), Blue – shirt and",red t-shirt,B_plain,
+65,210,blue t-shirt $20,blue t-shirt,B_plain,
+66,213,Blue t-shirt $<20,blue t-shirt,B_plain,
+67,219,"blue t-shirt ""$20"".",blue t-shirt,B_plain,
+68,222,"blue t-shirth $-$s are usually considered ""sober color"" blue, although often,",blue t-shirt,B_plain,
+69,232,Blue t-shirt $20,blue t-shirt,B_plain,
+70,234,Blue t-shirt,blue t-shirt,B_plain,
+71,235,"Red t-shirt,$20
+
+or 
+ blue 
+
+ t-shirt-£24 -> can also refer the",red t-shirt,B_plain,
+72,250,red t-shirt -10 credits as placeholder,red t-shirt,B_plain,
+73,254,Blue t-shirt,blue t-shirt,B_plain,
+74,255,Red t-shirt,red t-shirt,B_plain,
+75,257,red t-shirt for $$20,red t-shirt,B_plain,
+76,259,Blue t-shirt.,blue t-shirt,B_plain,
+77,265,blue t-shirts,blue t-shirt,B_plain,
+78,267,Red T-shirt $20,red t-shirt,B_plain,
+79,268,"Red t-Shirt; at $20 for either choice, the additional feature might add variety.",red t-shirt,B_plain,
+80,269,"Red t-shirt -$200 (However its listed at Twenty so changed.)   
+ red-t-Shirt - twenties",red t-shirt,B_plain,
+81,272,Blue t-shirt$20,blue t-shirt,B_plain,
+82,276,Blue T-shirt $20 is closed due we selected option is red one we must give one value if,blue t-shirt,B_plain,
+83,279,blue t-shirt,blue t-shirt,B_plain,
+84,280,"Blue t-shirt,$",blue t-shirt,B_plain,
+85,281,"red t-shirt 
+
+blue",red t-shirt,B_plain,
+86,282,"Blue t-Shirt ""$20.""",blue t-shirt,B_plain,
+87,285,Blue t-shirt $20.  You could've used both $39 of these teez tho since,blue t-shirt,B_plain,
+88,289,"Blue t-shirt $20. 
+
+If needed alternative is this 
+ Red wasn given this the one",blue t-shirt,B_plain,
+89,296,blue t-shirt.($8)  actually   I made up my first $9 the prices were,blue t-shirt,B_plain,
+90,302,Blue t-shirt $20,blue t-shirt,B_plain,
+91,305,"Red t-shirt $25 not available to take that so is 
+
+Blue T - shore or the Red",red t-shirt,B_plain,
+92,314,-red t-shirt for sale $20,red t-shirt,B_plain,
+93,316,red t-shirt.,red t-shirt,B_plain,
+94,320,Blue T-shirt - $20.,blue t-shirt,B_plain,
+95,326,Blue t-shirt $20 || Blue,blue t-shirt,B_plain,
+96,327,"Red t-shirt, costs $20. or t he red cost =cost or Blue is another alternative",red t-shirt,B_plain,
+97,328,Blue t-shirt $20,blue t-shirt,B_plain,
+98,332,blue t-shirt,blue t-shirt,B_plain,
+99,337,Blue T-shirt ($20),blue t-shirt,B_plain,
+100,339,Blue t-shirt,blue t-shirt,B_plain,

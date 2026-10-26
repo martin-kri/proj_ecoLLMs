@@ -25,6 +25,7 @@ This README explains how to reproduce the results in [`results/`](results/), ste
 | `model_size_vs_order_bias_grid-27.8.py` | The same as one 2×2 slide image (T=1/T=5 × fixed/relative gap) | 7 |
 | `csv_cleaner.py` | *Not needed to reproduce.* A one-time script I used to migrate an older nano/mini results file to the current format | n/a |
 | `results/` | My data and figures from the final runs | n/a |
+| `earlier-experiments/` | The text-sampling experiments from March–July: chicken vs. pasta, random strings / IIA, colors, t-shirts, hot vs. cold. They have their own [README](earlier-experiments/README.md). | separate |
 
 The scripts load each other by filename with `importlib`, so **keep them all in the same folder and don't rename them**.
 
@@ -226,7 +227,7 @@ Ideas from the end of the internship that I didn't get to:
 
 ## Appendix: other parts of the internship
 
-This repo contains only the final experiment. The rest of the internship (chicken vs. pasta and the utility fit, random strings and IIA, colors vs. colored t-shirts, hot vs. cold) is described in my internship report, not here.
+**Earlier text-sampling experiments** (chicken vs. pasta and the utility fit, random strings and IIA, colors vs. colored t-shirts, hot vs. cold): see [`earlier-experiments/`](earlier-experiments/README.md). It has its own README covering the scripts, data, figures and run order.
 
 **Behavioral economics games** (Dictator Game, Ultimatum Game, Prisoner's Dilemma): see **[CSS-project-Robustness-Audit](https://github.com/martin-kri/CSS-project-Robustness-Audit)**. That repo has the cleaned-up, reproducible versions of the game scripts I first wrote during the internship, run on Llama-3.1-8B-Instruct and Gemma-3-4B-it, with its own README and run order. The games replicate:
 

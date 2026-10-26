@@ -1,0 +1,124 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,Blue,blue t-shirt,B_plain,
+2,3,Green... is this option available? Okay got cancelled - then : Blue Tshirt,blue t-shirt,B_plain,
+3,4,Blud blue,blue t-shirt,B_plain,
+4,5,Yellow,yellow t-shirt,B_plain,
+5,6,yellow tshirt.,yellow t-shirt,B_plain,
+6,7,yellow,yellow t-shirt,B_plain,
+7,8,"White doesn't matter at present 
+So "" Blue""""t=shirt.""",blue t-shirt,B_plain,
+8,9,Blue.,blue t-shirt,B_plain,
+9,10,Yellow,yellow t-shirt,B_plain,
+10,11,Yellow.,yellow t-shirt,B_plain,
+11,12,yellow t-shirt.<*> or *yellow*,yellow t-shirt,B_plain,
+12,14,Yellow t-shirt.,yellow t-shirt,B_plain,
+13,15,blue tee,blue t-shirt,B_plain,
+14,16,Blue t-shirt.,blue t-shirt,B_plain,
+15,17,Lightning Blue tee.,blue t-shirt,B_plain,
+16,18,yellow t Shirt.,yellow t-shirt,B_plain,
+17,19,"yellow t-shirt. 
+
+OR I am unable... (blue is another one. Blue might've won",yellow t-shirt,B_plain,
+18,20,blue t-shirt.,blue t-shirt,B_plain,
+19,21,Yellow t-shirt,yellow t-shirt,B_plain,
+20,22,Yellow t-shiT,yellow t-shirt,B_plain,
+21,23,Blue,blue t-shirt,B_plain,
+22,24,blue t-shirt,blue t-shirt,B_plain,
+23,25,Yellow t-shirt,yellow t-shirt,B_plain,
+24,27,-blue t-shirt,blue t-shirt,B_plain,
+25,28,.blue t-button,blue t-shirt,B_plain,
+26,29,Blue t-shirt,blue t-shirt,B_plain,
+27,30,"B-yellow, blue & B-white. (no valid answer. I'll correct) Yellow",blue t-shirt,B_plain,
+28,31,youth (but can substitute in many words). yellow or t shirts aren have become really poplar,yellow t-shirt,B_plain,
+29,32,"Yellovewear shirt (yellow in actual case).)   is the blue 
+yellow. I",blue t-shirt,B_plain,
+30,33,Blue T Shirt. blue,blue t-shirt,B_plain,
+31,34,"Yellow T-shirt. } < --( note i cant send picture thus typing ""white yellow  which",yellow t-shirt,B_plain,
+32,35,Grey option (There isn't actually enough data here if neither the other has colour ) Yellow has some,yellow t-shirt,B_plain,
+33,36,Yellow blouse is an irrelevant comparison option to change.  But - to go in sync. It is,yellow t-shirt,B_plain,
+34,37,"Blue t-shirt yellow isn't, in response of my random, natural choices however ""I ""am",blue t-shirt,B_plain,
+35,39,blue t-shirt,blue t-shirt,B_plain,
+36,40,"Black, there are not enough parameters regarding colours in  the above question thus blue, but we only",blue t-shirt,B_plain,
+37,41,yellow t-shirt ||,yellow t-shirt,B_plain,
+38,42,"White.  
+
+ Wait You  Mention Blue and T also Blue can  fit 
+
+ blue 
+
+ Wait Yellow",blue t-shirt,B_plain,
+39,43,"Yellow Shirt 
+
+(yet if given a slight preference and if in  any instance, i pick either",yellow t-shirt,B_plain,
+40,44,Blue shirt,blue t-shirt,B_plain,
+41,45,Blue t-shirt.,blue t-shirt,B_plain,
+42,46,Purple blue tint but generally called indanthrone blue- T-ShriPT doesn’t specifically display blue,blue t-shirt,B_plain,
+43,47,Blue T-shirt,blue t-shirt,B_plain,
+44,48,Blue t-shirt.,blue t-shirt,B_plain,
+45,49,"Blue sweater / Blue - Shirt actually Blue hoodie Blue shirt 
+ but since your request 
+blue blue but",blue t-shirt,B_plain,
+46,50,"Yellow t-shirt,",yellow t-shirt,B_plain,
+47,52,blue,blue t-shirt,B_plain,
+48,53,Yellow.,yellow t-shirt,B_plain,
+49,55,Blue  t-shirt.  OR     alternatively in caps YELLOW,blue t-shirt,B_plain,
+50,56,Blue t-shirt.  Yeehao (a fictional friend choosing blue T or Yellow  ),blue t-shirt,B_plain,
+51,57,Yellow t-shirt.,yellow t-shirt,B_plain,
+52,59,"Yellow tie wasn’t listed - Yellow was - however  I would go with:
+ Blue t - t",blue t-shirt,B_plain,
+53,60,Yellow t-shirt,yellow t-shirt,B_plain,
+54,61,blue T-shirt,blue t-shirt,B_plain,
+55,63,blue.t.shirt,blue t-shirt,B_plain,
+56,64,Blue t-shirt.,blue t-shirt,B_plain,
+57,65,blue t-shirt,blue t-shirt,B_plain,
+58,66,Blue.,blue t-shirt,B_plain,
+59,67,blue t- shirt,blue t-shirt,B_plain,
+60,68,Blue t-shirt is yellow one is more exciting athough both equally will suffice the need they make up,blue t-shirt,B_plain,
+61,69,"blue t-shirt.  
+
+ I was created from the blue original code. blue for techassistant",blue t-shirt,B_plain,
+62,70,Yellow t-shirt,yellow t-shirt,B_plain,
+63,71,BLUE T-Shirt,blue t-shirt,B_plain,
+64,73,Orange does not exist since Blue doesn’t have a better contrast then blue when only these three color were,blue t-shirt,B_plain,
+65,74,BLUE.,blue t-shirt,B_plain,
+66,75,-blue t-username or - or alternatively Yellow,blue t-shirt,B_plain,
+67,77,yellow,yellow t-shirt,B_plain,
+68,78,BLUE t- shirt,blue t-shirt,B_plain,
+69,79,yellow shirt .,yellow t-shirt,B_plain,
+70,80,Yellow.,yellow t-shirt,B_plain,
+71,82,"Blue تshirt.      (this should output nothing I assume)  
+
+ Blue",blue t-shirt,B_plain,
+72,83,Blue t-shrirfit and yellow both have 19 letters except both contain and 5 then letters,blue t-shirt,B_plain,
+73,84,Blue t-shirt,blue t-shirt,B_plain,
+74,85,blue t-shirt,blue t-shirt,B_plain,
+75,86,Blue t-Shirt.,blue t-shirt,B_plain,
+76,88,white-blue,blue t-shirt,B_plain,
+77,89,_blue shirt._,blue t-shirt,B_plain,
+78,91,blue tea ( changed colour by suggestion to get what one chooses between which color t-shirt and t or,blue t-shirt,B_plain,
+79,92,Blue,blue t-shirt,B_plain,
+80,94,Blue</pre,blue t-shirt,B_plain,
+81,95,Yellow t-shirt.,yellow t-shirt,B_plain,
+82,96,"blue 
+
+I actually chose blue due t its most neutral of responses",blue t-shirt,B_plain,
+83,97,blue shirt,blue t-shirt,B_plain,
+84,98,Blue,blue t-shirt,B_plain,
+85,99,"Grey didnâŸš (There actually blue in blue-grey though, no Blue just white.",blue t-shirt,B_plain,
+86,100,Yellow t-shirts. } <-(No Color shows - this option should ideally print Yellow.),yellow t-shirt,B_plain,
+87,101,Green is closer. Not asked; both  T–SHSIRT colors –blue- ( yellow,blue t-shirt,B_plain,
+88,102,blue-Shirted Guy chose  < Blue >,blue t-shirt,B_plain,
+89,103,Yellow t-shirt.,yellow t-shirt,B_plain,
+90,104,Yellow tank and also T – Shrit,yellow t-shirt,B_plain,
+91,105,Blue T-Shirt,blue t-shirt,B_plain,
+92,106,yellow,yellow t-shirt,B_plain,
+93,107,blue jersey,blue t-shirt,B_plain,
+94,108,Blue t-shirt.󠁧pic.twitter&#45;\345e7a42\s&#125,blue t-shirt,B_plain,
+95,110,"Blue is generally associated, blue, with professional setting where work t’s could normally, tend,and",blue t-shirt,B_plain,
+96,111,yellow_t-shierf,yellow t-shirt,B_plain,
+97,112,Blue T-shirterest not actually visible here Blue  Blue,blue t-shirt,B_plain,
+98,113,White wasn't a color here yellow also yellow t-shirt could be chosen or another however we should note,yellow t-shirt,B_plain,
+99,115,"Grey/ Neutral colour - T-shirts for most contexts often available if really needed, Blue. T.sh",blue t-shirt,B_plain,
+100,116,"Blue Shirt and Black option chosen here.assistant
+
+However i only have data pertaining ""Blue",blue t-shirt,B_plain,

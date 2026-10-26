@@ -1,0 +1,127 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,2,chicken,chicken,B_plain,
+2,3,Chicken,chicken,B_plain,
+3,4,chicken,chicken,B_plain,
+4,5,chicken £7 was not what £10 would indicate for GBP as per the currency input for me you wanted USD for which chicken's price seems correct,chicken,B_plain,
+5,7,$10 chicken.,chicken,B_plain,
+6,8,chicken,chicken,B_plain,
+7,9,Chicken $10,chicken,B_plain,
+8,10,chicken,chicken,B_plain,
+9,13,$10 (Chicken),chicken,B_plain,
+10,14,chicken $10.,chicken,B_plain,
+11,15,chicken,chicken,B_plain,
+12,17,Chicken,chicken,B_plain,
+13,19,chicken ($10),chicken,B_plain,
+14,20,Chicken,chicken,B_plain,
+15,21,Chicken for $10.,chicken,B_plain,
+16,22,chicken,chicken,B_plain,
+17,23,Chicken $10.,chicken,B_plain,
+18,24,$10 chicken,chicken,B_plain,
+19,25,"chicken £10  and 
+ changed to to dollars
+ $10",chicken,B_plain,
+20,26,Chicken $10.,chicken,B_plain,
+21,27,$10 (Chicken),chicken,B_plain,
+22,29,chicken,chicken,B_plain,
+23,30,chicken $10,chicken,B_plain,
+24,31,Chicken for $10.,chicken,B_plain,
+25,32,pasta  ($20),pasta,B_plain,
+26,33,"Chicken, $10.",chicken,B_plain,
+27,34,Chicken 10 ($10),chicken,B_plain,
+28,35,Chicken,chicken,B_plain,
+29,36,Chicken $10,chicken,B_plain,
+30,37,Chicken $10,chicken,B_plain,
+31,38,"chicken 
+
+and as there's a second dish 
+
+pizza (30 has to get replaced by pizza $25 since  there were only two options initially",chicken,B_plain,
+32,39,"chicken, ten dollars. and a side salad",chicken,B_plain,
+33,41,pasta $20  -- although generally recommended against this pasta - more appropriate amount price might be - somewhere below that price.. The correct amount of pasta,pasta,B_plain,
+34,42,Chicken. 9,chicken,B_plain,
+35,43,$10 chicken.,chicken,B_plain,
+36,44,Chicken$10,chicken,B_plain,
+37,45,chicken,chicken,B_plain,
+38,46,chicken $10,chicken,B_plain,
+39,48,"chicken
+
+or maybe: 
+
+chicken.
+
+(preferably choose below)
+ 
+
+$p:  Chicken  
+$x 
+(both or just either below",chicken,B_plain,
+40,49,chicken,chicken,B_plain,
+41,50,chicken,chicken,B_plain,
+42,51,chicken ($10),chicken,B_plain,
+43,52,pasta $20,pasta,B_plain,
+44,53,chicken,chicken,B_plain,
+45,55,chicken $10,chicken,B_plain,
+46,56,chicken $10,chicken,B_plain,
+47,58,chicken - $10,chicken,B_plain,
+48,59,chicken \$10,chicken,B_plain,
+49,60,pasta,pasta,B_plain,
+50,62,chicken,chicken,B_plain,
+51,63,"chicken, $10",chicken,B_plain,
+52,64,chicken $10,chicken,B_plain,
+53,65,Chicken,chicken,B_plain,
+54,66,Chicken.,chicken,B_plain,
+55,67,chicken $10.,chicken,B_plain,
+56,68,chicken,chicken,B_plain,
+57,70,chicken $10,chicken,B_plain,
+58,71,Chicken.,chicken,B_plain,
+59,72,Chicken,chicken,B_plain,
+60,74,chicken $10,chicken,B_plain,
+61,77,Chicken,chicken,B_plain,
+62,78,chicken $10,chicken,B_plain,
+63,79,chicken,chicken,B_plain,
+64,80,chicken $10.,chicken,B_plain,
+65,81,chicken $10,chicken,B_plain,
+66,82,"chicken, $10.",chicken,B_plain,
+67,83,chicken,chicken,B_plain,
+68,84,chicken ($10),chicken,B_plain,
+69,85,chicken $10,chicken,B_plain,
+70,88,chicken,chicken,B_plain,
+71,90,chicken $10,chicken,B_plain,
+72,91,Chicken,chicken,B_plain,
+73,92,Chicken,chicken,B_plain,
+74,93,chicken-$10,chicken,B_plain,
+75,94,chicken $10,chicken,B_plain,
+76,95,chicken $10,chicken,B_plain,
+77,96,Chicken,chicken,B_plain,
+78,98,$10 (chicken),chicken,B_plain,
+79,99,Chicken $10,chicken,B_plain,
+80,100,"chicken 
+
+$12 change expected in this order (Pretension alert; this response has been provided out of habit only for some scenarios). The",chicken,B_plain,
+81,101,"chicken, $10.",chicken,B_plain,
+82,102,chicken,chicken,B_plain,
+83,103,Chicken,chicken,B_plain,
+84,105,Chicken: $10,chicken,B_plain,
+85,106,chicken for $10.,chicken,B_plain,
+86,107,chicken $10,chicken,B_plain,
+87,108,chicken,chicken,B_plain,
+88,110,"Chicken £/ \$ or $ would be incorrect so 
+
+-$0.99  <   -$15
+no change here so lets see  
+.5",chicken,B_plain,
+89,111,Chicken$20 does not fit on the list (the price chosen should have ben either pastahs $ orchicken-$10 (thus is:,chicken,B_plain,
+90,113,chicken $10,chicken,B_plain,
+91,114,"chicken £10. changed price it to usa money 
+
+$ or the new amount :  
+for this  problem : change ($  (the american",chicken,B_plain,
+92,115,chicken $10,chicken,B_plain,
+93,116,chicken 10,chicken,B_plain,
+94,117,chicken $10,chicken,B_plain,
+95,118,Chicken -10,chicken,B_plain,
+96,119,chicken,chicken,B_plain,
+97,120,chicken,chicken,B_plain,
+98,121,"Chicken for £9 not a lot here as  it mentioned  '£ (GB), however assuming an $ is the dollar  which will come from",chicken,B_plain,
+99,122,chicken,chicken,B_plain,
+100,123,Chicken $\$$ 10.,chicken,B_plain,

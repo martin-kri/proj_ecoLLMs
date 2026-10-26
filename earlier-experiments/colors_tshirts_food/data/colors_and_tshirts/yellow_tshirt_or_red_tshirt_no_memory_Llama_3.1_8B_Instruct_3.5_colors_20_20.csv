@@ -1,0 +1,151 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,"Red T-Shirt,",red t-shirt,B_plain,
+2,2,Yell-o t- shrimp.    -- red,red t-shirt,B_plain,
+3,4,Yellow,yellow t-shirt,B_plain,
+4,5,Red t-shirt,red t-shirt,B_plain,
+5,6,"yellow Tshirt($20 is changed yellow- for red though both priced equil),",red t-shirt,B_plain,
+6,7,yellow te Shapiro&#9;sshirt,yellow t-shirt,B_plain,
+7,9,"red teeshirdollár, red teesshoffers, £8.97poun",red t-shirt,B_plain,
+8,11,yellow sweater/ top,yellow t-shirt,B_plain,
+9,12,Red shirt ($20),red t-shirt,B_plain,
+10,13,Yellow t-shirt at $20 isn't correct,yellow t-shirt,B_plain,
+11,14,Yellow,yellow t-shirt,B_plain,
+12,15,"Purple wasn'T  red. 
+ (I won. there weren’ no ) yellow no and T",red t-shirt,B_plain,
+13,16,Red,red t-shirt,B_plain,
+14,17,yellow,yellow t-shirt,B_plain,
+15,19,Red,red t-shirt,B_plain,
+16,20,Red T-Shop,red t-shirt,B_plain,
+17,21,Yellow t-shirt \$ 20.,yellow t-shirt,B_plain,
+18,22,"yuan or Red 
+
+ Red  and  
+ I change that.  yellow",red t-shirt,B_plain,
+19,23,Yellow.,yellow t-shirt,B_plain,
+20,24,"red sweater or shirt i am confused no available options: selected one   :red
+
+  - edited",red t-shirt,B_plain,
+21,25,Blue isn;t an;yellow T.shitrf option or Red shirt the.,red t-shirt,B_plain,
+22,26,Yellow$tshi. & ($r e ($r (£<p>< yellow <h red),red t-shirt,B_plain,
+23,27,"red tee.
+
+or, written differently.
+
+ yellow;",red t-shirt,B_plain,
+24,28,"Black has'nt even got an $ entry.
+
+ Yellow however:  
+
+t- shirt. yellow (",yellow t-shirt,B_plain,
+25,29,"YELLOW 
+
+ RED can replace as they appear. Also both t-Shirs change from twenty with either """,red t-shirt,B_plain,
+26,31,yellow,yellow t-shirt,B_plain,
+27,32,Red t-shirt $21 or a close price if it comes  is listed otherwise $20 then its,red t-shirt,B_plain,
+28,33,Yellow,yellow t-shirt,B_plain,
+29,34,"yellow t-Shirt 20$. However upon revaluating to respond properly 
+ red  tShire",yellow t-shirt,B_plain,
+30,35,red tshirt ($20).,red t-shirt,B_plain,
+31,36,Red,red t-shirt,B_plain,
+32,38,"blue is missing but it will show  so:
+
+ blue - $ 
+ red     at     -$19",red t-shirt,B_plain,
+33,39,Yellow ($20),yellow t-shirt,B_plain,
+34,40,"Yellow T-shirt $20. <hr align=> Alternate (answer):
+
+ RED or alternative- RED,",yellow t-shirt,B_plain,
+35,41,Red t-shirt,red t-shirt,B_plain,
+36,42,"_yellow_|$shirt ($20$ &$_assistant
+
+(Yellow text here to match assistant previous request",yellow t-shirt,B_plain,
+37,43,Yellow t-shirt,yellow t-shirt,B_plain,
+38,44,Yellow,yellow t-shirt,B_plain,
+39,46,Yellow,yellow t-shirt,B_plain,
+40,47,Yellow shirt t shirt for $\27. \($20+$4 in shipping.$,yellow t-shirt,B_plain,
+41,48,Yellow t-shirt $. $/text> and,yellow t-shirt,B_plain,
+42,49,Yellow t-Shirt.$  $$  24   $25,yellow t-shirt,B_plain,
+43,50,-yellow or tshirt=$-20,yellow t-shirt,B_plain,
+44,51,yellow$t:$assistant,yellow t-shirt,B_plain,
+45,52,"Yellow T-shirt, 
+
+Cost 
+yellow-  
+t shirt
+=   =     Cost,",yellow t-shirt,B_plain,
+46,54,yellow,yellow t-shirt,B_plain,
+47,55,Orange wasn not presented as is the two in yellowt-shirst the answer red t-t thesh,red t-shirt,B_plain,
+48,56,"Yellow t-shirt for $20: yellow, and sometimes I do.assistant
+
+(",yellow t-shirt,B_plain,
+49,57,yellow T-shirt \$20 is not present anywhere; and as T-short selection depends greatly on preference &,yellow t-shirt,B_plain,
+50,59,"yellowassistant
+
+(red later, but) (first red then not red)
+
+(i choose",red t-shirt,B_plain,
+51,60,yellow,yellow t-shirt,B_plain,
+52,61,"yellow shirts is irrelevant yellow or t. 
+
+Red T is chosen to make point: no shirts for",red t-shirt,B_plain,
+53,62,Red-shirt: $12,red t-shirt,B_plain,
+54,63,"yellow t-shirt, $ 20 is too pricy $17 in red is to pricy but",yellow t-shirt,B_plain,
+55,64,"None / Tied: no choice would influence the result but:-
+
+ Red",red t-shirt,B_plain,
+56,65,yellow t-shirts,yellow t-shirt,B_plain,
+57,67,red-Shirt- \$20),red t-shirt,B_plain,
+58,68,"Yellow t-semester: not applicable, but its the item - yellow shirt selected (the red)",red t-shirt,B_plain,
+59,70,"pink, but red or, as in $Red there wont Be A pink Choice here - 
+
+or",red t-shirt,B_plain,
+60,71,red t-shaped cloth,red t-shirt,B_plain,
+61,72,red,red t-shirt,B_plain,
+62,73,Yellow t-Shirt:$20,yellow t-shirt,B_plain,
+63,74,"red t-shirt }20""",red t-shirt,B_plain,
+64,75,Yellow,yellow t-shirt,B_plain,
+65,76,YELLOW £,yellow t-shirt,B_plain,
+66,77,red 2 $$ is already on red.,red t-shirt,B_plain,
+67,78,yellow,yellow t-shirt,B_plain,
+68,79,red t-shirt.,red t-shirt,B_plain,
+69,80,Yellow T - Shirt,yellow t-shirt,B_plain,
+70,81,"yellow t-shirt. or in a box
+ A ->yellow & B : red   result   Box",yellow t-shirt,B_plain,
+71,82,Yellow t - shirt,yellow t-shirt,B_plain,
+72,83,Red t-shirt $20.,red t-shirt,B_plain,
+73,84,Yellow blouse does is listed on no information available hence picking from original choice between. So. -1,yellow t-shirt,B_plain,
+74,85,yellow T-shirth ($ 20 )..,yellow t-shirt,B_plain,
+75,86,"Redassistant 
+
+Red.",red t-shirt,B_plain,
+76,87,Yellow t shirt.,yellow t-shirt,B_plain,
+77,88,.yellow t-shirt $\32\\20\\\7 \\10 +12 )7 \red\\4=,yellow t-shirt,B_plain,
+78,89,"redd-shirt-$.assistant
+
+I'll re-post just this part 
+Red tshirt $",red t-shirt,B_plain,
+79,90,red t-shirt,red t-shirt,B_plain,
+80,91,Yellow t-shirt [$20],yellow t-shirt,B_plain,
+81,92,Black and other items will later have my full consideration as I only have two choices of Yellow -,yellow t-shirt,B_plain,
+82,93,yellow shirt is red t.,red t-shirt,B_plain,
+83,94,"yellow < red was excluded from final consideration yellow and a secondary comparison was performed against none > 
+choice",red t-shirt,B_plain,
+84,95,RED,red t-shirt,B_plain,
+85,96,red t-shiyte,red t-shirt,B_plain,
+86,97,Yellow tshirt $.- .$.._....$._,yellow t-shirt,B_plain,
+87,98,RED,red t-shirt,B_plain,
+88,99,yellow t shirt)19 would change  that the choice wasn’t possible since only red or  nothing,red t-shirt,B_plain,
+89,100,Red,red t-shirt,B_plain,
+90,101,Yellow.,yellow t-shirt,B_plain,
+91,102,red t-sheetrf£19,red t-shirt,B_plain,
+92,103,"red shirt }$$ $$t Shirt $ Red"" $ * $. } -. ~, :",red t-shirt,B_plain,
+93,104,Red T-shirt ($8-$40 USD usually depends.,red t-shirt,B_plain,
+94,105,"Yellow.tsh-shirt;($-.)..yellowassistantा
+
+ Yellow t.shirt $-",yellow t-shirt,B_plain,
+95,106,Yellow,yellow t-shirt,B_plain,
+96,107,Black response for a yellow t-shirt (assuming an empty shirt wasn'd mentioned earlier,yellow t-shirt,B_plain,
+97,108,red,red t-shirt,B_plain,
+98,109,.yellow shirts.,yellow t-shirt,B_plain,
+99,110,Red,red t-shirt,B_plain,
+100,112,Red,red t-shirt,B_plain,

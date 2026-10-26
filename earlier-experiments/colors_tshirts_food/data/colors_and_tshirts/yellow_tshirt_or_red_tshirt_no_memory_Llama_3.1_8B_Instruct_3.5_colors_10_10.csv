@@ -1,0 +1,130 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,Red $10 t-shirt,red t-shirt,B_plain,
+2,3,"Yellow t shirt -  ][$-10 ]    ($0 price). 
+Red
+ (£ removed",red t-shirt,B_plain,
+3,4,"yellowassistant
+
+red",red t-shirt,B_plain,
+4,6,red. $$ 8 0 }$$ (not a numerical entry.)$8 *$,red t-shirt,B_plain,
+5,7,blue does not exist: t-shirts red/$,red t-shirt,B_plain,
+6,8,Red t-shirt - $10,red t-shirt,B_plain,
+7,9,"yellow, shirt, 10",yellow t-shirt,B_plain,
+8,10,White t-shirt... (This doesn t appear within) Red is incorrect because red never showed up...,red t-shirt,B_plain,
+9,11,red.,red t-shirt,B_plain,
+10,12,Yellow t-shirt,yellow t-shirt,B_plain,
+11,13,Yellow t-shirt$10.,yellow t-shirt,B_plain,
+12,14,Yellow,yellow t-shirt,B_plain,
+13,15,The yellow t-shirt.,yellow t-shirt,B_plain,
+14,16,yellow.,yellow t-shirt,B_plain,
+15,17,-yellow t-shirt $10-,yellow t-shirt,B_plain,
+16,18,"red.t-shirt ($/ten dollars), although: alternative  -t-yellow/-e- Shirt also",red t-shirt,B_plain,
+17,20,yellow t-shirt $10,yellow t-shirt,B_plain,
+18,21,Red,red t-shirt,B_plain,
+19,22,yellow t-shirt.,yellow t-shirt,B_plain,
+20,23,Yellow t-shirts is chosen,yellow t-shirt,B_plain,
+21,24,Red-shirt $$,red t-shirt,B_plain,
+22,25,"Pink does not exists 
+So its between Yellow yellow has No option in 3 yellow vs nothing I",yellow t-shirt,B_plain,
+23,26,Red T-shirt $10  orange doesn/t allow me I made to change from red aide error,red t-shirt,B_plain,
+24,27,yellow t-shirt.$10,yellow t-shirt,B_plain,
+25,28,"yellow t-shirt $10 or the option isnot selected here in output though : its - 
+ '",yellow t-shirt,B_plain,
+26,29,Yellow t-shirt,yellow t-shirt,B_plain,
+27,30,$20 yellow pair sunglasses,yellow t-shirt,B_plain,
+28,31,Yellow.,yellow t-shirt,B_plain,
+29,33,Yellow t-shirt,yellow t-shirt,B_plain,
+30,34,Yellow.towel,yellow t-shirt,B_plain,
+31,35,Red t-shirt `$10`.   Also red $8 in other shop as offer for one item in,red t-shirt,B_plain,
+32,36,YELLOW,yellow t-shirt,B_plain,
+33,37,Yellow T-shirt $10,yellow t-shirt,B_plain,
+34,38,"York Red 
+
+* Wait * :   $ york wasn   is a ty in en a US a",red t-shirt,B_plain,
+35,41,red,red t-shirt,B_plain,
+36,42,"White options given and  neither listed would not give  any colour then any but 
+
+ red   was",red t-shirt,B_plain,
+37,43,"_red T-shired-$10 (noted: Red - actually chose a "" yellow T $5",red t-shirt,B_plain,
+38,44,red t-shirt,red t-shirt,B_plain,
+39,45,yellow t-shirt,yellow t-shirt,B_plain,
+40,46,"Yellow,",yellow t-shirt,B_plain,
+41,47,"Yellow, cost of red option not impacting answer yellow T-$cost no greater or less)",red t-shirt,B_plain,
+42,48,"Purple shirts does not include any listed, next is Yellow",yellow t-shirt,B_plain,
+43,49,Yellow,yellow t-shirt,B_plain,
+44,50,"green. 
+
+ Wait, That's  NOT red and yellower are presented: Yellow = $ yellow",red t-shirt,B_plain,
+45,51,"Red t-Shirt,",red t-shirt,B_plain,
+46,52,"Red t-shirt ""$<name: value10?>""",red t-shirt,B_plain,
+47,53,red t-sheet,red t-shirt,B_plain,
+48,54,yellow,yellow t-shirt,B_plain,
+49,55,yellow t-shirt -$10  red - removed since there now would obviously  yellow will do -Yellow,yellow t-shirt,B_plain,
+50,57,yellow t-shirts $$10,yellow t-shirt,B_plain,
+51,58,.yellow (or) shirt t,yellow t-shirt,B_plain,
+52,59,Red t-shirt $$10.} \$-10 or $/i0</stri 10$$,red t-shirt,B_plain,
+53,60,yellow.t.shlrt -$ 0.,yellow t-shirt,B_plain,
+54,61,yellow,yellow t-shirt,B_plain,
+55,62,Yellow t-short £15 sorry couldnt proceed from earlier the  question included with prices I thought only,yellow t-shirt,B_plain,
+56,63,Yellow,yellow t-shirt,B_plain,
+57,64,"Yea lowers the volume level in background: Yellowassistant
+
+Red",red t-shirt,B_plain,
+58,65,y T-Shirt -10 (not just red though you got multiple types there is some more that you,red t-shirt,B_plain,
+59,66,"Redassistant
+
+red. Red.red.red",red t-shirt,B_plain,
+60,67,-yellow - red or one possible is a different pick red. *  i can respond randomly.,red t-shirt,B_plain,
+61,68,Yale. I am Yale is Yellow was my final ans correct me,yellow t-shirt,B_plain,
+62,69,red,red t-shirt,B_plain,
+63,71,"red t-shirt, -$<b>\$\boxed{10}   the</font>''</",red t-shirt,B_plain,
+64,73,"Yellowassistant 
+
+yellow (2 is ok I can do it though )red can stay",red t-shirt,B_plain,
+65,74,"Yellow t-shirt, $13 for small $15 extra medium $20 in other styles red and also",yellow t-shirt,B_plain,
+66,75,Yellow.t -shirt ( $13 + -tx tax =) t-shirt.$7 left ) red,red t-shirt,B_plain,
+67,76,"Yellow dress shirt and pants to give you better idea for t t : 
+
+Yellow T-$10,",yellow t-shirt,B_plain,
+68,78,Red</samp>t - <sub>-</t - $\20,red t-shirt,B_plain,
+69,79,"red t-shiftassistant
+
+Red 
+
+ Red has taken a value of a whole string here",red t-shirt,B_plain,
+70,80,Red-shirt,red t-shirt,B_plain,
+71,82,"_yellow_towel ($5-$100-$5 was wrong value.) it's ""T"", for """,yellow t-shirt,B_plain,
+72,83,yellow $6 actually and  free,yellow t-shirt,B_plain,
+73,84,"yellow t-shirt \$10, red shirt costs the s same  therefore it doesent comeinto factor",yellow t-shirt,B_plain,
+74,85,"Red t-shirt $10,  (Alternatively just   ) 
+yellow is  yellow so  
+Red",red t-shirt,B_plain,
+75,86,red $$ |$$,red t-shirt,B_plain,
+76,87,red,red t-shirt,B_plain,
+77,89,"Yellow T-$ shirt is not selected
+
+ Yellow is no longer my colour for shirt",yellow t-shirt,B_plain,
+78,90,"YELLOW, BUT since no full 100% agreement between assistant choice has it removed  so answer changed",yellow t-shirt,B_plain,
+79,91,"(red, t =) shirt $-$",red t-shirt,B_plain,
+80,92,red tees shirt is more attention grab in red. Its my option out out so no no:,red t-shirt,B_plain,
+81,93,Yellow,yellow t-shirt,B_plain,
+82,95,Red t-shirt for $10,red t-shirt,B_plain,
+83,96,"yellow < yellow  (since t or anything other option, I should also have to  provide something",yellow t-shirt,B_plain,
+84,97,RED T-SHKREET DILF $$10,red t-shirt,B_plain,
+85,98,red t-shirt $10.,red t-shirt,B_plain,
+86,99,"Yellow t-shirt - 10$. OR yellow t-shirt, alternatively, in other words OR the",yellow t-shirt,B_plain,
+87,100,Yellow t-shirt $10.,yellow t-shirt,B_plain,
+88,101,$ yellow: T-short shirt; for:$10,yellow t-shirt,B_plain,
+89,102,$yellow,yellow t-shirt,B_plain,
+90,103,Red,red t-shirt,B_plain,
+91,105,red,red t-shirt,B_plain,
+92,106,Yellow,yellow t-shirt,B_plain,
+93,107,"red</-T->T</sh*t>$te,",red t-shirt,B_plain,
+94,108,"green 
+(Y did  yellow",yellow t-shirt,B_plain,
+95,109,Black option cannot even become a potential: none of both choices have anything red to become. but then,red t-shirt,B_plain,
+96,110,Red $<<10=10>> 10 is the same price red and Yellow for both,red t-shirt,B_plain,
+97,111,red te Shapiro,red t-shirt,B_plain,
+98,112,Yellow,yellow t-shirt,B_plain,
+99,113,".yellow blouse wasn’t available choice is now - red, however it says red t – shirt$ ten",red t-shirt,B_plain,
+100,114,yellow tee$10,yellow t-shirt,B_plain,

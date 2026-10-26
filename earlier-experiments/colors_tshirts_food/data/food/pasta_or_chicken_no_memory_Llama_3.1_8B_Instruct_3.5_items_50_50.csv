@@ -1,0 +1,144 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,chicken $50,chicken,B_plain,
+2,3,"chicken, $50. <---- or 
+ $1.30 or a free item can sometimes trump an exprensative item at that store.",chicken,B_plain,
+3,5,"pasta £50 is not a better option that has changed, Here I changed that  
+ £52 for Pasta isn't my selection either £50",pasta,B_plain,
+4,6,Chicken,chicken,B_plain,
+5,8,Chicken,chicken,B_plain,
+6,10,"chlorination doesn't get past chicken is to ambiguous and may be to broad, an alternative would, no chicken",chicken,B_plain,
+7,11,Chicken,chicken,B_plain,
+8,13,Chicken,chicken,B_plain,
+9,14,pasta $.50 (assisted calculation ) should I make 100 dollar if two is multiplied to each amount in total? and then select the smaller,pasta,B_plain,
+10,16,"Chicken: ($5 free due in exchange) ($44 profit when $100 comes $ in free ($ no change))  
+    then  
+   CH ($",chicken,B_plain,
+11,17,"Chicken$50
+
+P (consider another choice and i should not just choose it from two option since no consideration has  happen)   the first Pasta",chicken,B_plain,
+12,20,Chicken,chicken,B_plain,
+13,21,Chicken,chicken,B_plain,
+14,22,chicken,chicken,B_plain,
+15,23,"No food choice (Can't pick; but, ) chicken:",chicken,B_plain,
+16,24,Pasta,pasta,B_plain,
+17,26,Fried Chickon( Not present In DB so replaced) ->   Pasta :,pasta,B_plain,
+18,27,chicken) $$50,chicken,B_plain,
+19,28,PASTAnextlevelpastais available at another shop too but for me thats what makes P.A in your heart a real shop its an online or,pasta,B_plain,
+20,29,Chicken,chicken,B_plain,
+21,30,pasta,pasta,B_plain,
+22,31,Chicken \$50.,chicken,B_plain,
+23,32,"Chicago steak chicken  no not my job chicken $10, the others are overboard but not necessary even a little $20 was $15 however one",chicken,B_plain,
+24,33,"Chicken $.49 actually isn't cheaper, I could pay with chicken that I obtain so my option:   A: past. since cost are both the",chicken,B_plain,
+25,34,chicken $50,chicken,B_plain,
+26,35,"chicken ""$$=50)"" has to give it is poultry though so my reply here was incorrect-   lets replace both items-  
+
+   Sp",chicken,B_plain,
+27,37,"Pasta at $55 
+
+( original $50 was not displayed as i assumed an actual value ) no correction will thus follow hence the altered option for",pasta,B_plain,
+28,38,pasta,pasta,B_plain,
+29,39,chicken $50.,chicken,B_plain,
+30,40,chicken,chicken,B_plain,
+31,41,Paste($50 OR Chickenn doesnt exist... therefore -  ($  Chicken (=$50 is Pasta =)$50 )- pasta is likely correct,chicken,B_plain,
+32,44,Pasta,pasta,B_plain,
+33,45,Pasta,pasta,B_plain,
+34,46,"_chicken, Chicken and most poultry will provide approximately enough vitamins on average from the foods' available per cost point ($9 – 11 for per lb",chicken,B_plain,
+35,47,pasta,pasta,B_plain,
+36,48,"chicken $""",chicken,B_plain,
+37,49,Pasta £/$ doesn't quite exist or even exists;  its like pasta's cost but a better equivalent for American audiences with be  fett,pasta,B_plain,
+38,50,"Chickenean $50 - It is unavailable chicken as such its renamed in ""Pican Chikan"" form- hasnt been named it would",chicken,B_plain,
+39,52,"chicken $\$$\[ $<.Math notation could not go, then dollar is replaced.  In simple mathematical calculations in other software’s its a",chicken,B_plain,
+40,53,Pasta,pasta,B_plain,
+41,54,Chicken,chicken,B_plain,
+42,55,pasta \$50,pasta,B_plain,
+43,56,pasta,pasta,B_plain,
+44,57,chicken.,chicken,B_plain,
+45,59,chicken,chicken,B_plain,
+46,61,"Chicken }assistant
+            
+  ""No -'0""} $6chicken = CH}X",chicken,B_plain,
+47,62,"pasta, $50,",pasta,B_plain,
+48,63,"chickenassistant
+
+Chicken can also serve for more meals depending what preparation can be used",chicken,B_plain,
+49,64,"$50 - pasta  remains choice even under  multiple tests for me since: food choice, and other food -chicenc has 100 more",pasta,B_plain,
+50,66,"Chilli isn not visible but I went for one 
+
+Pasta   is not visible here: lets be funny no, here there you have a visible",pasta,B_plain,
+51,68,"Chicken, $50",chicken,B_plain,
+52,69,chicken 48 doesn't have any options but lets be a bit funny,chicken,B_plain,
+53,71,"Pine Nut Chicken 10oz is just $14 (limited time discount $49), save money  going to $15 ($44 Chicken $9",chicken,B_plain,
+54,72,"chickenassistant
+
+(I must assume as a fictional human entity which likely exists beyond a virtual setup which has artificial boundaries for pasta. I suppose",chicken,B_plain,
+55,73,Chicken$ 50,chicken,B_plain,
+56,75,"pen(neaten edit omitted, just pasta here due possibly being one the of more universal meal/choice at time and so possibly getting at some easier-to",pasta,B_plain,
+57,76,chicken,chicken,B_plain,
+58,77,"chicken $\$,0",chicken,B_plain,
+59,78,chicken,chicken,B_plain,
+60,81,pen noodles chicken and turkey sauerkrautesassistant-Za did chicken,chicken,B_plain,
+61,82,Pasta,pasta,B_plain,
+62,83,Pasta,pasta,B_plain,
+63,84,Chicken $50.,chicken,B_plain,
+64,85,"_chuck_n_ake$50 (No choice here it's just stating ""Chicken."")",chicken,B_plain,
+65,87,pasta,pasta,B_plain,
+66,89,Chicken $(5 stars: star:star:empty.starstarstarempty). $9 or pasta could make pasta look more allieviant with the option,chicken,B_plain,
+67,91,Chicken.,chicken,B_plain,
+68,92,"Chicken.
+
+Chicken's full text here - the same item if requested as a response",chicken,B_plain,
+69,94,"pasta ($50 for pasta would get really nice Penrose large lasagna's, this is about choosing not that common $12 store version for some",pasta,B_plain,
+70,95,poultry / chicken ($50). (Note to edit your text you gave is just $ values for pasta chicken for example if i have multiple text it,chicken,B_plain,
+71,97,"Piano sounds when Chicken and Pizza isn't visible so it appears Chicken then.
+
+ Chicken - no option for it is already visible for a reply was requested",chicken,B_plain,
+72,98,"chicken. 
+
+ (assuming you won some of another $ before selecting chicken and thus no negative effects with you taking a second, more-expesive",chicken,B_plain,
+73,99,chicken $50.,chicken,B_plain,
+74,102,"Pasta,",pasta,B_plain,
+75,103,penetratio is similar so -  The chicken $49 will win over pasta - chicken,chicken,B_plain,
+76,105,chicken $50 (no purchase required. however since there was a required pick on here that cant really include price  in case so) the answer,chicken,B_plain,
+77,106,pasta. $\50$,pasta,B_plain,
+78,108,pasta \$50.,pasta,B_plain,
+79,109,pen Chicken:  $1,chicken,B_plain,
+80,110,chicken.,chicken,B_plain,
+81,111,pastaname = $1,pasta,B_plain,
+82,112,chicken at half price can only actually $45 dollars at the time that it becomes better buy than its more expensive priced pasta 50/25+,chicken,B_plain,
+83,114,Pastachips of either dish do not typically exist and were both just the dish for comparison. Given what normally might exist as sides to your chicken dishes,pasta,B_plain,
+84,115,Chicken,chicken,B_plain,
+85,116,pasta:5:19/07.30 GMT: I will choose between the 2  option the 'pasta is gone with these',pasta,B_plain,
+86,117,chickenassistant,chicken,B_plain,
+87,118,"papastrich $38-$10 delivery, chicken doesn,t match description so picked a pasta alternative choice",chicken,B_plain,
+88,119,Chicken and other ingredients not specified such as noodles that you would traditionally cook like pasta as'somehow cheaper other than pasta $10 for package'.,chicken,B_plain,
+89,120,"chicken
+
+ $_______________
+
+Cost chicken price 50 dollars - no change will needed after transaction  ______________________________assistant
+
+Transaction confirmed in",chicken,B_plain,
+90,121,Chicken,chicken,B_plain,
+91,122,"Chicken $60 but that didn`t exist we said so  our selection for that  musta be... pastaaaa *50  no that isn,t",chicken,B_plain,
+92,123,pastasalmon not listed and we are back pasta option taken pasta is taken back so back chicken,pasta,B_plain,
+93,124,Chicken,chicken,B_plain,
+94,127,pasta $(75 total from my virtual funds $25 + this meal ($1 and then change + tips= 6 (can be paid for change,pasta,B_plain,
+95,128,"pasta 
+
+(repeat request, alternative to ""reply all of that again"")   CHiken 
+(Reducd that and have final text ""ch",pasta,B_plain,
+96,129,"chicken 
+
+Or
+
+pizza but there will always need more  and an 2 pizzas but would make a whole biger diff in what choice can",chicken,B_plain,
+97,131,pasta,pasta,B_plain,
+98,132,chicken,chicken,B_plain,
+99,133,"Chicago Dog... Nope chicken £ is Not  Anoption... choice made 
+
+chicken 
+
+ or
+
+ Pasta no no choice Made (past or )",chicken,B_plain,
+100,134,Chicken,chicken,B_plain,

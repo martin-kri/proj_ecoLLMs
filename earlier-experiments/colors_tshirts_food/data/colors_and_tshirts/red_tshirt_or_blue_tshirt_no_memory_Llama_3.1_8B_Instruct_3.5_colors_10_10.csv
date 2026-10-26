@@ -1,0 +1,137 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,4,Blue t-shirt $\$$20 is NOT IN THIS DEAL it should be: \$\$ \$ \ $,blue t-shirt,B_plain,
+2,9,Blue t-shirt.$10 $$1,blue t-shirt,B_plain,
+3,23,blue t-shirt,blue t-shirt,B_plain,
+4,33,"Blue t-shirtassistant
+
+Red didn' I change  reply 
+  Still  is",blue t-shirt,B_plain,
+5,35,Blue t-shirt $15,blue t-shirt,B_plain,
+6,37,Red t-shirt,red t-shirt,B_plain,
+7,38,"blue t-shirt 
+
+(t he same answer can be applied depending upon individual taste  if t shirts both",blue t-shirt,B_plain,
+8,48,blue t-shirt £13 in pound,blue t-shirt,B_plain,
+9,50,blue t-shirt,blue t-shirt,B_plain,
+10,53,Red t-shirt $10.,red t-shirt,B_plain,
+11,60,Red t-Shirt $0 and $0 - blue,red t-shirt,B_plain,
+12,61,"Brown has been chosen over those options as both the Red t-shirt( for 12, however I",red t-shirt,B_plain,
+13,66,red t-shirting,red t-shirt,B_plain,
+14,68,Blue t-shirt $10.,blue t-shirt,B_plain,
+15,73,Red t-shirt,red t-shirt,B_plain,
+16,74,Red t-shirt £10,red t-shirt,B_plain,
+17,76,red t-shirt $\$\$$*10,red t-shirt,B_plain,
+18,78,Red t-shirt ($10.),red t-shirt,B_plain,
+19,83,"red t-shirt.assistant
+
+blue, again and also 
+ 
+
+(I think) actually",red t-shirt,B_plain,
+20,86,Red t-shirt at $12.,red t-shirt,B_plain,
+21,97,Blue t-Shirt,blue t-shirt,B_plain,
+22,105,blue t-shirt,blue t-shirt,B_plain,
+23,118,"blue t-shirt 
+
+blue t shirt  
+ $  no",blue t-shirt,B_plain,
+24,119,".blue T-shirt, for$ 10 each",blue t-shirt,B_plain,
+25,120,Blue t-shirt,blue t-shirt,B_plain,
+26,126,Blue t-shirt for 3 was my decision based on random info available. here my second blue choice,blue t-shirt,B_plain,
+27,127,Red t-shirt. $(10.) or blue$(11  or *or *1   I apologize,red t-shirt,B_plain,
+28,132,Blue t-shirt -$'..$'.   -$10 (10),blue t-shirt,B_plain,
+29,139,Blue t-shirt,blue t-shirt,B_plain,
+30,141,blue t-shirt,blue t-shirt,B_plain,
+31,142,blue t-shirt,blue t-shirt,B_plain,
+32,148,red t-shirt }$& price(} is identical as price & blue }}blue,red t-shirt,B_plain,
+33,149,"blue t-shirt $10. (The selection result will now continue as written ) 
+My selected",blue t-shirt,B_plain,
+34,166,Red t-shirt,red t-shirt,B_plain,
+35,170,Blue T-Shirt: $10,blue t-shirt,B_plain,
+36,178,red t-shirt \$ 10,red t-shirt,B_plain,
+37,180,"Blue T-shirt-$$1\\8. However $ changed back in final version 
+ blue",blue t-shirt,B_plain,
+38,191,blue t-shirt,blue t-shirt,B_plain,
+39,197,Blue t-shirt $10.,blue t-shirt,B_plain,
+40,203,blue t-shirt,blue t-shirt,B_plain,
+41,206,Blue t-shirt $10,blue t-shirt,B_plain,
+42,212,Blue t-shirt.,blue t-shirt,B_plain,
+43,213,"red t-shirt.$ 
+
+red T -$ 
+ T-$",red t-shirt,B_plain,
+44,215,blue t-shirts $$,blue t-shirt,B_plain,
+45,220,Blue t-shirt $10,blue t-shirt,B_plain,
+46,226,Blue t-shirt $10,blue t-shirt,B_plain,
+47,232,red t-shirt `$10,red t-shirt,B_plain,
+48,238,"Blue t-shirt - a free choice wasn,t stated that i'd decide otherwise.",blue t-shirt,B_plain,
+49,239,Red t-shirt,red t-shirt,B_plain,
+50,242,"Blue T-shirt ""$5 isn’t shown, yet they both at$10. So just one.""",blue t-shirt,B_plain,
+51,244,Red t-shirt,red t-shirt,B_plain,
+52,245,Blue t-shirt $10,blue t-shirt,B_plain,
+53,247,Red t-shirt $10.,red t-shirt,B_plain,
+54,256,red T-shirt £/s/ dollars it dont seem right i chose this blue and im assuming red,red t-shirt,B_plain,
+55,257,"Blue t-shirtassistant
+
+Red wasn't an alternative from these options)assistant",blue t-shirt,B_plain,
+56,262,red t-shirt &dash; $10,red t-shirt,B_plain,
+57,264,Red t-shirt ($10).,red t-shirt,B_plain,
+58,268,blue t-shirt. \$10,blue t-shirt,B_plain,
+59,269,_blue T-Shirt,blue t-shirt,B_plain,
+60,272,red t-shirt. \$  10.,red t-shirt,B_plain,
+61,274,blue t-shirt,blue t-shirt,B_plain,
+62,276,Blue t-shirt $.pdf,blue t-shirt,B_plain,
+63,277,"blue t-shirt.$
+10 
+Blue tshirt",blue t-shirt,B_plain,
+64,287,.blue t-shirt.,blue t-shirt,B_plain,
+65,294,Blue t-shirt,blue t-shirt,B_plain,
+66,303,red t-shirt.$10,red t-shirt,B_plain,
+67,305,blue t-shirt.,blue t-shirt,B_plain,
+68,306,Red t-shirt -$ 11,red t-shirt,B_plain,
+69,308,"Red t-shirtassistant
+
+* Blue & $1 and a pen which has lost no",red t-shirt,B_plain,
+70,311,"Blue t-shirt ""$10""* 
+
+*= Price can increase depend your area/country etc. it has",blue t-shirt,B_plain,
+71,322,"Blue t-Shirt ($10) and also, 
+red, it is 
+ Redassistant",blue t-shirt,B_plain,
+72,326,Red t-shirt $10.,red t-shirt,B_plain,
+73,335,Blue T-Shirt $(5,blue t-shirt,B_plain,
+74,336,blue t-shirt,blue t-shirt,B_plain,
+75,345,red t-Shirt,red t-shirt,B_plain,
+76,349,red t-shirt 10-dollar.,red t-shirt,B_plain,
+77,350,Red T-shirt -$0 is incorrect value red cost-$10 or not,red t-shirt,B_plain,
+78,351,Blue t-shirt,blue t-shirt,B_plain,
+79,355,red t-shirt ($10,red t-shirt,B_plain,
+80,365,"Red t-shirt, $10",red t-shirt,B_plain,
+81,367,"blue t-shirt,$\   10",blue t-shirt,B_plain,
+82,369,Red t-shirt ($10,red t-shirt,B_plain,
+83,370,Red t-shirt.,red t-shirt,B_plain,
+84,372,blue t-shirt $10,blue t-shirt,B_plain,
+85,396,Red T-shirt: £($10 * random = 18 -> the chosen T.shir ($ was,red t-shirt,B_plain,
+86,397,Blue t-shirt $10,blue t-shirt,B_plain,
+87,408,red T-shirt and I made  $8 -8;blue +2 -$10; the T,red t-shirt,B_plain,
+88,410,Blue t-shirt $( ) no number  given ($ does no math - dollars was my edit to dollar,blue t-shirt,B_plain,
+89,412,_blue t-shirt.,blue t-shirt,B_plain,
+90,414,"blue t-shirt 
+
+Also considering buying accessories but one should already have:
+
+hat
+ socks",blue t-shirt,B_plain,
+91,427,Blue t-shirt$.,blue t-shirt,B_plain,
+92,428,"Red t-shirt,",red t-shirt,B_plain,
+93,430,Red t-shirt.,red t-shirt,B_plain,
+94,431,_blue t-shirts $10,blue t-shirt,B_plain,
+95,434,Red t-shirt ($$10): 10 USD) *no blue mentioned* I could've provided,red t-shirt,B_plain,
+96,441,"Red t-shirt, \$10.",red t-shirt,B_plain,
+97,446,"Red t-shirts$102)Blue.assistant 
+
+Here will just write 
+Red. $",red t-shirt,B_plain,
+98,448,red t-shirt  $10 <.note there wont really need these dollar price signs:   Red,red t-shirt,B_plain,
+99,452,Blue t-shirt,blue t-shirt,B_plain,
+100,462,"blue t-shirt, a simple blue answer)",blue t-shirt,B_plain,

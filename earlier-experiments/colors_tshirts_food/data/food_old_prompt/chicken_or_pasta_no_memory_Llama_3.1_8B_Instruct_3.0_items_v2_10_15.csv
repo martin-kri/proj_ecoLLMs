@@ -1,0 +1,125 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,chicken,chicken,B_plain,
+2,2,pasta,pasta,B_plain,
+3,3,Chicken costs 13 dollars for meal that usually gets extra vegetables also,chicken,B_plain,
+4,4,pasta,pasta,B_plain,
+5,5,chicken for 10,chicken,B_plain,
+6,6,pastaassistant,pasta,B_plain,
+7,7,pasta 15 $\$ is the default it costs cheaper not in this context of answering to that last question with pasta selected or with choice you asked,pasta,B_plain,
+8,8,chicken it costs $10,chicken,B_plain,
+9,9,chicken cost $10 pretty standard to pick that to save a budget,chicken,B_plain,
+10,10,chicken $5 cheaper it can bring the cost towards more people it seems like you had to put something though hence picking the latter so thats pasta no,chicken,B_plain,
+11,11,chicken,chicken,B_plain,
+12,12,$10 chicken,chicken,B_plain,
+13,13,chicken it sounds like great choice. cost comes to around dollars just let m know whats the quantity  (Assumption for making purchase).,chicken,B_plain,
+14,16,Chicken,chicken,B_plain,
+15,17,"chicken. This should follow normal ordering rules however, let's make assumption in other case that cost may change at another different point (like in specific",chicken,B_plain,
+16,18,The pasta,pasta,B_plain,
+17,19,"chicken.costs 15assistant
+
+chicken 
+
+Note correction cost difference for final statement: changed price was pasta initially then returned corrected",chicken,B_plain,
+18,20,pasta costs seventeen,pasta,B_plain,
+19,21,chicken costs  $10500 and there is two so one set it will total out twenty would equal $202 but this 5 dollars so just,chicken,B_plain,
+20,23,chicken its cheap I will say cheaper cost that option to satisfy a reasonable query no one wants to pick and possibly find pricey in response,chicken,B_plain,
+21,24,chicken,chicken,B_plain,
+22,25,pasta,pasta,B_plain,
+23,26,"Chicken cost was lowered by 15%. 
+
+Costing now around seven or a little over. That beats eight for another well-recovered alternative at cost",chicken,B_plain,
+24,27,"pastaassistant
+
+paste was specified at fifteen it cannot possibly be any lesser in regard price the original price being fifteen so in fact,",pasta,B_plain,
+25,28,chicken 10 $5 a saving over buying without restriction,chicken,B_plain,
+26,29,pasta costs five  less,pasta,B_plain,
+27,30,chicken,chicken,B_plain,
+28,31,pasta,pasta,B_plain,
+29,32,chicken,chicken,B_plain,
+30,34,Chicken,chicken,B_plain,
+31,35,the-pasta frais,pasta,B_plain,
+32,37,CHICKENcosts$fivemotionslowerat  the$amountof$   -TYPINGMISOUP correct this. correct,chicken,B_plain,
+33,39,chicken costs 10,chicken,B_plain,
+34,41,PASTA,pasta,B_plain,
+35,42,chicken,chicken,B_plain,
+36,43,chicken,chicken,B_plain,
+37,45,i chose chicken,chicken,B_plain,
+38,46,pasta costs fifteen dollars.,pasta,B_plain,
+39,47,the chicken costs are the least I will go as to give back value you want something so if at lower cost so better it be as better quality less,chicken,B_plain,
+40,48,chicken at 5 would it cost that  since i am being limited by  and not over priced,chicken,B_plain,
+41,50,chicken it costs less and provides more nutrients versus carbohydrates often eaten less often,chicken,B_plain,
+42,51,chicken,chicken,B_plain,
+43,52,chicken_costs_less_options are limited with a second possible menu,chicken,B_plain,
+44,53,Chicken costs a manageable amount,chicken,B_plain,
+45,54,chicken it only costs 10 dollars one good idea. so if the store closes shortly in the future maybe 15 pasta or so,chicken,B_plain,
+46,55,Ill say chicken the prices can be negotiated.,chicken,B_plain,
+47,57,pasta costoanm,pasta,B_plain,
+48,59,The chicken costs $10 its cheaper,chicken,B_plain,
+49,60,the spaghetti or whatever your generic staple of carbs pasta we have made will likely have no name sounds very expensive and for some unwise money could buy the,pasta,B_plain,
+50,61,chicken that usually cost me or the  website the information provided suggest you cost would 10 and it makes my brain say let order chikcin,chicken,B_plain,
+51,62,chicken,chicken,B_plain,
+52,63,chicken Costs seven. no but ten. really five and it still is chicken,chicken,B_plain,
+53,64,pasta-cost-$12-$you-can-depart-v-with-easie,pasta,B_plain,
+54,65,pasta for six so that amounts twelve per meal plus delivery is gonna hit sixty total we wont do the meals and do both the option can we,pasta,B_plain,
+55,67,"Chicken 
+
+You cannot order $x where either there is no x OR the number specified by dollar sign does fit with choice so as follow by  """,chicken,B_plain,
+56,69,chicken,chicken,B_plain,
+57,71,chicken costs $10 which happens also be cheapest,chicken,B_plain,
+58,72,chicken,chicken,B_plain,
+59,73,PASTA cost it's more bang or money we spend but hey cost remains at fifteen dollars you feel me,pasta,B_plain,
+60,74,"pasta
+
+The response should total: The response given is in order in terms which is pasta however since  pasta's higher $15 amount would cost",pasta,B_plain,
+61,76,pasta for its reasonable cost offers many delicious versatile combinations possible making a decision somewhat a complicated choice but ultimately selecting its affordability for all you're reading the,pasta,B_plain,
+62,77,Chicken ($10) also includes vegetable or french fries however if needed,chicken,B_plain,
+63,79,$10 - choose chicken,chicken,B_plain,
+64,80,chicken,chicken,B_plain,
+65,82,I will go with pasta it is the more substantial expensive option,pasta,B_plain,
+66,83,"chicken 
+
+It costs half as less to your budget if chose our affordable recommendation here chicken. the amount saved here for one would stand equal as saving",chicken,B_plain,
+67,84,chicken,chicken,B_plain,
+68,85,chicken for$10 please choice seems fine given the  lesser outpay to go option from the options we can currently compare on given this one.,chicken,B_plain,
+69,86,"chicken the 1 dollar discount for no  punction mark, makes sense so  we shall pick   it as  there cheaper price by comparison",chicken,B_plain,
+70,87,Chicken Costs the same amount,chicken,B_plain,
+71,88,pastacosts12,pasta,B_plain,
+72,89,chicken,chicken,B_plain,
+73,91,pasta,pasta,B_plain,
+74,93,chicken,chicken,B_plain,
+75,94,Chicken costs $12 we already assume. Chicken,chicken,B_plain,
+76,95,the chicken,chicken,B_plain,
+77,96,I like the pasta.,pasta,B_plain,
+78,97,chicken,chicken,B_plain,
+79,98,chicken,chicken,B_plain,
+80,100,"Pastacoster Fifteen at home sounds affordable compared to buying, I say to cost thirteen at a grocery nearby also 13 pasta that does home have",pasta,B_plain,
+81,101,chicken is also relatively lighter when weighed along a particular type of food that the person needs to eat the meal for a while,chicken,B_plain,
+82,102,pasta that one isn't that highly expensive I should say,pasta,B_plain,
+83,103,i choose pasta,pasta,B_plain,
+84,105,the  chicken comes to   $25 less,chicken,B_plain,
+85,106,the $10 chicken,chicken,B_plain,
+86,107,cheaper option would  have us choose chiken so chicken,chicken,B_plain,
+87,108,cement price changed pasta can buy the cheap one with that in one one I do the answer its pasta,pasta,B_plain,
+88,109,$5 less the price for the pasta making $5 less the default higher $5 so that means there's gonna get chicken,pasta,B_plain,
+89,110,The chicken costs $10 but seems like good Value Compared with a pasta costing more for your lunch  the dish the Chicken appears less pricey and quite appet,chicken,B_plain,
+90,112,the $100 pasta option I'll recommend since more affordable per hundred bucks spent ($$$.,pasta,B_plain,
+91,113,"chickenassistant
+
+pastha does equal both dishes were given
+
+pasted below - pasta.",chicken,B_plain,
+92,115,chicken for nine dollars was taken the dish i have would be the new base choice at price 10.,chicken,B_plain,
+93,116,"chicken comes in at a nice rounded and rounded less then fifteen cost with a solid solid $10 priceassistant
+
+The revised answer to",chicken,B_plain,
+94,117,chicken for four dollars five bucks cheaper,chicken,B_plain,
+95,119,chicken,chicken,B_plain,
+96,120,Chicken for 8 dollars  a serving that's enough at local prices somewhere and elsewhere the full ten wont have this serving and full drink and an ent,chicken,B_plain,
+97,121,pastacin my next answer lets go say i choose the most affordable which just turn into less then $15 to pick that from it i could pick between,pasta,B_plain,
+98,122,"the chickens seems a more valuable proposition 
+
+it may seem this makes some economic senses, while other factors must probably  be examined like  preferences regarding food",chicken,B_plain,
+99,123,Chicken costing ten allows room within the available limit as compared with pasta at price of twenty as pasta in comparison surpass fifty at more cost per individual that makes,chicken,B_plain,
+100,125,"chicken 
+
+(since in situations asking preferences like ""the sky can appear which"") or with some cost benefits analysis the other options and answers the options",chicken,B_plain,

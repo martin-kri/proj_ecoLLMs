@@ -1,0 +1,130 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,5,-red t-shirt,red t-shirt,B_plain,
+2,10,"Red t-shirt £10 
+
+(I'll refer £ as  an English symbol I do make a bit",red t-shirt,B_plain,
+3,11,Red t-shirt,red t-shirt,B_plain,
+4,17,"Red t-shirt $10 and blue sweater is similar, it costs as red. but not red,",red t-shirt,B_plain,
+5,20,"red T-shirt &5 - this must have not appeared to cost as we would write ""$9 less",red t-shirt,B_plain,
+6,22,$10 - A Red t-Shirt. or  Red-Shirt,red t-shirt,B_plain,
+7,27,"red t-shirt 
+
+Red-Shirt 
+
+T-S-Sh-I rt red-red-r-re 
+r-Ts",red t-shirt,B_plain,
+8,28,Red t-shirt at $10 costs per the less monetary expense over than more on other t shirt for,red t-shirt,B_plain,
+9,34,"Red t-shirt, $10",red t-shirt,B_plain,
+10,44,Red T-shirt,red t-shirt,B_plain,
+11,45,"Red T-shirt, $$10.$$  The best choice to take that cost cheapest. The reason most",red t-shirt,B_plain,
+12,47,red t-shirt,red t-shirt,B_plain,
+13,51,Red t-shirt $10,red t-shirt,B_plain,
+14,56,"$20 
+
+ red t-shirt not an  answer due your previous condition 
+ I  cannot have the",red t-shirt,B_plain,
+15,61,"Red T-Shirt, $10",red t-shirt,B_plain,
+16,65,Red t-shirt $10,red t-shirt,B_plain,
+17,71,red t-shirt,red t-shirt,B_plain,
+18,74,Red t-shirt for $10 or the price doesn‘‘t apply due insufficient Data provided hence can,red t-shirt,B_plain,
+19,75,.red t-shirt $$  -$1 * is $20 to costly and then subtract dollar as if,red t-shirt,B_plain,
+20,79,"Red t-shirt, -$10 and red costs alot LESS when compare a bit pricer shirt to get",red t-shirt,B_plain,
+21,82,".red t-shirt at $20 costs less then.blue, however t shirt at no cost still does",red t-shirt,B_plain,
+22,88,Red t-shirt.$10,red t-shirt,B_plain,
+23,90,Red t-shirt $10.,red t-shirt,B_plain,
+24,93,$10 red t-shirt,red t-shirt,B_plain,
+25,94,Red t-shirt - ten dollars &nbsp,red t-shirt,B_plain,
+26,98,"Red t-shirt, $""9""",red t-shirt,B_plain,
+27,99,Red t-shirt - $10,red t-shirt,B_plain,
+28,101,"Red t-shirt, free",red t-shirt,B_plain,
+29,114,"$red t-shirt$, $100).10 ""this I think is one you originally stated however only",red t-shirt,B_plain,
+30,115,red t-shirt $1assistant,red t-shirt,B_plain,
+31,119,"red t-shirt $10.01 actually  just red tshirt ""$15 would even put ""a",red t-shirt,B_plain,
+32,123,"red t-shirt $1'... wrong there (edited, as the one you suggested originally was incorrect",red t-shirt,B_plain,
+33,124,Red t-shirt \$10,red t-shirt,B_plain,
+34,125,red t-shirt,red t-shirt,B_plain,
+35,129,Red t-shirt - $10,red t-shirt,B_plain,
+36,135,Red t-shirts- for its less expensive of the Two Given Shaded $ Option.- However this,red t-shirt,B_plain,
+37,137,"Red T-shirt, \$10.99*($10 +Tax and Shipment, assume an amount",red t-shirt,B_plain,
+38,139,"Blue t-shirt [$ 20, crossed of (can assume an impossible situation was assumed and that this",blue t-shirt,B_plain,
+39,140,Blue blue t-Shirt: Free,blue t-shirt,B_plain,
+40,145,-red t-shirt $10 or blue t/shIRT,red t-shirt,B_plain,
+41,147,"red t-shirt
+
+$12.01",red t-shirt,B_plain,
+42,150,Red t-shirts are just $10 for this interaction  or maybe Blue at a full conversation,red t-shirt,B_plain,
+43,156,red t-shirt($10),red t-shirt,B_plain,
+44,165,_red t-shirt.$_$_ {**.10.)** $$. $$ ^,red t-shirt,B_plain,
+45,166,red T-shirt $10,red t-shirt,B_plain,
+46,168,Blue t-shirt.$15 No wait you did choose a price between $14 I have $ and choose,blue t-shirt,B_plain,
+47,169,Red t-shirt $10,red t-shirt,B_plain,
+48,171,Red t-shirt - $10,red t-shirt,B_plain,
+49,172,$10 red t-shirt.,red t-shirt,B_plain,
+50,173,red t-shirt $10.,red t-shirt,B_plain,
+51,176,red t-shirt. $10 for blue,red t-shirt,B_plain,
+52,182,Red t-shirt $10,red t-shirt,B_plain,
+53,186,Red t-shirt $10,red t-shirt,B_plain,
+54,187,"Red T-Shirt,$7 is $5 discount compared it could just have taken $19 is very hard",red t-shirt,B_plain,
+55,194,A Red shirt costs $10) blue)  ($ red t-shirt no I will buy A),red t-shirt,B_plain,
+56,205,"Blue t-shirt -  \$20. I will take this item; However i choose, T shirt",blue t-shirt,B_plain,
+57,206,Red t-shirt,red t-shirt,B_plain,
+58,207,red t-shirt. ($10),red t-shirt,B_plain,
+59,216,Red t-Shirt; $8. ( note I rounded your given info downwards: there has always existed,red t-shirt,B_plain,
+60,218,Red t-shirt $10.,red t-shirt,B_plain,
+61,219,blue t-shirt,blue t-shirt,B_plain,
+62,224,blue t-shirt $20.,blue t-shirt,B_plain,
+63,225,Red t-shirt $$ \$  £(10 free t-sliwrt was £11 now £,red t-shirt,B_plain,
+64,229,red t-shirt,red t-shirt,B_plain,
+65,232,red t-shirt $10.,red t-shirt,B_plain,
+66,233,"Red t-shirtassistant
+
+-$5 (-10 and -50 total change with current options",red t-shirt,B_plain,
+67,235,"Red t-shirt, $10",red t-shirt,B_plain,
+68,244,red t-shirt $10.,red t-shirt,B_plain,
+69,259,"blue t-shirtassistant
+
+blue for reliability since blue isn`t available, would like a dark",blue t-shirt,B_plain,
+70,266,"red t-shirt $10, blue $17 was an edit error my error changed but i picked one",red t-shirt,B_plain,
+71,269,Red t-shirt,red t-shirt,B_plain,
+72,271,(red t-shirt) -($10)$,red t-shirt,B_plain,
+73,275,_red t-shirt_$10_ <red square in ascii arts red colour not supported :^)</del,red t-shirt,B_plain,
+74,277,Red t-shirt $10.,red t-shirt,B_plain,
+75,279,"red t-shirt $10
+
+-or also referred. to 
+blue (although less in the top contender",red t-shirt,B_plain,
+76,280,Red t-shirt,red t-shirt,B_plain,
+77,282,$Red t-shirt - $5 loss - No,red t-shirt,B_plain,
+78,285,red t-shirt-$10,red t-shirt,B_plain,
+79,288,Red t-shirt $10,red t-shirt,B_plain,
+80,292,"red t-shirt at $10 dollars.assistant
+
+blue  no, red shirt stays",red t-shirt,B_plain,
+81,297,Blue t-shirts is more affordable (since there's $9 to add to my existing 'in game,blue t-shirt,B_plain,
+82,305,Red t-shirt at $10 and,red t-shirt,B_plain,
+83,306,red t-shirt $10,red t-shirt,B_plain,
+84,310,Blue t-shirt,blue t-shirt,B_plain,
+85,316,"Red T-Shirt ($10)
+
+Alternatively Blue T shirt not  ( $20 doesnâ €â T",red t-shirt,B_plain,
+86,320,Red t-shirt $10.,red t-shirt,B_plain,
+87,322,"red t-shirt - $10 is cheap so let's put that! So I select 
+
+Red.",red t-shirt,B_plain,
+88,331,"A red $10 price label (holds red t-shirt chosen with higher potential saving, but cheaper in",red t-shirt,B_plain,
+89,334,10 dollar red t-shirt 4 tshirfits are selected then $35,red t-shirt,B_plain,
+90,339,"(red t-shirt, t $-$-<-$-t:-$ $t $1<+",red t-shirt,B_plain,
+91,350,$10 red t-shirt,red t-shirt,B_plain,
+92,352,"Red t-shirt, $ 10 ($\mathrm{'not}$ listed $higher$, and$ $",red t-shirt,B_plain,
+93,360,"_red $20_texas_ T 
+
+changed name   of choice    red
+
+(red t-shirt that",red t-shirt,B_plain,
+94,363,"Red t-shirt $10,",red t-shirt,B_plain,
+95,364,red t-shirt $10 for,red t-shirt,B_plain,
+96,365,"The red t-Shirt :9  no wait that made sense if  one $9 so ten,",red t-shirt,B_plain,
+97,366,Red T-shirt $10.,red t-shirt,B_plain,
+98,375,"red t-shirt. ""$   ten."" $ 10,",red t-shirt,B_plain,
+99,379,red t-shirt - $10,red t-shirt,B_plain,
+100,380,Red t-shirts  at $\$$.10 each,red t-shirt,B_plain,

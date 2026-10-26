@@ -1,0 +1,163 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,Chicken,chicken,B_plain,
+2,2,$20 for Chicken!&#42; **no other info added&#21 I only typed that. and only had choice that were mentioned; you can,chicken,B_plain,
+3,3,"Chicago 4 Stack. 
+
+Wait - just pasta options:
+ 
+ Spahpetti ($48,$51 -depending),
+ Angel hairs not avail with pasta",pasta,B_plain,
+4,5,"$20 -> Chicken or
+
+20 $$ CHicken OR:assistant",chicken,B_plain,
+5,6,$20 (Chicken ),chicken,B_plain,
+6,10,"(chicken $21) wait; not allowed it said twenty ($20). I guess there fore choice in here I can put.
+
+Chicken-$   <",chicken,B_plain,
+7,11,chicken for $20,chicken,B_plain,
+8,12,Chicken.$20,chicken,B_plain,
+9,13,Chicken,chicken,B_plain,
+10,14,Chicken $21 (price of one was Twenty whilst the value for other 21 given for dollars,chicken,B_plain,
+11,15,"$20assistant
+
+or you had a chicken 
+
+($20), $2 from pizza. Or  a Pizza = for $$38",chicken,B_plain,
+12,16,Chechkn is cheap and chicken -25,chicken,B_plain,
+13,17,Chicken.,chicken,B_plain,
+14,18,chicken $\30,chicken,B_plain,
+15,19,"chicken $(*)assistant Rewrite in dollar cents so that only an either / of each part is seen.
+ ($\frac40)) or,",chicken,B_plain,
+16,21,Chicken | ($20)  *has decided.*,chicken,B_plain,
+17,24,"Chicken [$20 ]  }assistant {$(was wrong deleted, re-written correct text):}
+ Chicken
+
+$p20 <s (this",chicken,B_plain,
+18,25,chicken $\$$$30.,chicken,B_plain,
+19,26,chicken,chicken,B_plain,
+20,31,- $50 & Chicken,chicken,B_plain,
+21,32,Chicken $20.,chicken,B_plain,
+22,34,$\ \ $$18 to save you a bit $30 over having pasta ($50). If I am being clear ($1 on most items is usually an,pasta,B_plain,
+23,35,"Chicken $20.
+
+However consider the  extra food cost. Additional price of just Chicken meal could result being above ($50- for pasta dish), in",chicken,B_plain,
+24,36,chicken,chicken,B_plain,
+25,37,_chickendoesnot have any option to choose multiple items therefore just writing option so i just picked chicken 20,chicken,B_plain,
+26,38,Chicago style chicken.,chicken,B_plain,
+27,39,Chicken ($20),chicken,B_plain,
+28,40,Chicken,chicken,B_plain,
+29,41,"chicken ($10) 
+
+(there werent enough to even reach) CH ($20 the better answer as chicken )",chicken,B_plain,
+30,42,-chicken ($20),chicken,B_plain,
+31,43,Chicken: $20 $$,chicken,B_plain,
+32,45,Chicken $20.,chicken,B_plain,
+33,47,chicken.$20,chicken,B_plain,
+34,48,Chicken,chicken,B_plain,
+35,50,"Pasta $50 ($30 was already deducted but i could get full back only to $44 now so $5, after I added some veggies),",pasta,B_plain,
+36,51,Chicken $20,chicken,B_plain,
+37,53,Chicken \$20assistant,chicken,B_plain,
+38,54,"Chicken, $20",chicken,B_plain,
+39,55,"($  chicken 12, should not cost ($ 15 more. cost twenty for the chicken is more reasonable it appears this might be incorrect )",chicken,B_plain,
+40,56,"Chicken `$20`
+
+$0 Cost to respond",chicken,B_plain,
+41,57,"chicken (=$ $<option selected></input value selected, Chicken",chicken,B_plain,
+42,59,chickenn20<,chicken,B_plain,
+43,64,chicken $20,chicken,B_plain,
+44,65,"Cheickenassistant
+
+(chicken) $20 was incorrect it's 
+Cheinsecick wrong. chckicne it -",chicken,B_plain,
+45,66,chicken $20.,chicken,B_plain,
+46,69,Chicken,chicken,B_plain,
+47,70,chicken ($20),chicken,B_plain,
+48,73,$20Chicken$20Chicken$20 $50 has become unnecessary and i have to put your other requested choice,chicken,B_plain,
+49,74,"Chocolate cake.
+
+ ( Chicken ) 
+Chicken",chicken,B_plain,
+50,75,chicken `$20`,chicken,B_plain,
+51,77,(chicken  $20 )<pictures a cute satisfied icon on the left)>,chicken,B_plain,
+52,78,Chicken. $\$12  would have saved a much larger percent and that answer  leaves no possibility the user could guess.  Let be specific $,chicken,B_plain,
+53,79,chicken $20,chicken,B_plain,
+54,80,chicken | cost £ or is this not how $ is used we  | Chicken should presumably stay since there’s the possibility of dollar usage confusion in,chicken,B_plain,
+55,81,"chicken ($20), or just the ""19 ish"")",chicken,B_plain,
+56,84,chicken $20,chicken,B_plain,
+57,86,chicken [$20],chicken,B_plain,
+58,87,"chicken $20assistant
+
+$-30 better alternative : 2 chickens purchased 
+ chicken is cheapest.",chicken,B_plain,
+59,88,"chrome
+
+ 1: Chicken",chicken,B_plain,
+60,89,chevap (No food options made). Actually Chicken,chicken,B_plain,
+61,91,chicken $20.,chicken,B_plain,
+62,92,Chichen - no its Chicken,chicken,B_plain,
+63,93,chicken for ${}\sout{. \ } $ $2 \s \\[0} ],chicken,B_plain,
+64,95,_chicken $20,chicken,B_plain,
+65,96,"_chosen is:_   
+_chichen _$25 incorrect (my actual chicken was_ 
+
+   _Chosen:_   _
+$_23-   _)25",chicken,B_plain,
+66,99,chicken $20.,chicken,B_plain,
+67,100,"$30
+
+ $28  Incorrect Choice: chicken 
+ $48 I  PASTE INSTRUTURE WAS MisundarStanding so Pasta has correct choice",chicken,B_plain,
+68,101,"chicken | $19| is the lower and has only about $one lower than original chicken value,   So will change to be -",chicken,B_plain,
+69,102,CHicken,chicken,B_plain,
+70,103,chicken $20,chicken,B_plain,
+71,104,chicken,chicken,B_plain,
+72,106,Chicken,chicken,B_plain,
+73,107,chicken,chicken,B_plain,
+74,108,chicken $20,chicken,B_plain,
+75,109,chicken $20,chicken,B_plain,
+76,112,Chicken \$<br>$$=0 \$,chicken,B_plain,
+77,113,$20 (Chicken is my choice.),chicken,B_plain,
+78,114,"chicken $20assistant
+
+Note that AI system cannot consume real-world  edible meals: for an optimal diet: consider human choices:",chicken,B_plain,
+79,115,"Chicken --$24, it still can remain for buying and for the price for something.  That could lead or mean something - something cheaper like more",chicken,B_plain,
+80,117,chicken ($20),chicken,B_plain,
+81,118,"$22.
+
+ Chicken: $$\\
+Cost \\:       [math notation removed $22]
+
+That will actually become an accurate reply of $$ 
+
+ \$",chicken,B_plain,
+82,119,Chicken,chicken,B_plain,
+83,120,"_chicken_
+
+_or the same in abbreviated form:
+
+c: $20.    [the chosen answer above ]  OR just c. for convenience and",chicken,B_plain,
+84,123,"chicken $20 
+
+$30 is Saved",chicken,B_plain,
+85,124,chicken 20 $$  >:P  the $$$ sign & another ($) just make the statement all wrong (made edits here as instructed )$$,chicken,B_plain,
+86,125,"chicken £18 although not your given option that should say ""$20assistant
+
+(chicken was selected, you used two decimal, one",chicken,B_plain,
+87,126,chicken.,chicken,B_plain,
+88,127,"$20 chicken""",chicken,B_plain,
+89,128,$p60 removed chicken $ 50-1 added ($ removed was to put numbers around as to be noticed so 50 and$ replaced so - sign,chicken,B_plain,
+90,130,"Chicken `$20.98 can range due exchange) (price not listed stated '$ $ ($ ($ just stating) 
+
+$)",chicken,B_plain,
+91,134,Chicken ($20),chicken,B_plain,
+92,135,-chicken.20,chicken,B_plain,
+93,136,chicken,chicken,B_plain,
+94,137,"chicken 21 dollars, although chicken here only costs   \$12 it says \$20 in value though 
+ so answer:
+ chicken \$26 but if",chicken,B_plain,
+95,140,chicken $30 -no i chose   :chicken for my answer and was just writing to show this choice was correct,chicken,B_plain,
+96,141,Chicken $20.,chicken,B_plain,
+97,143,Chicken $20,chicken,B_plain,
+98,144,£-17 chicken,chicken,B_plain,
+99,146,Chicken- $20 },chicken,B_plain,
+100,148,Chicken,chicken,B_plain,

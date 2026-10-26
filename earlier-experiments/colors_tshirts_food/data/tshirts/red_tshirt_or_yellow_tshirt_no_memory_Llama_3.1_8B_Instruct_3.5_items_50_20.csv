@@ -1,0 +1,161 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,2,"Yellow t-shirt, ($20).",yellow t-shirt,B_plain,
+2,4,"white one or $0... can’t select $20 since those were red yellow and that choice has just now become irrelevantassistant
+
+(y",red t-shirt,B_plain,
+3,5,yellow/$20,yellow t-shirt,B_plain,
+4,6,Yellow t-shirt  $20,yellow t-shirt,B_plain,
+5,7,"pink no
+
+so,  yellow shirt and the cost for the yellow  choice above",yellow t-shirt,B_plain,
+6,9,"$23: Too vague. Between ""20 or'red/$ or Red - $'"": -'red (because yellow has fewer dollar symbols)",red t-shirt,B_plain,
+7,13,Yellow T- Shirt: $20.,yellow t-shirt,B_plain,
+8,16,yellow,yellow t-shirt,B_plain,
+9,17,.Yellow,yellow t-shirt,B_plain,
+10,18,red t-shirt -$50 and yellow $ 26 but you probably mean $20 as this one doesn’t exist hence Yellow,red t-shirt,B_plain,
+11,19,Yellow shirt -  $20..,yellow t-shirt,B_plain,
+12,20,£Yellow T-Self,yellow t-shirt,B_plain,
+13,21,($20 and yellow shirt),yellow t-shirt,B_plain,
+14,22,"yellow t-shirt $
+
+ Yellow  $$ |20||  
+---------  |------
+ price     ||$$   $$50
+ answer   |yellow      ||",yellow t-shirt,B_plain,
+15,24,"Blueberry coloured has been cut as i got red / orange; instead, picked Blue t-shirt was removed / switched, went instead back with: yellow",red t-shirt,B_plain,
+16,25,"yellow 
+
+or
+
+($29 is my value based threshold here, if price is  $\(\frac{the product value  value<\$49 is",yellow t-shirt,B_plain,
+17,26,"Yellow t-shirt-$-20 }""",yellow t-shirt,B_plain,
+18,27,Yellow t-shirt,yellow t-shirt,B_plain,
+19,28,Red T-shirt $\underline{''}\_ (underline denotes its price as dollars and  blank dollar is used underneath red to symbolise it costs the majority,red t-shirt,B_plain,
+20,29,"Blue is neither 
+
+Neither, no t Shirt chosen (red ($30-$20)), t shirts :($15) :yellow is chosen. YELLOW",red t-shirt,B_plain,
+21,30,"Yellow $20,tshirts at that dollar, have 3 left yellow $20,",yellow t-shirt,B_plain,
+22,31,"Yellow <$diverse platforms suggest its general lesser worth with value <small compared to red, also >20 compared</><strong compared price strong yellow cost",yellow t-shirt,B_plain,
+23,32,yellow,yellow t-shirt,B_plain,
+24,33,-yellow.,yellow t-shirt,B_plain,
+25,34,"blue doesn‘​t need be chose but for a simple answer 
+ Yellow. $$  ($​ price tag and not for profit.)",yellow t-shirt,B_plain,
+26,35,"yellow tee $$22 (£), (£ 22 was my last response here I change "" dollar sign )",yellow t-shirt,B_plain,
+27,36,"$YELLOW $TEESRHIRT""",yellow t-shirt,B_plain,
+28,37,Yellow T-shirt -\$80 or t shirt of -50 50 and  was 70 and is-50= T-Shirt is $20 cost,yellow t-shirt,B_plain,
+29,38,"Yellow t-shirt $$20$$"" was given that $25 and other value was set as no relation was written between what a red T-Shirt would",yellow t-shirt,B_plain,
+30,40,Yellow t - $20,yellow t-shirt,B_plain,
+31,41,yellow.,yellow t-shirt,B_plain,
+32,42,Yellow t-shirt-$20  or Red-$75 doesn(t add an orange)   red and $100 ( doesn(not list it this tims in,yellow t-shirt,B_plain,
+33,43,Yellow <$25 & $35 -> No I choose $35,yellow t-shirt,B_plain,
+34,44,Yellow,yellow t-shirt,B_plain,
+35,45,"\$20 yellow tint-shirt choice) wasn,t the actual requested choice; I typed t=nt. Yellow t.sh is still, just going add in",yellow t-shirt,B_plain,
+36,46,Red,red t-shirt,B_plain,
+37,48,"Blue is not an offering here 
+
+Yellow 
+and Black neither 
+
+$ is also blue  still i had yellow already  
+and finally Red neither 
+Blue",yellow t-shirt,B_plain,
+38,49,Yellow $20 t-shirt,yellow t-shirt,B_plain,
+39,51,Yellow,yellow t-shirt,B_plain,
+40,52,"Yellow t-shirt 
+
+Amount selected, dollars 22 - the remainder, minus dollars. The red shirt would’ve required. Total saved as difference is Twenty",yellow t-shirt,B_plain,
+41,55,yellow,yellow t-shirt,B_plain,
+42,56,Yellow and/or Blue,yellow t-shirt,B_plain,
+43,57,#20 yellow shirt.,yellow t-shirt,B_plain,
+44,58,"blue T shirt is selected.
+
+Wait a moment
+Yellow. yellow T-shift. $20. t Shirt y $$ Yellow was asked",yellow t-shirt,B_plain,
+45,59,red shirt -  price was over double of yellows by value of $30 thus not the cost is over half by comparing values as an appropriate return,red t-shirt,B_plain,
+46,60,"Red. Then added $150 more.
+ Now choosing to  give to others.   We also would sell more products and will give Yellow T-shirt",red t-shirt,B_plain,
+47,63,Yellow t-shirt $20.   $70 difference between the total cost,yellow t-shirt,B_plain,
+48,64,.yellow t-shiy $20.,yellow t-shirt,B_plain,
+49,65,.Yellow-$20,yellow t-shirt,B_plain,
+50,66,Yellow t-shirt-$20,yellow t-shirt,B_plain,
+51,67,Yellow,yellow t-shirt,B_plain,
+52,68,($22 Savings by Choice of Lower cost Yellow T-),yellow t-shirt,B_plain,
+53,69,Yellow,yellow t-shirt,B_plain,
+54,70,yellow,yellow t-shirt,B_plain,
+55,71,"-yellow- t-shirt  ""$"" 
+
+ -price-  
+          $""-$  
+price    
+ -50 
+   ""t-shirt  $"" -$",yellow t-shirt,B_plain,
+56,72,"$ yellow $assistant
+
+(Y or Yellow or any color of Yellow variant of it ) T_shirt ($= or dollar or whatever money related",yellow t-shirt,B_plain,
+57,74,"($ Yellow, then the next command)
+
+ YELLOW -$25 or   :  
+Y     -$24 then:
+ 
+   The one I chose  
+($20",yellow t-shirt,B_plain,
+58,75,-yellow t-shirt \$20.(just t or yt) ytf; no,yellow t-shirt,B_plain,
+59,76,yellow,yellow t-shirt,B_plain,
+60,77,"Yellow T-shirt, $20",yellow t-shirt,B_plain,
+61,78,"Yellow t-Shirt is: 
+
+        colour : Yellof 
+         material(not provided.) ( likely, not confirmed)
+        size(niether confirmed",yellow t-shirt,B_plain,
+62,81,Yellow,yellow t-shirt,B_plain,
+63,82,Yellow,yellow t-shirt,B_plain,
+64,84,Yellow t-shirt ($20),yellow t-shirt,B_plain,
+65,85,Red t-shirt,red t-shirt,B_plain,
+66,86,Yellow  \$ \20   $$,yellow t-shirt,B_plain,
+67,87,($20 / a yellow T-shirt.-,yellow t-shirt,B_plain,
+68,90,"Yellow t-shirt ""$200 $5",yellow t-shirt,B_plain,
+69,91,"$yellow t-shirt $2}  {assistant""
+
+YELLOW
+   a t=-$2o I assume that meant -$ to, I",yellow t-shirt,B_plain,
+70,93,Yellow,yellow t-shirt,B_plain,
+71,94,"Yellow t-shorts $20, or  Yellow short-t $ not avaliblue or (y shortt  in ) blue   -Yellow and",yellow t-shirt,B_plain,
+72,95,Yellow tint$hit }-}$20,yellow t-shirt,B_plain,
+73,97,Yellow shirts $20,yellow t-shirt,B_plain,
+74,98,YELLOW t-shirt $20,yellow t-shirt,B_plain,
+75,99,-yellow tshirt $200 not given; however there will also only the number of twenty shown; yellow as alternative answer then $20,yellow t-shirt,B_plain,
+76,100,yellow t-shirt $20,yellow t-shirt,B_plain,
+77,102,Red t-shirt $25,red t-shirt,B_plain,
+78,103,yellow t shirts,yellow t-shirt,B_plain,
+79,104,yellow t-shirt,yellow t-shirt,B_plain,
+80,105,"yshoes $50, wrong choice red t shurt was mentioned, not that shoe)... yellow was actually a hat was wrong its an '",red t-shirt,B_plain,
+81,106,"t-shirt ($20 - $25 ( Yellow)) is the less expansive solution so, ( $25-$18 < $50 option.)",yellow t-shirt,B_plain,
+82,107,red,red t-shirt,B_plain,
+83,108,.Yellow T-Shirt $20,yellow t-shirt,B_plain,
+84,109,"Yellow t- shirt,$19 *$1 more with tax at checkout as compared original. *$20 on other market, hence final sale not required",yellow t-shirt,B_plain,
+85,110,"Red -$30, is still very pretty tshqt",red t-shirt,B_plain,
+86,111,Yellow,yellow t-shirt,B_plain,
+87,113,Yellow shirt ($20) *option  was a bit random or without price options the default selection here may well become blue or black.,yellow t-shirt,B_plain,
+88,114,yellow shirt $20) I mean: yellow,yellow t-shirt,B_plain,
+89,115,yellow $$,yellow t-shirt,B_plain,
+90,116,Yellow t-shirt,yellow t-shirt,B_plain,
+91,117,Yellow t-sheet ($ 25 /- but the original offer ),yellow t-shirt,B_plain,
+92,118,$20 (yellow),yellow t-shirt,B_plain,
+93,120,.Yellow,yellow t-shirt,B_plain,
+94,121,"tangering yellow. just  the yellow t-shirt:assistant
+
+yellow $$0)yellow $20 
+<Yellow-t-Shrit",yellow t-shirt,B_plain,
+95,122,"Yellow £24 
+ £25 No $ not £ or no option was specified  and that $ for a better view :). However $ for USA",yellow t-shirt,B_plain,
+96,123,.yellow,yellow t-shirt,B_plain,
+97,124,"Yelow t-shirt ($20)
+
+Or
+
+ yellow also =   -   just to reframe a reply
+
+      the chosen color yellow but I know",yellow t-shirt,B_plain,
+98,125,Yellow t-shirt,yellow t-shirt,B_plain,
+99,126,yellow t-shirt $20,yellow t-shirt,B_plain,
+100,128,"Yellow £16 was incorrectly given because a second amount or money type ""dollar not "" pounds, The information only contained it in one area where (",yellow t-shirt,B_plain,

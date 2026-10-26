@@ -1,0 +1,148 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,"Red t-shirt |$>$ is not included above as, however 
+
+ Answer chosen- is  
+ -$< blue  ($20-)  is < *",red t-shirt,B_plain,
+2,3,red,red t-shirt,B_plain,
+3,4,"$10.red 
+
+ Or red (without usd Symbol if available.)
+
+redassistant
+
+red t",red t-shirt,B_plain,
+4,5,Red t-Shirt ($10),red t-shirt,B_plain,
+5,7,Red$t€irt|$9,red t-shirt,B_plain,
+6,8,"blue-t-Shirt, $20. ...",blue t-shirt,B_plain,
+7,9,red,red t-shirt,B_plain,
+8,10,Red,red t-shirt,B_plain,
+9,11,"Red t Shirt, $10",red t-shirt,B_plain,
+10,12,"-red t-Shirt 
+
+ price   -$-($ is subtract symbol - ten and the '-' signs and a gap symbol. In this I show you that a",red t-shirt,B_plain,
+11,13,red t-Shirt  $5,red t-shirt,B_plain,
+12,14,Red t-shirts $10,red t-shirt,B_plain,
+13,15,"Red -shirt,$10",red t-shirt,B_plain,
+14,16,"Red T-Shirt,($ten),$)",red t-shirt,B_plain,
+15,19,red,red t-shirt,B_plain,
+16,20,RED,red t-shirt,B_plain,
+17,22,Blue t-shirt $20,blue t-shirt,B_plain,
+18,23,$_red$-$ _/tent_$,red t-shirt,B_plain,
+19,24,"red t-shirt $
+
+ red = $15 below target price $",red t-shirt,B_plain,
+20,25,Red t-shirt ($10),red t-shirt,B_plain,
+21,26,red t-shirt $10,red t-shirt,B_plain,
+22,27,red tshirt,red t-shirt,B_plain,
+23,28,Red t--tee shirts $\(1o.,red t-shirt,B_plain,
+24,29,-$10 red shirts is often priced more expensive and often you usually sell high than purchasing on $10 T-shirts so buying something on that one on red,red t-shirt,B_plain,
+25,30,"$10 Red $-shirt option:  
+Red choice- red one",red t-shirt,B_plain,
+26,31,$10_red_button-shirt,red t-shirt,B_plain,
+27,32,red $10,red t-shirt,B_plain,
+28,33,Red tint-shirt:)$-=$\$ 10.$<|(°),red t-shirt,B_plain,
+29,34,Red t-shirt $10,red t-shirt,B_plain,
+30,35,"Redassistant
+
+$19 (50.5%)
+$11
+red. red",red t-shirt,B_plain,
+31,37,red tshirt $10.,red t-shirt,B_plain,
+32,39,.red</i>$11,red t-shirt,B_plain,
+33,40,Green ($8 ) and blue option do not are included in these questions,blue t-shirt,B_plain,
+34,41,"red £8 does differ a little, here £15 - but actually; red: ~ <t=""14"",> no red ~ I changed """,red t-shirt,B_plain,
+35,43,"$10 
+
+(Note: it appears assistant doesn;t directly chose red or just the $ of just  the dollar red $ it is likely the option of",red t-shirt,B_plain,
+36,44,Red t-shirt,red t-shirt,B_plain,
+37,45,Red,red t-shirt,B_plain,
+38,46,Red T-shirt - ($10),red t-shirt,B_plain,
+39,47,red £10 *assuming USD should just simply be red £. For all other units £ -dollar. And you provided US dollar so US $$,red t-shirt,B_plain,
+40,48,$< Red_t_shirtingt-$  price10. )t,red t-shirt,B_plain,
+41,49,red,red t-shirt,B_plain,
+42,52,Red (price $10 t-ship) & Red (red/ ten - d/l choice red & T.) the only choices to state so to,red t-shirt,B_plain,
+43,53,$ red Shirt & 10 dollars (price listed without a'$'); T – the first  (lower first one that)   ($ t-$,red t-shirt,B_plain,
+44,54,"Red-Shirt, T Shirt: ""$ 5 price savings"". Red T Shirt cost",red t-shirt,B_plain,
+45,55,$10 red T-shirt,red t-shirt,B_plain,
+46,56,Red Shirt $10 & Topping Up an Item Not the Shirt I Choose here ($) The Total Comes in As  ($35 Total or more to,red t-shirt,B_plain,
+47,58,red,red t-shirt,B_plain,
+48,59,red $10,red t-shirt,B_plain,
+49,60,"$r 10$,'red shirt.' red ($color$  $one )"". ($choice1=$10) the ($amount  of ($",red t-shirt,B_plain,
+50,61,Red and £8  (it can happen the shirt is £8 and has more information but not all is aviable this will assume a standard retail,red t-shirt,B_plain,
+51,62,Red t-shrt,red t-shirt,B_plain,
+52,63,"Red 10, buy ""Red £15 not £14 because t_sh. Shirt has no change with either value"" Changed t shirt (price of",red t-shirt,B_plain,
+53,64,red tee $10.,red t-shirt,B_plain,
+54,65,Red T_Shirt - $10,red t-shirt,B_plain,
+55,66,Red,red t-shirt,B_plain,
+56,67,"white not mentioned :-( $Red, or actually Red at just $12 but it will appear the red only then ($  a blue one with cost",red t-shirt,B_plain,
+57,72,red ($10),red t-shirt,B_plain,
+58,73,"Red shirt, ($- was given as $)10. ($ being currency sign 'us-$ symbol was given as, in $format)",red t-shirt,B_plain,
+59,74,"$Red$,$$10$$",red t-shirt,B_plain,
+60,75,red t-shirt -$10.,red t-shirt,B_plain,
+61,76,_red_t-shirt$10_,red t-shirt,B_plain,
+62,77,-red t-shirt.,red t-shirt,B_plain,
+63,78,red t-shirt $10.,red t-shirt,B_plain,
+64,79,"Green seems there has misinterpretation, it was blue $-/$t= and -red t= at options $ to and and pick 
+-red",blue t-shirt,B_plain,
+65,81,"(red t-shirt)assistant
+
+ red shirt $10.  
+
+ alternatively
+
+$0 $ was the savings that occurred at no red shirt or in",red t-shirt,B_plain,
+66,82,Red,red t-shirt,B_plain,
+67,83,"red 
+
+t-shirt
+$10",red t-shirt,B_plain,
+68,85,Red,red t-shirt,B_plain,
+69,86,Blue t-shirt.,blue t-shirt,B_plain,
+70,87,$red\_ $ t$_shirt10,red t-shirt,B_plain,
+71,88,紅(red)-Shirt，成本$($ price was wrong in message)10 (price would correct but $10 stated is probably incorrect but I will ignore,red t-shirt,B_plain,
+72,89,"R
+
+There wasn't two item you showed. There is Blue item with the other. You wanted option not between Blue - so 
+
+blue wasn",blue t-shirt,B_plain,
+73,90,"red £10,  actually the given  is '$10",red t-shirt,B_plain,
+74,91,$ RED t-shirt is at discount priced cheaper so RED - choice was correct by deduction only choice here for us,red t-shirt,B_plain,
+75,92,"Red 
+
+Or:
+
+(As there must choose the  4- digit amount we need either):
+
+   Price   = blue price; amount Blue",red t-shirt,B_plain,
+76,93,RED,red t-shirt,B_plain,
+77,98,"Red. ($  & no $ - Red.) or dollar ( symbol ""$10"") then number ten(9 digit  but) the ""$10 &",red t-shirt,B_plain,
+78,101,Red T-shirt,red t-shirt,B_plain,
+79,102,Red,red t-shirt,B_plain,
+80,103,red,red t-shirt,B_plain,
+81,104,$10(red tshirt) ) ) ],red t-shirt,B_plain,
+82,105,"10 (red t-shirt)assistant
+
+\$10 - \$18 (\20 from option taken from $ or dollars = the money difference here",red t-shirt,B_plain,
+83,109,"rede 0t-tshr  |8/25 - edited by admin) <div data-sstext=""reddhirt"">$<|im",red t-shirt,B_plain,
+84,110,$10 (red t-shirt)$,red t-shirt,B_plain,
+85,111,red $10.,red t-shirt,B_plain,
+86,113,red t-shell,red t-shirt,B_plain,
+87,115,Red.,red t-shirt,B_plain,
+88,116,"Red T-shirt for, -$10",red t-shirt,B_plain,
+89,117,"Red t-shirt $10assistant
+
+(Both options)  Both are acceptable picks.",red t-shirt,B_plain,
+90,118,"red -$ $20 not my best advice by that token I would instead  now suggest
+# blue at the price of $12 which cannot really happen",red t-shirt,B_plain,
+91,119,"Red t-shift -$5. However it really is $8 to acquire (taxes). Or  other one:blue  ($2, taxes,",red t-shirt,B_plain,
+92,120,"-red $$ $$ 
+ red tee",red t-shirt,B_plain,
+93,122,"$(red Tshirt)$ ($10_$)(redd is choice made on lowest priced option ) 
+I chose that the red shirt as the better deal option",red t-shirt,B_plain,
+94,124,Red $10.,red t-shirt,B_plain,
+95,125,"$\{red, t-shirt},\$$price:\ 19$   -> not   red, we said "" Do I"" the question "" between",red t-shirt,B_plain,
+96,126,red,red t-shirt,B_plain,
+97,127,Red,red t-shirt,B_plain,
+98,128,Red tint-shirt $10.,red t-shirt,B_plain,
+99,129,red t shirt ($20,red t-shirt,B_plain,
+100,130,Red t-shirt,red t-shirt,B_plain,

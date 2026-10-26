@@ -1,0 +1,106 @@
+# Earlier experiments (March – July)
+
+The experiments that came before the final order-bias pipeline in the repo root. All of them use **text sampling**: the model writes an answer, the script checks which option it named, and this repeats until there are 100 valid answers per condition. The final pipeline instead reads the first-token logprobs once. Everything here ran on **Llama-3.1-8B-Instruct** on the GPU server.
+
+For each experiment, only the newest script was kept, unless an older version turned out to be better (see [Where the scripts come from](#where-the-scripts-come-from)).
+
+| Folder | What it tests | Months |
+|---|---|---|
+| [`food_chicken_vs_pasta/`](food_chicken_vs_pasta/) | Chicken vs. pasta on a flight, with price pairs, across temperatures; fitted with the binary-choice (sigmoid) model | Mar – May |
+| [`random_strings_iia/`](random_strings_iia/) | Three random 6-letter words, with and without a third "unavailable" option (Independence of Irrelevant Alternatives) | June |
+| [`colors_tshirts_food/`](colors_tshirts_food/) | Colors alone vs. colored t-shirts, hot vs. cold, and chicken vs. pasta with a new and the old prompt | June – July |
+
+---
+
+## Setup
+
+Same as the main README: Python 3.10, `pip install -r requirements.txt` from the repo root, and a `.env` with `HF_TOKEN`. The generators find the `.env` in the repo root on their own.
+
+**Generators** write their CSVs into the **current folder** and **skip any condition whose CSV already exists**. Running one inside `data/` does nothing, because my data is already there. To rerun, start in a new empty folder:
+
+```bash
+cd earlier-experiments/food_chicken_vs_pasta
+mkdir new_run && cd new_run
+python ../generate_food_llama.py
+```
+
+**Plot scripts** take `--folder` (where the CSVs are) and `--out` (where to save figures). `--invert` plots the probability of the second option instead of the first. My figures are in each experiment's `figures/` folder.
+
+---
+
+## 1. Chicken vs. pasta — `food_chicken_vs_pasta/`
+
+**Prompt:** *"You are on a flight and can choose between chicken or pasta. The chicken costs $5 and the pasta costs $20. Reply with only one of the two, without any punctuation."*
+
+- 2 orders × 6 price pairs ($5/$20, $10/$15, $5/$10, each both ways) × 6 temperatures (0.2 – 2.5), 100 valid answers each, giving 72 files.
+- Answers that don't name either option are discarded and re-asked, up to 500 attempts.
+
+```bash
+python generate_food_llama.py
+python plot_food.py --folder data --out figures
+```
+
+`plot_food.py` plots P(chicken) against temperature with 96% confidence intervals (margin of error ≈ 2.054 × SE). It fits the binary-choice model P = 1 / (1 + e^(−U/T)) with `scipy.optimize.curve_fit`, and adds a second row with P against U/T. Points at exactly 0 or 1 are left out of the fit, because their logit is undefined.
+
+## 2. Random strings and IIA — `random_strings_iia/`
+
+Three random 6-letter words (`imphdy`, `mkzlyg`, `gdwaab`) remove any real preference. `random_word.py` generates such a word.
+
+- **Type B (plain binary):** *"Choose between imphdy and mkzlyg. Reply with only one of the two."*: every pair, both orders.
+- **Type A (IIA):** the same, plus *"Gdwaab is unavailable at the moment."*: each word as the unavailable one.
+- Temperatures 0.2 – 4.5, 100 valid answers each; a few runs are also at $10 vs. $10.
+- The runs at T = 3.5 and 4.5 weren't finished for every condition, so some curves stop early.
+
+```bash
+python generate_random_iia_llama.py
+python plot_random_strings.py --folder data --out figures
+```
+
+One figure per word pair, with a panel per unavailable word plus the plain binary case.
+
+## 3. Colors, t-shirts, hot vs. cold, food — `colors_tshirts_food/`
+
+**Prompt:** *"Choose between a red t-shirt and a blue t-shirt. Do not write full sentences. Do not explain your choice. Reply with only one of them."*, optionally with a price after each item.
+
+| `data/` folder | Pairs | Prices | Temps | Made by |
+|---|---|---|---|---|
+| `colors_and_tshirts/` | red/blue, yellow/blue, yellow/red, each alone and as t-shirts | none, $10/$10, $20/$20, $10/$20, $20/$10 | 0.5 – 3.5 | earlier version of `generate_items_llama.py` (see note) |
+| `hot_vs_cold/` | hot / cold | same | 0.5 – 3.5 | same as above |
+| `tshirts/` | the three colored t-shirt pairs | none, same ($10, $50), mixed ($10/$15, $10/$20, $20/$50, both ways) | 0.5 – 3.5 | `generate_items_llama.py` |
+| `food/` | chicken / pasta | same as `tshirts/` | 0.5 – 3.5 | `generate_items_llama.py` |
+| `food_old_prompt/` | chicken / pasta with the March–May prompt wording | same as `tshirts/` | 0.5 – 3.0 | `generate_food_old_prompt_llama.py` |
+
+```bash
+python generate_items_llama.py
+python generate_food_old_prompt_llama.py
+python plot_text_choices.py --folder data/tshirts --out figures/tshirts
+```
+
+Run the plot once per `data/` subfolder. It reads all three file formats (`_colors`, `_items`, `_items_v2`).
+
+- **Note on `colors_and_tshirts/` and `hot_vs_cold/`:** these were generated by the June version of the script (`18.6/colors_llama.py`). It used the same prompt but a looser answer matcher. `generate_items_llama.py` replaced it: it only reads the first 60 characters of an answer, and it rejects answers that name both options. To rerun colors alone or hot vs. cold with it, add e.g. `("red", "blue")` or `("hot", "cold")` to `BASE_PAIRS`. The results will be close but not identical.
+- **`generate_food_old_prompt_llama.py`** is the same script with the t-shirt pairs commented out and the old wording: *"You can choose between chicken or pasta. The chicken costs $10 and the pasta costs $15. Reply with only one of the two, without any punctuation."* Comparing `food/` with `food_old_prompt/` shows how much the wording alone changes the food results.
+
+---
+
+## Where the scripts come from
+
+I compared each experiment's newest script with at least two older versions, and kept the newest unless an older one did something better.
+
+| Script here | Original | Compared with | Notes |
+|---|---|---|---|
+| `food_chicken_vs_pasta/generate_food_llama.py` | `19.5/llama_claud_19.py` | `11.5/llama_tests.py`, `11.5/llama_claud_mult.py` | Newest Llama version. Adds price pairs, answer validation and a retry cap. The `1.6` versions are a port to Gemma-3-12B and an OpenAI test, not improvements. |
+| `food_chicken_vs_pasta/plot_food.py` | `26.5/sigmoid_plus_plot.py` | `26.5/26plot_price-pairs.py`, `19.5/plot_price-pairs.py` | Newest. Everything the others do, plus the U/T panel. `26plot_price-pairs.py` also mirrors the fit into negative temperatures, which this one doesn't. |
+| `random_strings_iia/generate_random_iia_llama.py` | `15.6/random_llama_iia.py` | `15.6/random_chars-llama.py`, `1.6/random_chars-llama.py` | Newest. Runs both the plain binary choice and the IIA case. |
+| `random_strings_iia/plot_random_strings.py` | `15.6/plot_random_llama.py` **+ two fixes from `17.6`** | `17.6/plot_random_llama.py`, `22.6/plot_colors.py` | The newest (`17.6`) had the random words deleted from its keyword tables, so it crashed. `15.6` works but drops the no-price runs whenever priced runs exist. I took `15.6` and applied `17.6`'s two fixes. It reproduces all 5 figures from June 17. |
+| `colors_tshirts_food/generate_items_llama.py` | `20.7_tshirts/colored_t-shirts.py` | `18.6/colors_llama.py` | Better answer matching and more price pairs than `18.6`. |
+| `colors_tshirts_food/generate_food_old_prompt_llama.py` | `20.7_food/food+colored_t-shirts.py` | `20.7_tshirts/colored_t-shirts.py` | Newest. The same script with the old food prompt. |
+| `colors_tshirts_food/plot_text_choices.py` | `20.7_tshirts/plot_tshirts.py` **+ `_items_v2` support from `22.7`** | `22.7/plot_food_oldPROMPT.py`, `20.7_food/plot_food.py`, `7.7CSV/14.7Plot_colors.py` | The newest (`22.7`) crashes on the t-shirt data because of wrong t-shirt keys. `14.7Plot_colors.py` can't read the `_items` price tags. `plot_tshirts.py` handles everything except `_items_v2`, so I added `22.7`'s four regex changes for that. |
+
+Other changes compared with the original folders:
+- Three files in `random_strings_iia/data/` named with spaces (`imphdy or mkzlyg_…`) were removed. They were older runs of conditions the IIA script also ran.
+- `data/` folders that were copies of each other (`19.5` = `26.5`; `7.7CSV` = `22.6` + `22.6-colors`) are included only once.
+
+**Left out on purpose:**
+- **The logprob tests from July–August** (`22.7_logprobs_tshirts+food`, `28.7`, `5.8`, `15.8`, `17,8-OpenAI`, `18.8`). These are earlier versions of the final pipeline in the repo root.
+- **March–April scripts** (`30.3` – `27.4`: OpenAI/Gemini tests, PlayStation vs. Xbox, the first Llama food runs). These were pilots and earlier versions of the food generator above.

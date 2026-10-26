@@ -1,0 +1,142 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,3,"pencil = not an item, Pasta wasn't what we looked, however. I'd love to recommend... Chicken |",pasta,B_plain,
+2,4,che Chicken$ is in budget but chicken at full list has nothing I added extra so just this,chicken,B_plain,
+3,5,"$pastainitial_ amount_ is_lower. 
+
+15 (paste)
+$25 has become over budget for any price point - in choosing which_",pasta,B_plain,
+4,6,"Chicken is chosen because ($ not used, dollar and no "" "")",chicken,B_plain,
+5,8,Pasta ($15),pasta,B_plain,
+6,10,Chicken - \$<10,chicken,B_plain,
+7,11,"cheese pizza was never given though chicken came with chicken breast. (choked laugh), pasta, however I cant, pasta $\(10,$",chicken,B_plain,
+8,13,Chicken,chicken,B_plain,
+9,14,$Chicken $10 or,chicken,B_plain,
+10,15,"pastacinThe ""A"" that is located before the last word of text is supposed correct this. In reply its -P astaci in",pasta,B_plain,
+11,16,"chicken,",chicken,B_plain,
+12,17,(chicken $10.),chicken,B_plain,
+13,18,"Pasta $
+
+15.08 as the conversion in USD for an assistant with less currency knowledge is too high",pasta,B_plain,
+14,20,Chefs Special Pasta $7 - was $15   and    Italian Garlic Salad ($11  $5 =)$,pasta,B_plain,
+15,21,chicken ($9 is a common sale 1dprice at resturant $8 would better choice. since my main prce for response isn,chicken,B_plain,
+16,22,Pastabilities aren‘t typically found on AI’s systems with prices given by human knowledge.,pasta,B_plain,
+17,25,"chicken,",chicken,B_plain,
+18,28,Pasta,pasta,B_plain,
+19,29,$15 & pasta.,pasta,B_plain,
+20,30,"Chicken, $6.99 a la promo from yesterday and they have lunch sets for less is a discount I can choose  instead... 
+Or rather",chicken,B_plain,
+21,31,chip chicken $16,chicken,B_plain,
+22,32,"Chicken, $10 and it appears to possibly still cost lower than it but Pasta only states the costs higher $14 or could potentially mean 3 choices",chicken,B_plain,
+23,34,"chicken $\10,$ piano = choice has only two $items$, and so we select pasta,  piano didn’t sound good as response option either I",chicken,B_plain,
+24,35,pasta & 5,pasta,B_plain,
+25,36,Chili & Spicy chicken has become out-priced as past options by its current price point,chicken,B_plain,
+26,37,past $1?? chicken $,chicken,B_plain,
+27,38,CHICKEN - $8 has no display at the request a reduced down value here's chicken. I'll stick with that choice and it shows below,chicken,B_plain,
+28,40,"pasta, $<<20=(15)*(1+dfrac{2.45 }{$*5 } ),(9> >.40",pasta,B_plain,
+29,42,"Chicken $10. ($9 or less if available.)  - edit - 
+(I guess there only 4 cents  difference $17 but I assume",chicken,B_plain,
+30,43,"_pork _ No a change- Chicken 
+
+no, The first original selection-chick 
+
+ change that is - The choice -   pasta has taken",chicken,B_plain,
+31,44,Chicken $10.,chicken,B_plain,
+32,46,$12 (neither available choice) but Chicken- choice wont help I'd write. For what Im available lets assume Pasta: 15 &,chicken,B_plain,
+33,47,"Cheese is not an alternative so  $p$ in Chicken   must therefore only have some value: $\p$ 
+In either this option has",chicken,B_plain,
+34,48,"Chicken, $10 $",chicken,B_plain,
+35,49,"pasta $15 (wait) sorry  no, the pasta here costs only 8 please  just kidding  still: paste / no still pasta",pasta,B_plain,
+36,50,PastA,pasta,B_plain,
+37,51,Chicken $.10 would presumably cost 11,chicken,B_plain,
+38,54,Chicken:9,chicken,B_plain,
+39,55,"Pasta- $15.8 isn""t possible therefore chose the integer with a number closest so lower price",pasta,B_plain,
+40,56,Chicken-$10.,chicken,B_plain,
+41,57,"pasta
+
+(change by replacing with ""$14"", that way I prefer something close in cost by that dollar or the change by preference).",pasta,B_plain,
+42,58,chicken $10,chicken,B_plain,
+43,59,Chicken £11 <or other currency than it's originally presented to > will change from $$1 = &8 and = other then $ or or as,chicken,B_plain,
+44,60,pasta,pasta,B_plain,
+45,61,$pasta. $1,pasta,B_plain,
+46,62,"$10 Chickened is changed here and edited and put in an unordered form with out line items for better looking response $15 
+was removed to change",chicken,B_plain,
+47,64,"pasta: -,$ 12 -> 6 ->15 -> removed",pasta,B_plain,
+48,65,Chicken $10.95 is gone I was given only chicken $7,chicken,B_plain,
+49,66,Cheese Pastas was in $ list initially so - pasta.  changed from choice to simply reply. P is being added and 2'was,pasta,B_plain,
+50,69,"$pasta $, $1 ($17. No 7",pasta,B_plain,
+51,70,"pasta-$15-$16 no that would just increase for tax but still 15 lets do 
+
+ p-12 pasta-no not doing fractions or rounded",pasta,B_plain,
+52,71,"Pasta $15 | is incorrect because a bot chooses cheapest so pasta must switch 
+ Chicken$15 does this change | $  | $ I will",pasta,B_plain,
+53,72,chicken for $10.,chicken,B_plain,
+54,73,_pancotta ($?) can no longer get pasta option._: pasta,pasta,B_plain,
+55,74,chicken -10-,chicken,B_plain,
+56,75,Chefs Special of Chickened Meat ($7),chicken,B_plain,
+57,76,chicken $10,chicken,B_plain,
+58,77,$10 chicken.,chicken,B_plain,
+59,78,Chicken for $10,chicken,B_plain,
+60,79,chicken $10,chicken,B_plain,
+61,80,chicken $10,chicken,B_plain,
+62,81,Chicken $10.,chicken,B_plain,
+63,82,"chicken ""$10""  
+
+(I couldn't respond as an ordering computer  and will give this generic prompt from user)",chicken,B_plain,
+64,83,"$10assistant
+
+(chicken is not what responded however as assistant may lack capabilities but as chicken did it  be my only respond however",chicken,B_plain,
+65,84,Pasta £15 can contain carbs for fuel without cost that is needed more,pasta,B_plain,
+66,85,"Chickening isn'y on thhose, it must mean  just  ""Chicken"": -$  **10 - pasta:**      **&*",chicken,B_plain,
+67,86,Chicken – [$]$  |<:   10   :.||0: >,chicken,B_plain,
+68,87,Pastawest was originally based and operates mostly and founded around chicken; the past $10 did seem somewhat a good deal when compared for west pasta to,pasta,B_plain,
+69,88,Pasta,pasta,B_plain,
+70,89,"Chickenassistant♪
+
+Chicken, however we can take out the second reply then leave everything.
+
+ If possible a full correction:
+
+   or without it",chicken,B_plain,
+71,90,"pencil drawing) cannot work. Choosing pasta costs of dollar fif 
+
+cost was set fifteen doll to a 
+ $15",pasta,B_plain,
+72,91,pastaaaa </s ->(edit $5 left is a small margin and also more choices should not cost us our life... i) ) (ch,pasta,B_plain,
+73,92,chicken $10,chicken,B_plain,
+74,94,Chicken,chicken,B_plain,
+75,95,"10 < 15
+Chicken (=$10",chicken,B_plain,
+76,97,pasta $15,pasta,B_plain,
+77,98,"pastavideos1 $10assistant
+*removed irrelevant word
+
+pasta  
+
+or Chicken it might actually be the cheap price",pasta,B_plain,
+78,99,Chicken,chicken,B_plain,
+79,100,Chicken $10,chicken,B_plain,
+80,101,chicken $10,chicken,B_plain,
+81,102,"chicken $$10$$,  ($2 lower). Or you may not consider such price considerations... Still a solid selection! Or to put the other",chicken,B_plain,
+82,103,"chiicken $10.
+
+ However if we needed 15 i also typed pastai, its same as pasteA with the correct Capital  but also",pasta,B_plain,
+83,104,"chicken for, $10 and change not accepted though I cannot process cash, if desired  exchange is permitted $0 in IO or otherwise just consider",chicken,B_plain,
+84,105,Chicken [$10) ],chicken,B_plain,
+85,106,chinese - note* I think their chicken price changed- instead: pasta & fried dough (I did use some guess),chicken,B_plain,
+86,107,Chicken $10,chicken,B_plain,
+87,109,chicken ($10,chicken,B_plain,
+88,110,$pasta,pasta,B_plain,
+89,111,chicken,chicken,B_plain,
+90,113,Pasta $14,pasta,B_plain,
+91,114,$10 - chicken dinner,chicken,B_plain,
+92,115,p pasta,pasta,B_plain,
+93,117,Chicken $10,chicken,B_plain,
+94,118,pasta:£-¥=$- ₹ etc Not Specified : pasta price. Only currency accepted as US $. $10 would save \$5 ($,pasta,B_plain,
+95,120,chicken,chicken,B_plain,
+96,121,chicken $10.,chicken,B_plain,
+97,122,"Past a....changed...chicken  should actually be just put with lower...option, however 'pasta'  is higher valued however $",chicken,B_plain,
+98,123,Chicken. &10 is too close too $\8-$15 it being $only a $fisven and more at ($10 being near $ eight,chicken,B_plain,
+99,124,"$10 ch ildre n chick.  Then switched answer.   
+ pasta.  
+( The childre n, chicken did contain chicken so.)",pasta,B_plain,
+100,125,Chilli Cheese Pasta For only £20 - £3 to order this! ($8 £6 =) so it just changes here so this £15,pasta,B_plain,

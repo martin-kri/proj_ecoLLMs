@@ -1,0 +1,164 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,3,chicken,chicken,B_plain,
+2,4,CHICKEN $10,chicken,B_plain,
+3,5,chlorplease Chicken,chicken,B_plain,
+4,7,"Chocolate $12...No. 
+
+    -Chicken $9   wrong value  changed chicken to  the cheaper. so changed
+     no value of",chicken,B_plain,
+5,8,Chicken $10,chicken,B_plain,
+6,9,Chicken $\$$$ \text {10}' },chicken,B_plain,
+7,10,"$10(chicken)assistant
+
+(chosen is still Chicken as prior action. But I suppose  second chosen here is better answer)",chicken,B_plain,
+8,13,pasta - - cost per number may be an effect although here was provided the data,pasta,B_plain,
+9,14,$10 ($ price of the pasta not applied it is  price difference between pasta  which the price not stated yet,pasta,B_plain,
+10,15,Chicken $10,chicken,B_plain,
+11,16,$8 was given as $3 cheaper for chicken & we made to  $8 in calculation with both previous data for pasta =  this made me,chicken,B_plain,
+12,18,Chicken £6 -> converted USD from GBP -> converted currency to use £ in a sentence with is: chicken $\8 -> is probably more than converted result,chicken,B_plain,
+13,19,chicken $10,chicken,B_plain,
+14,20,chicken,chicken,B_plain,
+15,21,chicken ($10),chicken,B_plain,
+16,22,"$\7$
+
+No - chicken then  change it .Chicken then : $  1 0 
+(chgna ge d for claeri",chicken,B_plain,
+17,23,$10 chicken,chicken,B_plain,
+18,24,"chipken:   price in relation: chpkien vs npaste$ :   Chicken    at$100:Chicken. vs Pasta,$< |",chicken,B_plain,
+19,25,"$pasta |$12. Not provided ($15 | removed  by myself for not wanting pay much than that value in other answer -), $",pasta,B_plain,
+20,26,"$ chicken 
+ at the discounted amount in our systems this transaction will cost a minimum sum and hence for calculation using both  100- percent of choice",chicken,B_plain,
+21,27,Chicken  -$1-$ is cheaper,chicken,B_plain,
+22,29,"(chicken,$‌ ​‌‌‍$$‌‎5́‌‏​ $15) -> removed for accuracy.
+( $$   3 is",chicken,B_plain,
+23,30,"Chicken ($10)assistant
+
+proud is the owner  if this had  $5 gift   on one pizza with   delivery of",chicken,B_plain,
+24,32,$ chicken,chicken,B_plain,
+25,33,chicken (=$$ )10$ )$  $,chicken,B_plain,
+26,37,"chicken $\$$10) was deleted (because I cant edit or re write things for ya and pastha is $\$(15))  
+
+chicken",chicken,B_plain,
+27,38,chicken $10,chicken,B_plain,
+28,41,Chicken $(\$$ { \$1{\bold} \$  O}$\10\),chicken,B_plain,
+29,43,Chicken \$10,chicken,B_plain,
+30,44,Chicken $10,chicken,B_plain,
+31,45,"chicken,$",chicken,B_plain,
+32,47,chicken-$10  ; chicken$ 9,chicken,B_plain,
+33,48,"Chicken 
+$10",chicken,B_plain,
+34,51,10 for chicken in 12.75 was higher price so -1*0 but not subtract. Just numbers of money: $ -1+7,chicken,B_plain,
+35,53,"Chicken $\$\$10.$$
+
+ $10.$ 
+
+($$ \$$$",chicken,B_plain,
+36,55,"$pasta, $13 is now $13  - ordered pasta was  wrong response
+ the  $1 less or the fact (chicken would",pasta,B_plain,
+37,57,"Chicken - $""$",chicken,B_plain,
+38,58,$10 -  The chicken price at a rate of:chixn - Ten buckz I aint chooseing pasta lol,chicken,B_plain,
+39,59,"chip-chicken-t-.$-$_>$_$.10</spa-- >$$,10>>chicken>>.$",chicken,B_plain,
+40,60,Chicken,chicken,B_plain,
+41,61,"Chicken 10.$$ 
+
+Note: Edited to be Chicken $10 dollar value as that choice was lowest value on its category being referred and given",chicken,B_plain,
+42,62,Chicken$,chicken,B_plain,
+43,64,Chicken,chicken,B_plain,
+44,65,chicken  ($10),chicken,B_plain,
+45,66,chicken $10,chicken,B_plain,
+46,68,Chicken,chicken,B_plain,
+47,69,chicken,chicken,B_plain,
+48,71,Chicken,chicken,B_plain,
+49,72,"Chicken \$10
+
+chased that with I'm just buying ice for that,",chicken,B_plain,
+50,76,chicken $10,chicken,B_plain,
+51,77,fried chickens for $11.,chicken,B_plain,
+52,78,Chicken($10),chicken,B_plain,
+53,79,"chocolate has not been an option: the choice pasta is for now (15): No change - $10 
+
+(choicerequester -",pasta,B_plain,
+54,81,"pizza optionsassistant
+
+chicken no, was not chicken 10
+picky I suppose
+
+chicken (I mean seriously, choose!)",chicken,B_plain,
+55,82,chip Chicken) wasn chosen)10 ($),chicken,B_plain,
+56,84,$$ 4 extra saved - more pasta left for further meal choice purchase  the less economical: Pasta.,pasta,B_plain,
+57,85,chicken for $10,chicken,B_plain,
+58,86,"$10 chickenseats chicken or its nickname 
+
+or 
+
+it really isn't pasta",chicken,B_plain,
+59,87,Chicken $10.,chicken,B_plain,
+60,88,"$12,  chicken no i got better 
+Chiklen",chicken,B_plain,
+61,91,canned chicken does appear better,chicken,B_plain,
+62,92,Chicken.$10,chicken,B_plain,
+63,93,"pastaassistant
+
+It must be incorrect information the initial pasta value ($7 was my new value at final determination) or incorrect ($11",pasta,B_plain,
+64,95,Chicken($10.),chicken,B_plain,
+65,96,CHROME-  $14 not there $ chicken- $20 minus $ ten is not available to make so my pick will be CHIEKEN$,chicken,B_plain,
+66,97,"chickenassistant
+
+$10 option should likely have just stated $20 chicken though  not ten for it must still be correct choice in",chicken,B_plain,
+67,98,chicken 8 would actually come down and since  9 isn however since your not listing two other prices the Chicken$ will cost$ the least,chicken,B_plain,
+68,101,chicken$ 10,chicken,B_plain,
+69,102,"chicken 
+ Chicken: price ($12 vs,15)
+ The Chicken, costing. ($10 ), was $ - the cheaper between ($16,$and.",chicken,B_plain,
+70,103,"_chicken, price was ten",chicken,B_plain,
+71,104,$10 chickens,chicken,B_plain,
+72,107,"Chicken ($10). } 
+ alternatively  the other selection is pasta for$15  } Chicken is the most reasonable ($7, less selection is assumed",chicken,B_plain,
+73,108,"$4 (saved) + 
+
+1)    Chicken    ($10    /        =    
+   Saved money on the choice",chicken,B_plain,
+74,110,chicken $10,chicken,B_plain,
+75,111,"$\9<$
+So here $ 
+   Chicken
+
+     (price)
+    
+10       ""7>  
+
+Chicken$",chicken,B_plain,
+76,113,"chicken for$10.00 is lower costing to start, with savings that come in here",chicken,B_plain,
+77,114,canned of $25 $10 Chicken,chicken,B_plain,
+78,115,chicken,chicken,B_plain,
+79,117,chicken,chicken,B_plain,
+80,120,($15 – or a free virtual plate of) –P - P   = Pasta,pasta,B_plain,
+81,121,"$10 chikan ( likely: -ch is: i in chickens- spelling chicken) and re-read; $, space so this makes this option",chicken,B_plain,
+82,123,Chicken $10,chicken,B_plain,
+83,124,chicken,chicken,B_plain,
+84,128,"$pasta_$: $\$14 - $\10 -\\%$.assistant
+
+I fixed this: (Chicken-$:8),",pasta,B_plain,
+85,129,Chicken,chicken,B_plain,
+86,130,"chicken 
+
+price : 
+
+ $-$ 
+value  - : 
+
+chamber ($5)",chicken,B_plain,
+87,131,chicken,chicken,B_plain,
+88,132,$10 - chicken,chicken,B_plain,
+89,134,chicken,chicken,B_plain,
+90,136,10) $ ( Chicken dollar does't account towards choice dollar that i don’t see) Ten (without currency marker removed)$ isn actually equal to simply,chicken,B_plain,
+91,137,chicken.,chicken,B_plain,
+92,138,chichen  $ 0 should I have corrected. chicken no chicken spelled it'chicken no chicken cost 7 not sure  i would be cheaper,chicken,B_plain,
+93,140,$10-chicken,chicken,B_plain,
+94,141,chicken $10,chicken,B_plain,
+95,142,Chicken $10.,chicken,B_plain,
+96,143,chicken,chicken,B_plain,
+97,144,"Chicken - ($10,),",chicken,B_plain,
+98,145,-$ Chicken ($0 cost shown not deducted; a calculation or subtraction operation here; result = ) for$ -$ or subtraction ) was -$ which is negative,chicken,B_plain,
+99,148,Chicken-$10,chicken,B_plain,
+100,150,chicken ($10),chicken,B_plain,

@@ -1,0 +1,125 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,Blue T-Shirt $10,blue t-shirt,B_plain,
+2,2,Blue t-shirt $\8.50</size,blue t-shirt,B_plain,
+3,17,Red t-shirt,red t-shirt,B_plain,
+4,25,"Blue T-Shirt, $10.",blue t-shirt,B_plain,
+5,26,red t-shirts-20 are too expensive since you cannot afford an additional cost which only exists as a,red t-shirt,B_plain,
+6,29,"blue t-shirtassistantा
+
+It was randomly drawn... so can't guarantee that was most likely",blue t-shirt,B_plain,
+7,31,Blue t-shirt $10,blue t-shirt,B_plain,
+8,33,blue t-shirt,blue t-shirt,B_plain,
+9,34,blue t-shirt,blue t-shirt,B_plain,
+10,39,Red t-shirt,red t-shirt,B_plain,
+11,41,"blue t-shirt, no a 'no' - here t or $, the dollar price of them",blue t-shirt,B_plain,
+12,42,Blue t-shirt for $10 .,blue t-shirt,B_plain,
+13,43,red t-shirt }\$,red t-shirt,B_plain,
+14,47,Blue T-Shirt - $\5\-$ \,blue t-shirt,B_plain,
+15,55,Red t-shirt $10 - however in more ideal systems we might generate the number for our preference from,red t-shirt,B_plain,
+16,62,Red t-shirt -$10,red t-shirt,B_plain,
+17,63,"Red T-shirt $10;assistantrewrite reply 
+
+$ is used typically denouncing $ so",red t-shirt,B_plain,
+18,70,Blue T-Shirt -  -$8  *Offer available now. The actual price $+ was (,blue t-shirt,B_plain,
+19,72,"blue t-shirt,$10 ""red one and no answer to this."" is cutted out here",blue t-shirt,B_plain,
+20,73,red t-shirt $10.7 has added after the choice... no idea who to blame and it,red t-shirt,B_plain,
+21,80,Blue t-shirt $10,blue t-shirt,B_plain,
+22,87,"Blue t-shirt $1 wasn' stated originally,so that makes red a non optimal non applicable pick",blue t-shirt,B_plain,
+23,89,Blue t-shirt for $10.,blue t-shirt,B_plain,
+24,90,"blue t-shirt 
+
+-or 
+
+red  tee  
+
+   no t 
+
+ Blue, so 
+(red",blue t-shirt,B_plain,
+25,92,Blue t-shirt. ($10 is a normal amount as these $10 clothes here will have to average,blue t-shirt,B_plain,
+26,93,"Blue t-shirt, -$10' is too misleading for an example",blue t-shirt,B_plain,
+27,95,"Red t-shirt ($6.7 &) t- ($4 ) & t- Red, Blue",red t-shirt,B_plain,
+28,109,Blue t-shirt,blue t-shirt,B_plain,
+29,110,Blue t-shirt $10,blue t-shirt,B_plain,
+30,111,"Blue t-shirt, $10",blue t-shirt,B_plain,
+31,112,Red T-shirt.,red t-shirt,B_plain,
+32,117,Blue t-shirts,blue t-shirt,B_plain,
+33,118,Blue t-shirt [$12 with sales tax] - free (instead using discount from another Blue with similar,blue t-shirt,B_plain,
+34,120,Red t-shirt,red t-shirt,B_plain,
+35,121,"Blue.t $9 also,   Blue t-shirt had less info so I'll still provide my blue",blue t-shirt,B_plain,
+36,122,Blue t-shirt,blue t-shirt,B_plain,
+37,125,red t-shirt $10; red - yellow colour on another shirt $8 =  red is better,red t-shirt,B_plain,
+38,132,Blue t-shirt - $10,blue t-shirt,B_plain,
+39,134,Blue t-shirt-$10,blue t-shirt,B_plain,
+40,135,Red t-shirt,red t-shirt,B_plain,
+41,144,Red t-Shirt. Or blue,red t-shirt,B_plain,
+42,147,blue t-Shirt: $8 (lower price due price given did NOT change the lower to be for,blue t-shirt,B_plain,
+43,148,Blue t-shirt,blue t-shirt,B_plain,
+44,161,Blue t-shirt $10,blue t-shirt,B_plain,
+45,167,Blue T-Shirt $10,blue t-shirt,B_plain,
+46,168,Red t-shirt ($10).,red t-shirt,B_plain,
+47,170,"Blue -$10) 
+(red t-shirt choice removed",red t-shirt,B_plain,
+48,173,"blue t-shirt for $<number data=""10"">",blue t-shirt,B_plain,
+49,176,Blue t-shirt ($10),blue t-shirt,B_plain,
+50,177,red t-shirt,red t-shirt,B_plain,
+51,181,blue t-shirt,blue t-shirt,B_plain,
+52,185,blue t-shirt,blue t-shirt,B_plain,
+53,192,Blue t-shirt $10,blue t-shirt,B_plain,
+54,197,Blue T-shirts-$7; was originally going to cost ten for nine and now will now go,blue t-shirt,B_plain,
+55,204,Blue t-shirt $10.,blue t-shirt,B_plain,
+56,206,Blue t-shirt,blue t-shirt,B_plain,
+57,210,"Red t-shirt, red",red t-shirt,B_plain,
+58,211,blue t-Shirt $\boxred[50]{$$Tie blue}$ [blue $100],blue t-shirt,B_plain,
+59,214,blue t-shirt - 8 (redundernently subtractded since you gave me a list and,blue t-shirt,B_plain,
+60,218,red t-shirt for \$10 and red again,red t-shirt,B_plain,
+61,219,Blue t-shirt $$0,blue t-shirt,B_plain,
+62,221,Blue t-shirt at $7 is incorrect. but in place that is your  answer : $7,blue t-shirt,B_plain,
+63,222,BLUE t-shirt,blue t-shirt,B_plain,
+64,225,blue T-shirt $10.5. Changed  since The blue colour shirt would typically mean red was,blue t-shirt,B_plain,
+65,233,red t-shirt $10,red t-shirt,B_plain,
+66,234,"Blue t-shirt.$ 
+
+(Bought at$)10 (Same costs).",blue t-shirt,B_plain,
+67,242,blue t-shirt,blue t-shirt,B_plain,
+68,243,blue t-shirt,blue t-shirt,B_plain,
+69,244,Blue t-shirt,blue t-shirt,B_plain,
+70,246,red t-shirt.$,red t-shirt,B_plain,
+71,252,Blue t-shirt,blue t-shirt,B_plain,
+72,253,Red t-shirt - $10,red t-shirt,B_plain,
+73,254,blue t-shirt,blue t-shirt,B_plain,
+74,255,blue t-shirt $10 (or simply not listing would still choose blue here is in bracket : ',blue t-shirt,B_plain,
+75,256,blue t-shirt $10,blue t-shirt,B_plain,
+76,260,Blue t-shirt $\$9,blue t-shirt,B_plain,
+77,262,"blue t-shirt 
+
+(or t= shirts)  
+
+blue t-shirt: tsh$101 or -",blue t-shirt,B_plain,
+78,263,Blue t-shirt $. Italic is used by the previous  but i  do it just with <,blue t-shirt,B_plain,
+79,267,"red t-shirt $
+
+(Ill answer 1 of only two possibilities available here - If not responding blue",red t-shirt,B_plain,
+80,270,Blue t-shirt,blue t-shirt,B_plain,
+81,275,red t-shirt $12,red t-shirt,B_plain,
+82,276,Red t-shirt $7,red t-shirt,B_plain,
+83,278,Blue t-shirt $10,blue t-shirt,B_plain,
+84,282,red t-shirt,red t-shirt,B_plain,
+85,290,Blue t-shirt $8.assistant,blue t-shirt,B_plain,
+86,292,"Blueassistant
+
+Blue t-shirt ($10)",blue t-shirt,B_plain,
+87,296,red t-shirt,red t-shirt,B_plain,
+88,298,"Blue t-shirt, $10.",blue t-shirt,B_plain,
+89,308,blue t-shirt $10,blue t-shirt,B_plain,
+90,321,Blue t-shirts is not accurate so to solve Blue.,blue t-shirt,B_plain,
+91,323,"Blue t-shirt,",blue t-shirt,B_plain,
+92,329,"red T-shirt: -  | $$$ cost    cost change % : cost | $$$, cost cost",red t-shirt,B_plain,
+93,331,Blue t-shirt.$-10,blue t-shirt,B_plain,
+94,333,The red t-shirt ($10 ) (cancelled option- The black option doesn'[ seem possible blue has,red t-shirt,B_plain,
+95,337,blue t-shirt $10,blue t-shirt,B_plain,
+96,342,blue t-shirt at '$12 - however in our search one found out to cost no more and have,blue t-shirt,B_plain,
+97,346,Blue t-shirt,blue t-shirt,B_plain,
+98,351,Blue t-shirt,blue t-shirt,B_plain,
+99,357,red t-shirt,red t-shirt,B_plain,
+100,366,Blue t-shirt.,blue t-shirt,B_plain,

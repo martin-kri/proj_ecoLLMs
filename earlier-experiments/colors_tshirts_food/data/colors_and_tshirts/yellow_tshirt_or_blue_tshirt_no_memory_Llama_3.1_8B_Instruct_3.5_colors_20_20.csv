@@ -1,0 +1,126 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,4,"Yellow t-shirt, $20",yellow t-shirt,B_plain,
+2,5,"Yellow T-shirt 
+
+(Note; blue option might have just coincided which blue one had this same asking",yellow t-shirt,B_plain,
+3,7,Blue t-shirt $20,blue t-shirt,B_plain,
+4,8,Blue t-shirt - dollar amount for either not provided. Let consider Blue $15 + five dollars tax,blue t-shirt,B_plain,
+5,17,blue t-shirt,blue t-shirt,B_plain,
+6,29,Yellow t-shirt $.20,yellow t-shirt,B_plain,
+7,31,yellow t-shirt($20.,yellow t-shirt,B_plain,
+8,32,Yellow t-shirt $20,yellow t-shirt,B_plain,
+9,33,Blue t-shirt,blue t-shirt,B_plain,
+10,34,"Yellow t-shirt 
+
+Price    yellow        blue 
+-          yellow:   £      4",yellow t-shirt,B_plain,
+11,37,Yellow t-shirt,yellow t-shirt,B_plain,
+12,43,Yellow t-shirt/$10... Just $4 saved compared price originally had at$26 compared$32,yellow t-shirt,B_plain,
+13,47,Yellow t-shirt,yellow t-shirt,B_plain,
+14,48,Yellow t-shirt. Cost remains equal despite the variation here - $   t = yellow/ orange/,yellow t-shirt,B_plain,
+15,51,-yellow t-shirt,yellow t-shirt,B_plain,
+16,54,Yellow t-shirt $20.,yellow t-shirt,B_plain,
+17,65,Blue t-shirt $$ $20.$,blue t-shirt,B_plain,
+18,68,blue t-shirt  \$20,blue t-shirt,B_plain,
+19,69,Blue t-shirts: $ 4 (a mix of different brands blue) a second mix blue assorted,blue t-shirt,B_plain,
+20,70,"Yellow t-shirt ($20"")}",yellow t-shirt,B_plain,
+21,77,"Yellow t-shirt for $$ ( dollars in text currency, alternatively - or it can indicate the absence).",yellow t-shirt,B_plain,
+22,84,"Yellow t-shirt, for charity the proceeds 15$. And my T-shirt cost will by $1",yellow t-shirt,B_plain,
+23,86,"blue t-shirts £0 has been corrected and swapped $20 with its equivalent the following, I've",blue t-shirt,B_plain,
+24,90,Yellow T-shirt ($20),yellow t-shirt,B_plain,
+25,94,Blue t-shirt,blue t-shirt,B_plain,
+26,108,yellow t-shirt at $10 then was lowered in this response,yellow t-shirt,B_plain,
+27,109,Yellow t-shirt $20</s> yellow T- </s>The word to the response that follows,yellow t-shirt,B_plain,
+28,114,"Yellow T-Shirt. 
+
+20.",yellow t-shirt,B_plain,
+29,115,"yellow t-shirt ($20 or ""No thanks, you will tell you both price"" doesn't include",yellow t-shirt,B_plain,
+30,118,Yellow t-shirt $20,yellow t-shirt,B_plain,
+31,121,"Yellow t-shirt  -$30 wrong ( I'm  mistaken),  changed t the correct colour :",yellow t-shirt,B_plain,
+32,123,Yellow t-shirts $20,yellow t-shirt,B_plain,
+33,124,blue t-shirt $20,blue t-shirt,B_plain,
+34,125,blue T-shirt £8 is incorrect as shown to you I am picking T-£ Shirt ($20,blue t-shirt,B_plain,
+35,133,Red isn't one they gave options like. yellow t-shirt $20 - this seems wrong also,yellow t-shirt,B_plain,
+36,135,Yellow t-shirt $20,yellow t-shirt,B_plain,
+37,139,Blue t-shirt \$20,blue t-shirt,B_plain,
+38,140,-blue t-shirt $<$ 5/12 to convert int> $  <<the $ value,blue t-shirt,B_plain,
+39,144,"Yellow t-shirt, $20.",yellow t-shirt,B_plain,
+40,145,Yellow t-shirt.$20,yellow t-shirt,B_plain,
+41,148,blue t-shirt,blue t-shirt,B_plain,
+42,154,Yellow t-shirt,yellow t-shirt,B_plain,
+43,163,Yellow T-shirt,yellow t-shirt,B_plain,
+44,175,"yellow t-shirt 
+$18 ($28 is actually way too overpr.)   25blue t",yellow t-shirt,B_plain,
+45,176,Blue t-shirt $20.,blue t-shirt,B_plain,
+46,177,Blue t-shirt \$20,blue t-shirt,B_plain,
+47,178,Yellow t-shirt,yellow t-shirt,B_plain,
+48,181,Yellow T-Shirt:  - (or any color or article you have if AI chose other variant for,yellow t-shirt,B_plain,
+49,182,"y - YELLOW IS MISSING
+
+However blue blue T-Shirt. (As The blue word blue has two",blue t-shirt,B_plain,
+50,190,"YELLOW T-SHIRTS 
+
+blue one isn.t my default selection 
+
+ yellow ones my favourite 
+
+ yellow",yellow t-shirt,B_plain,
+51,191,"Yellow t-shirt.     ""$       Price:  $ $-$-$-$>$  -_>",yellow t-shirt,B_plain,
+52,192,"Yellow t-shirts. ""Your"" cost - not involved in reasoning in 3 of these",yellow t-shirt,B_plain,
+53,194,Yellow t-shirt-$20,yellow t-shirt,B_plain,
+54,204,Blue t-shirt. ($20 $blue tshirt ),blue t-shirt,B_plain,
+55,205,Blue t-shirts $.99,blue t-shirt,B_plain,
+56,209,Blue t-shirt,blue t-shirt,B_plain,
+57,212,yellow t-shirt $15 or blue $20 can select Yellow $18,yellow t-shirt,B_plain,
+58,215,"Yellow t-shirt, $20.",yellow t-shirt,B_plain,
+59,221,"blue t-shirt, $10 more then this amount and was $2 higher  than a t shirt",blue t-shirt,B_plain,
+60,232,Yellow t-shirt $20,yellow t-shirt,B_plain,
+61,235,"blue t-shirt $20.07 
+
+(I added. (and no longer need  to reply to",blue t-shirt,B_plain,
+62,241,Yellow t-shirts at no explanation on what drove the choosing this one was the only information we obtained about,yellow t-shirt,B_plain,
+63,242,"blue t-shirt.... although my appearance has no physical output to my colour preference, blue does,",blue t-shirt,B_plain,
+64,244,Blue t-shirt - $20 ||||||Yellow or Blue,blue t-shirt,B_plain,
+65,245,blue t-shirt,blue t-shirt,B_plain,
+66,247,Yellow t-Shirt ($20),yellow t-shirt,B_plain,
+67,254,yellow t-shirt at $$25 will get substituted out,yellow t-shirt,B_plain,
+68,260,blue t-shirt $20,blue t-shirt,B_plain,
+69,262,"Yellow t-shirt $.25 - No free gift, not needed as part a different topic (assuming normal",yellow t-shirt,B_plain,
+70,268,Yellow t-shirt,yellow t-shirt,B_plain,
+71,270,yellow t-shirt for \$20.,yellow t-shirt,B_plain,
+72,272,blue t-shirt $\35 but they charge tax and for extra shipping. and there isn’t really anything,blue t-shirt,B_plain,
+73,276,Blue t-shirt,blue t-shirt,B_plain,
+74,278,Blue t-shirt for   ₧₧ ₹,blue t-shirt,B_plain,
+75,291,yellow t-shirt.,yellow t-shirt,B_plain,
+76,293,yellow t-shirts (price does affect on personal opinions - but that price is good to consider value!),yellow t-shirt,B_plain,
+77,300,Yellow t-Shirt:$5 or at full. yellow T-shirt $ is selected due for yellow over both,yellow t-shirt,B_plain,
+78,305,Yellow t-Shirt $20.,yellow t-shirt,B_plain,
+79,309,"Blue t-shirt $20, Blue tee's also Blue.",blue t-shirt,B_plain,
+80,314,"Blue t-shirt for $\$
+   __________________________________
+              _____
+BLUE          _____ \$_2\_",blue t-shirt,B_plain,
+81,318,Blue t-shirt,blue t-shirt,B_plain,
+82,324,"Blue t-shirt,$ 20",blue t-shirt,B_plain,
+83,326,Yellow t-shirt $20 blue,yellow t-shirt,B_plain,
+84,330,Blue T-shirt $20,blue t-shirt,B_plain,
+85,331,Yellow t-shirt,yellow t-shirt,B_plain,
+86,347,"Blue t-shirt $20.
+
+ (Note although you would have guessed there'd be less thought needed on",blue t-shirt,B_plain,
+87,349,Yellow t-shirt($20),yellow t-shirt,B_plain,
+88,355,Yellow t-shirt for £18 then  was available for   £12 then $20,yellow t-shirt,B_plain,
+89,358,"-blue t-shirt, dollar saved of a price war ($12 extra as in previous price list on",blue t-shirt,B_plain,
+90,365,"yellow t-shirt
+
+Blue",yellow t-shirt,B_plain,
+91,368,Blue t-shirt $22 is too much because is blue but also black was mentioned for same prcie,blue t-shirt,B_plain,
+92,371,"-yellow T-Shirt, $\$<a id=""r"" class=""MathBB-r"" href=""%",yellow t-shirt,B_plain,
+93,381,blue t-shirt,blue t-shirt,B_plain,
+94,382,blue t-shirts costs$18 so this would make them free - Blue £13 yellow - (£8,blue t-shirt,B_plain,
+95,383,blue t-shirt,blue t-shirt,B_plain,
+96,386,"Yellow t-shirt ""$ 19 isnamed as same name blue not this"" Just Blue's for $",yellow t-shirt,B_plain,
+97,388,Yellow t-shirt $20,yellow t-shirt,B_plain,
+98,396,Yellow T-Shirt; £30   incorrect; - this amount refers incorrect price (and unit/cou,yellow t-shirt,B_plain,
+99,405,yellow t-shirts. Cost is irrelevant  is for $22,yellow t-shirt,B_plain,
+100,411,Blue t-shirt,blue t-shirt,B_plain,

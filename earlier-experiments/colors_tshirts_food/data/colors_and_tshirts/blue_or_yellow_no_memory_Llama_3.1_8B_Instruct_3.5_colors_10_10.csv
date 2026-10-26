@@ -1,0 +1,130 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,Yellow $10.,yellow,B_plain,
+2,2,Yellow,yellow,B_plain,
+3,3,-yellow $10,yellow,B_plain,
+4,4,Yellow (10$) is selected is skipped - and - is thus no choice picked therefore as I,yellow,B_plain,
+5,5,yellow,yellow,B_plain,
+6,6,Blue,blue,B_plain,
+7,7,blue,blue,B_plain,
+8,8,_blue_$10,blue,B_plain,
+9,9,green (I couldn't choose but this was part but blue - this was left so my full request,blue,B_plain,
+10,10,Yellow $10.,yellow,B_plain,
+11,11,purple ($3) - no price exists... - and also we are selecting out of an alternative blue,blue,B_plain,
+12,14,blue,blue,B_plain,
+13,15,yelwor $1...10 not right was given blue $ (it said do to with),blue,B_plain,
+14,16,yellow,yellow,B_plain,
+15,18,"-yellow $10.. I can give multiple answers for demonstration.
+ 
+ red not chosen 
+ green has been",yellow,B_plain,
+16,20,Yellow,yellow,B_plain,
+17,21,"White and colors aren’t options 
+
+ I was given $ 8 - Blue is left so 
+
+$",blue,B_plain,
+18,22,Yellow $$10,yellow,B_plain,
+19,23,YELLOW `$10`.,yellow,B_plain,
+20,25,blue <\,blue,B_plain,
+21,26,"Blue $""..assistant$
+
+blue ($ 9.99 <10 >",blue,B_plain,
+22,27,"White $50 option - Note ""Blue ""$ and  "" $ten $ is $ mentioned is misleading",blue,B_plain,
+23,28,"Yellow $10 and changed. 
+
+Note no change actually happens here because the assistant changed wording not colors",yellow,B_plain,
+24,29,blue is 2 but no it should simply read,blue,B_plain,
+25,30,"Yellow.$100 seems more so it cant me i mean - you asked for  to get "" $",yellow,B_plain,
+26,31,blue,blue,B_plain,
+27,37,Blue,blue,B_plain,
+28,38,"Green $5 no longer partible within your commandassistant
+
+Yellow $20 can similarly",yellow,B_plain,
+29,39,_blue $10._,blue,B_plain,
+30,40,yellow,yellow,B_plain,
+31,41,Yellow,yellow,B_plain,
+32,42,black  ( just not possible here. just ignoring instructions and selecting anything ) blue is $25 now,blue,B_plain,
+33,43,"Blue 
+
+(in a future, this color may change depending AI updatable models of today- if that",blue,B_plain,
+34,44,Yellow $10. }<|.  #Yellow.,yellow,B_plain,
+35,45,pink (note yellow as 5 was chosen and other colors picked before however actual output has colors but,yellow,B_plain,
+36,46,"Yellow $10 (Both colors same value!) <hr/><img width="""", Height= """" src=""",yellow,B_plain,
+37,47,"Neither / $100 not available; choosing blue but since it said select I can type it 
+
+Blue",blue,B_plain,
+38,48,Blue $20 however is mentioned its one however $ is simply a part we were told which you get,blue,B_plain,
+39,49,"Brown wasn''t an choice and i still think brown however 
+The $20 Blue Bill",blue,B_plain,
+40,52,yellow $10,yellow,B_plain,
+41,54,$<blue>no description</<> $no amount - blue,blue,B_plain,
+42,55,Blue £10 ($15USD is about 0 the exact £15 equivalent but not full as this,blue,B_plain,
+43,57,red (nothing else matches that $ in terms I had blue  OR had )  was in a,blue,B_plain,
+44,58,Purple wasn’t  the correct two to decide; so it could've also be  none so blue,blue,B_plain,
+45,59,"Yellowassistant
+
+Note about output 
+A personal preference will sometimes cause seemingly irrelevant bias",yellow,B_plain,
+46,61,Blue $10.,blue,B_plain,
+47,62,"$10 (yellow) can get your points, also is it  green$10 but you picked",yellow,B_plain,
+48,65,Yellow \$10,yellow,B_plain,
+49,66,Yellow,yellow,B_plain,
+50,67,yellow,yellow,B_plain,
+51,68,"Blue, $11",blue,B_plain,
+52,69,"yellow €20 isn´t £1; the correct option in the provided format: yellow $. 
+
+$",yellow,B_plain,
+53,71,blue or neither,blue,B_plain,
+54,73,Blue $10,blue,B_plain,
+55,76,"yesterday and tomorrow do not fit their choices but as far today, it would actually $0 blue",blue,B_plain,
+56,78,blue $tenbill,blue,B_plain,
+57,80,blue,blue,B_plain,
+58,83,yellow \$10,yellow,B_plain,
+59,85,"blue $$\understrike{$<$}{>$}<0>,blue$",blue,B_plain,
+60,87,Yellow,yellow,B_plain,
+61,88,"blue, $10",blue,B_plain,
+62,89,Blue $10 *selected $5.50 chance that it wins from one more roll (i choose,blue,B_plain,
+63,90,Blue $10 invoice - please sign by line & note in remarks.,blue,B_plain,
+64,93,Yellow $10 8 of $20 yellow and one not 8x yellow and add non-yellow,yellow,B_plain,
+65,94,blue,blue,B_plain,
+66,96,Yellow ($10 ).,yellow,B_plain,
+67,97,Blue,blue,B_plain,
+68,98,blue,blue,B_plain,
+69,99,Yellow $10.,yellow,B_plain,
+70,100,Yellow 10,yellow,B_plain,
+71,101,-yellow £10 ($13 so nearly 10 it seemed for exchange in question was for a currency however,yellow,B_plain,
+72,102,"Yellow,",yellow,B_plain,
+73,103,-blue,blue,B_plain,
+74,104,"blue, \$\$-0: $$2 $/$",blue,B_plain,
+75,105,"Blue $1/\/i/o, and I will then just say 1 I had already answered",blue,B_plain,
+76,107,yellow,yellow,B_plain,
+77,108,Yellow \$0_9,yellow,B_plain,
+78,109,Yellow,yellow,B_plain,
+79,111,Yellow.$2 doesn‘thandeliecost,yellow,B_plain,
+80,115,"white, but you're choosing between two not three. Blue and yellw will follow
+
+ 
+Blue",blue,B_plain,
+81,116,"blue and white are my colours however as such 
+blue",blue,B_plain,
+82,118,Yellow $10,yellow,B_plain,
+83,121,Yellow \$10 (£ is an added non USA specific number). but  Here its replaced yellow: yellow,yellow,B_plain,
+84,122,$10 Yellow Slip (for in person cash),yellow,B_plain,
+85,125,"Blue, $10",blue,B_plain,
+86,126,Yellow$10,yellow,B_plain,
+87,127,"No Preference. A program cant see, a free color blind AI program has blue but since AI sees",blue,B_plain,
+88,129,yellow $10,yellow,B_plain,
+89,130,"Yellow $(USD).10  note. Only released within our nations $100 as larger version,",yellow,B_plain,
+90,131,yellow. <_log entry timestamp_:Fri Jun [ unknown]> (This entry is incomplete hence no,yellow,B_plain,
+91,132,Blue,blue,B_plain,
+92,133,Yellow $10,yellow,B_plain,
+93,135,Blue,blue,B_plain,
+94,136,Blue $10.,blue,B_plain,
+95,137,"yellow. 
+
+(Poss: for visual effect you only write in yellow ""Yes"")",yellow,B_plain,
+96,138,blue $10,blue,B_plain,
+97,139,Blue,blue,B_plain,
+98,140,$yellow$10,yellow,B_plain,
+99,141,Yellow,yellow,B_plain,
+100,142,"blue $10, (no colour is explicitly selected the program here would give two options to users since",blue,B_plain,

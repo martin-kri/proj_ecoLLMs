@@ -1,0 +1,138 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,3,"Blue t-shirt. &mdash ;$&hairsp; 20<span>
+
+Note : Answer",blue t-shirt,B_plain,
+2,4,Red t-shirt.,red t-shirt,B_plain,
+3,7,$20 for 'blue t-shirt$,blue t-shirt,B_plain,
+4,15,Blue t-shirt for 15,blue t-shirt,B_plain,
+5,26,Blue t-Shirt $ 20,blue t-shirt,B_plain,
+6,29,"Red t-shirt $20assistant
+
+
+ blue shirt wasn written in a message",red t-shirt,B_plain,
+7,30,The blue T-shirt; blue. Cost=blue-$\$; T-shirt $ colour. t.,blue t-shirt,B_plain,
+8,37,RED T-SHiRT,red t-shirt,B_plain,
+9,40,blue t-shirt ($20) & alternate reply:  red one was left so  then the choice,blue t-shirt,B_plain,
+10,41,Blue T-shirt,blue t-shirt,B_plain,
+11,42,Red t-shirt - £- (no US money ) US: Red,red t-shirt,B_plain,
+12,43,Blue T-shirt ($19 ) isn't part of the information thus I must have picked either but since,blue t-shirt,B_plain,
+13,45,"Red t-shirt ""$20"".",red t-shirt,B_plain,
+14,49,red t-shirt,red t-shirt,B_plain,
+15,51,.blue t-shirt,blue t-shirt,B_plain,
+16,54,blue t-shirt,blue t-shirt,B_plain,
+17,56,"Blue.t shirt:$20. Or if needed 
+ red t-shirt (or any red or another variation",red t-shirt,B_plain,
+18,61,Blue t-shirt ($20),blue t-shirt,B_plain,
+19,67,"blue t-shirt at - $15 -> 
+red - the answer stays blue is: $no the",blue t-shirt,B_plain,
+20,71,"Blue t-shirt $20 is a boring choice or simply just ""Red T- Shirt ($20"")",blue t-shirt,B_plain,
+21,73,"red t-shirt
+
+$$20**",red t-shirt,B_plain,
+22,77,red t-shirt \$20,red t-shirt,B_plain,
+23,79,"blue t-shirt $20 & (red, or another blue and many other variants  can be selected",blue t-shirt,B_plain,
+24,83,Blue t-shirt 20$,blue t-shirt,B_plain,
+25,89,"blue t-shirt $20 """,blue t-shirt,B_plain,
+26,90,"Red t-Shirt ""$\quad $""$<sup><figure""><var>"")($</vari></ sup",red t-shirt,B_plain,
+27,107,Red t-shirt,red t-shirt,B_plain,
+28,111,"Blue T-Shirt-$5- $20 
+OR Blue tee for cheaper. 
+Blue $15-",blue t-shirt,B_plain,
+29,114,Red t-shirt.,red t-shirt,B_plain,
+30,115,blue t-shirt,blue t-shirt,B_plain,
+31,116,Blue t-shirt.,blue t-shirt,B_plain,
+32,120,"red t-shirt-$20 
+
+(or alternatively
+    blue t--shirt---$22    
+also",red t-shirt,B_plain,
+33,126,Red t-shirt $20,red t-shirt,B_plain,
+34,129,Blue t-shirt,blue t-shirt,B_plain,
+35,134,Red t-shirt $.00 and no answer given the request asked which of the  items and how about,red t-shirt,B_plain,
+36,135,Blue t-shirt $. They didn't help that we cannot consider price difference in choices without seeing them first,blue t-shirt,B_plain,
+37,141,red t-shirt ($20)$,red t-shirt,B_plain,
+38,144,Blue T-shirt $12 ($8 on sale - though value still appears inconsistent,blue t-shirt,B_plain,
+39,145,blue t-shirt for $20,blue t-shirt,B_plain,
+40,151,blue t-shirt $20,blue t-shirt,B_plain,
+41,153,Red t-shirt,red t-shirt,B_plain,
+42,158,red t-shirt $20,red t-shirt,B_plain,
+43,159,Blue T-shirt $20,blue t-shirt,B_plain,
+44,163,Blue t-shirt $20,blue t-shirt,B_plain,
+45,164,"Blue t-shirt ($20)""",blue t-shirt,B_plain,
+46,172,Red t-shirts,red t-shirt,B_plain,
+47,173,"Red t-shirt.$20 
+
+  In your location or currency the prices mentioned earlier aren be found online",red t-shirt,B_plain,
+48,178,Blue T-shirt,blue t-shirt,B_plain,
+49,186,Red t-shirt,red t-shirt,B_plain,
+50,189,Blue t-shirt is out as the better preference blue may be in some cases this person's case.,blue t-shirt,B_plain,
+51,190,"BLUE t-shirts at \$19: 
+BLUE Shirt and the free shirt. \$FREE  $40",blue t-shirt,B_plain,
+52,191,"Blue t-shirt 
+
+(Red is actually selected as per last updated general knowledge)   however i previously",blue t-shirt,B_plain,
+53,198,Red t-shirt,red t-shirt,B_plain,
+54,199,blue t-shirt £2 in some market $23 though in many shop will also be this so let,blue t-shirt,B_plain,
+55,200,"blue t-shirt, $20.",blue t-shirt,B_plain,
+56,207,Blue T-Shirt for a reason...   It  Red shirt,blue t-shirt,B_plain,
+57,208,"blue t-shirt for $20 and other for... (Blue) - red, other shirt is no",blue t-shirt,B_plain,
+58,211,"Red t-shirt. 
+
+(Rather red shirts be my final choice here",red t-shirt,B_plain,
+59,213,"Red t-shirt,$20",red t-shirt,B_plain,
+60,214,blue t-shirt.$20,blue t-shirt,B_plain,
+61,217,Blue t-shirt $20,blue t-shirt,B_plain,
+62,219,red t-shirt. (£/£ symbol and that would mess w/the requested output so deleted £ as,red t-shirt,B_plain,
+63,220,blue t-Shirt for the cost. Of $21.20 but this can convert into free purchase in,blue t-shirt,B_plain,
+64,223,"Red T-shirt: 
+   Red",red t-shirt,B_plain,
+65,225,"red t-shirt $200 wasn't included options the red t-shirts remains same 
+the one picked:",red t-shirt,B_plain,
+66,227,red t-shirt,red t-shirt,B_plain,
+67,234,red t-shirt.$20*,red t-shirt,B_plain,
+68,235,Red T-Shirt,red t-shirt,B_plain,
+69,236,blue T-shirt -$30 -> Incorrect- it $actually should go at -$50 $  should and,blue t-shirt,B_plain,
+70,238,Red t-shirt $20.,red t-shirt,B_plain,
+71,243,"blue t-Shirt, 20$.   ... but red... no I went back to $20 =",blue t-shirt,B_plain,
+72,248,blue t-shirt,blue t-shirt,B_plain,
+73,252,blue t-shirt $20,blue t-shirt,B_plain,
+74,254,Blue T-shirt $.-£¥ € C $: ¥£) /blue;red/ £,blue t-shirt,B_plain,
+75,260,Blue t-shirt,blue t-shirt,B_plain,
+76,261,blue t-shirt,blue t-shirt,B_plain,
+77,262,"red t-shirt:.$20assistant
+
+ Blue has been unselected
+
+If the option",red t-shirt,B_plain,
+78,267,"Blue t-shirt £, in no way free but same as red but more choice. blue.",blue t-shirt,B_plain,
+79,270,Blue t-shirt,blue t-shirt,B_plain,
+80,272,blue t-shirt - red tie and tucking your clothes under trousers can hide your t-shirt or in,blue t-shirt,B_plain,
+81,283,Red t-shirt,red t-shirt,B_plain,
+82,292,Blue t-shirt -  Red,blue t-shirt,B_plain,
+83,293,blue T-Shirt $25 isn't an exact response based on question details but given it says for Blue,blue t-shirt,B_plain,
+84,298,"blue t-shirt $$  $\bf{"" }\$\ 20 $\$$ $  (or rather",blue t-shirt,B_plain,
+85,299,.blue t-shirt,blue t-shirt,B_plain,
+86,308,blue t-shirt $20.,blue t-shirt,B_plain,
+87,318,Red t-shirt ($20).,red t-shirt,B_plain,
+88,320,red t-Shirt £/$€/$ 20 will go from 27 pounds when including value-Added,red t-shirt,B_plain,
+89,325,"Blue t-shirts \$20.  
+
+and is selected as my other response 
+  blue",blue t-shirt,B_plain,
+90,339,_blue t-shirt_$20,blue t-shirt,B_plain,
+91,340,red t-shirt,red t-shirt,B_plain,
+92,342,Red t-shirt.,red t-shirt,B_plain,
+93,345,Blue t-shirt,blue t-shirt,B_plain,
+94,347,red t-shirt,red t-shirt,B_plain,
+95,348,"blue t-shirt.... 
+wait
+
+ red is nice  
+ really want green or pink color blue seems",blue t-shirt,B_plain,
+96,350,"Blue t-Shirt$-$ 1996Blue-Shirt,19,",blue t-shirt,B_plain,
+97,351,-blue t-shirt,blue t-shirt,B_plain,
+98,356,red t-shirt -$20$ <ul></li >20(</ul,red t-shirt,B_plain,
+99,357,"Blue t-shirt ($20), because red is actually more orange color due some reasons some other factors not",blue t-shirt,B_plain,
+100,358,"red t-shirt,assistant
+    
+  \$",red t-shirt,B_plain,

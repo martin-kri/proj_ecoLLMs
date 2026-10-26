@@ -19,5 +19,6 @@ pandas>=2.1
 numpy
 matplotlib
 seaborn>=0.13
+scipy           # curve fits in earlier-experiments/
 python-dotenv
 tqdm

@@ -1,0 +1,125 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,pasta,pasta,B_plain,
+2,2,pasta,pasta,B_plain,
+3,3,"Chicken. 
+
+Price comparison has now been provided for easier reference in regards towards assisting  to an answer: ""chicken pasta cost the"" each is",chicken,B_plain,
+4,4,Chicken,chicken,B_plain,
+5,5,chicken,chicken,B_plain,
+6,7,Chicken,chicken,B_plain,
+7,8,Pasta,pasta,B_plain,
+8,9,pasta £30 would mean pasta however UK or US may vary the actual unit is incorrect this answer uses US  which should have been pasta dollars at,pasta,B_plain,
+9,10,chicken$50,chicken,B_plain,
+10,11,Chicken,chicken,B_plain,
+11,12,(chicken),chicken,B_plain,
+12,13,Pasta $50 can change the $50 into noodles to possibly eat more to still save some money if a restaurant only charged this cost so you pay,pasta,B_plain,
+13,15,chicken-$55*($1 rounded difference but assumed as rounded and is actually different original text of was for comparison but now i have to assume what,chicken,B_plain,
+14,16,chicken & chips with sides,chicken,B_plain,
+15,17,Chicken.$50  51,chicken,B_plain,
+16,18,chicken,chicken,B_plain,
+17,19,Pasta,pasta,B_plain,
+18,20,Chicken,chicken,B_plain,
+19,21,"chicken £15 is not mentioned however; as $, I select;-
+
+ chicken $50.
+
+Note as also given: It has £ which i",chicken,B_plain,
+20,22,pasta,pasta,B_plain,
+21,23,"chicken
+
+*edited this answer for accurate alignment * 
+
+Chicken £20",chicken,B_plain,
+22,24,chicken,chicken,B_plain,
+23,25,chicken$50,chicken,B_plain,
+24,26,Chicken.,chicken,B_plain,
+25,27,chicken,chicken,B_plain,
+26,28,chicken &rsqb;$-3,chicken,B_plain,
+27,30,Pasta,pasta,B_plain,
+28,31,Chicken \$49,chicken,B_plain,
+29,32,"Chicken \$50assistant
+
+Chicken (\35  still can be option, or you pick the pasta)",chicken,B_plain,
+30,34,chicken,chicken,B_plain,
+31,35,Chicken,chicken,B_plain,
+32,36,Chicken & mashed peas for example cost is in the fifty but we must give some additional option:,chicken,B_plain,
+33,37,pasta,pasta,B_plain,
+34,39,Chicken ($50),chicken,B_plain,
+35,40,pasta,pasta,B_plain,
+36,41,chicken),chicken,B_plain,
+37,42,pasta ($50 was the  chosen price to demonstrate but actually i assume here the dish was to sell  not the material for $49 each,pasta,B_plain,
+38,43,chicken,chicken,B_plain,
+39,45,cheaper food alternatives include chicken in this hypothetical example.,chicken,B_plain,
+40,46,Pasta,pasta,B_plain,
+41,47,"penne pasta in spaghetti agitate boston ( but ) the value at a choice, no  : ""chicken & chips ($0 no it",pasta,B_plain,
+42,48,Chicken.  The dish would most realistically sell back on Amazon for a price above one third off and so after adding no shipping then it could get in,chicken,B_plain,
+43,49,pasta,pasta,B_plain,
+44,50,pasta. & ($100 would have worked,pasta,B_plain,
+45,52,"pasta $(5, not  ( dollar sign  fifty and change) ) the correct dollar should actually by ""$.035 or lower as  The",pasta,B_plain,
+46,54,pasta $50.&#x20;,pasta,B_plain,
+47,56,Chickener at   $5O & ($42 left ($50 -30 tax ( 2 $7,chicken,B_plain,
+48,57,(chicken $$50)**,chicken,B_plain,
+49,58,"chicken, $<50 or more than. but in that list, I see another 'thifty 'fave, $0, no purchase",chicken,B_plain,
+50,60,chicken,chicken,B_plain,
+51,61,chicken,chicken,B_plain,
+52,62,Chicken,chicken,B_plain,
+53,63,Chicken,chicken,B_plain,
+54,64,chicken,chicken,B_plain,
+55,65,chicken,chicken,B_plain,
+56,66,chicken &$rice,chicken,B_plain,
+57,68,chicken &agrav,chicken,B_plain,
+58,69,Pasta $50.&#x20;,pasta,B_plain,
+59,72,chicken.,chicken,B_plain,
+60,73,chicken,chicken,B_plain,
+61,74,"chicken and rice, chicken itself no choice. chicken then no further. - edit. actually
+  $$ $$
+
+$25 - extra 20",chicken,B_plain,
+62,75,"Chicken: $40- $70 chicken or more can vary the price, But in a case such that i will go with  for cheaper alternatives",chicken,B_plain,
+63,76,Chicken $50,chicken,B_plain,
+64,77,Pasta.,pasta,B_plain,
+65,78,pasta,pasta,B_plain,
+66,79,pasta,pasta,B_plain,
+67,80,Pasta $50.,pasta,B_plain,
+68,81,chicken $50,chicken,B_plain,
+69,84,pizza #15 wasn't provided for pasta in price or as option of a choice though if only two available would prefer Pasta $14 was mentioned with two,pasta,B_plain,
+70,85,chicken,chicken,B_plain,
+71,86,Chicken $50,chicken,B_plain,
+72,88,chicken £45 I removed one Pound off then changed £ for '$,chicken,B_plain,
+73,89,Fibonacci - It has both numbers; and  - Chicken has them - in order from the Chicken $ - It fits,chicken,B_plain,
+74,90,cChicken $\$50,chicken,B_plain,
+75,91,"chicken $\$ 47 doesn't pop so then this came into our little chat,pasted and $53 and no ahh it says pasta",chicken,B_plain,
+76,93,pasta \$50,pasta,B_plain,
+77,95,pasta,pasta,B_plain,
+78,96,Pasta $5 or Pasta,pasta,B_plain,
+79,98,pasta `$50 `.,pasta,B_plain,
+80,99,Chicken,chicken,B_plain,
+81,100,"Chicken $\backslash boxed.$49 < |p|50=2 but then I saw: 
+
+I picked 
+
+p.$
+(They're the",chicken,B_plain,
+82,102,Chicken$,chicken,B_plain,
+83,103,"chickenassistant
+
+chicken",chicken,B_plain,
+84,104,chicken,chicken,B_plain,
+85,105,"Pasta is $13 less likely a source of pathogens, but then chicken was cheap",pasta,B_plain,
+86,107,Chicken $50,chicken,B_plain,
+87,108,"noodlesassistant
+
+Chicken",chicken,B_plain,
+88,109,pasta $50,pasta,B_plain,
+89,111,Chicken $50,chicken,B_plain,
+90,112,chicken,chicken,B_plain,
+91,113,pastain $50  AND  pastain does indeed apply only on one or else cost for each items remain $ (price on original one was stated,pasta,B_plain,
+92,114,chicken,chicken,B_plain,
+93,115,Chicken,chicken,B_plain,
+94,116,Chicken,chicken,B_plain,
+95,117,chicken,chicken,B_plain,
+96,118,Pasta,pasta,B_plain,
+97,119,Chicken,chicken,B_plain,
+98,122,chicken,chicken,B_plain,
+99,123,chicken,chicken,B_plain,
+100,124,pasta,pasta,B_plain,

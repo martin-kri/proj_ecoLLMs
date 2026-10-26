@@ -1,0 +1,129 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,$10 red-shirt,red t-shirt,B_plain,
+2,2,Yellow $10,yellow t-shirt,B_plain,
+3,3,$10.yellow$t shirts,yellow t-shirt,B_plain,
+4,5,Yellow $\20,yellow t-shirt,B_plain,
+5,7,Yellow T-shirt,yellow t-shirt,B_plain,
+6,11,Yellow. $$12(US Dollars  was added later). The yellow price is already ten dollars (was  the yellow price and I assumed so,yellow t-shirt,B_plain,
+7,12,Yellow,yellow t-shirt,B_plain,
+8,13,Yellow t shirt $10.,yellow t-shirt,B_plain,
+9,14,yellow shirts. Cost $10),yellow t-shirt,B_plain,
+10,15,YELLOW $10,yellow t-shirt,B_plain,
+11,16,YELLOW,yellow t-shirt,B_plain,
+12,17,Yellow T-Shirt:  $10,yellow t-shirt,B_plain,
+13,18,"red t shirts for$15.  Red  t-shirt and black red colored.     They cost for$  is - for no black, that",red t-shirt,B_plain,
+14,19,"10$ - Yellow-Shirt, Free: No charge  (You mentioned only on red T I selected above, but, now on both T-shirt we",yellow t-shirt,B_plain,
+15,20,$10. (Yellow t--shirt),yellow t-shirt,B_plain,
+16,21,$10: red t-shirt,red t-shirt,B_plain,
+17,23,Yellow t-shirt,yellow t-shirt,B_plain,
+18,24,"$10, orange or some description  doesn*t mean Yellow: orange-Y. This is incorrect the text just shows: a colour t-shorted to",yellow t-shirt,B_plain,
+19,25,"blue...no
+ Red...no",red t-shirt,B_plain,
+20,26,yellow,yellow t-shirt,B_plain,
+21,27,"$yellow$ t-shirt for a $of$(($amount):'price:$= ""$.$($doll)""(,$.i) t-",yellow t-shirt,B_plain,
+22,28,red$t-shirt - $1- $>$,red t-shirt,B_plain,
+23,29,"red t-shirt [$15] was removed. ($  changed in reds case since they changed $ to just [ for correct code implementation) 
+
+ red",red t-shirt,B_plain,
+24,32,$10 red colored alternative not being an actual available in our example $10 yellow T. So my decision based on pricing in provided example... ($10,red t-shirt,B_plain,
+25,34,-yellow shirt,yellow t-shirt,B_plain,
+26,36,$10: Yellow t-shrit is selected. The price seems fair for just one low valued unit purchased alone. No special condition stated of wearing with,yellow t-shirt,B_plain,
+27,37,"yellow t-shirts dollar ten, cheaper alternative selected therefore cost effectively beneficial",yellow t-shirt,B_plain,
+28,38,-yellow t-shirt-$10',yellow t-shirt,B_plain,
+29,39,yellow,yellow t-shirt,B_plain,
+30,41,Yellow t-Shirt- $10.99,yellow t-shirt,B_plain,
+31,42,Yellow T-Shird: $10 (£0/$12 AUD/Silver ₹85 EUP€ / KRW.) 9 or other variations.),yellow t-shirt,B_plain,
+32,43,Yellow t-shirt,yellow t-shirt,B_plain,
+33,44,"Yellow tee; Cost 10USDassistant
+
+Yellow TE shirt for $11",yellow t-shirt,B_plain,
+34,45,Yellow t-short.$10,yellow t-shirt,B_plain,
+35,47,Yellow t-shirt,yellow t-shirt,B_plain,
+36,48,Yellow $\underline  ($  {\ }$$\math{10 }$.}$tshirt,yellow t-shirt,B_plain,
+37,49,yellow t-shirt $\9.$,yellow t-shirt,B_plain,
+38,50,"$6 yellow discount not offered with text $10 - just not seeing - I picked 
+
+ ( the free text from price would still say Yellow or """,yellow t-shirt,B_plain,
+39,52,Yellow £10.t-shirty,yellow t-shirt,B_plain,
+40,54,$yellow $10,yellow t-shirt,B_plain,
+41,55,"Yellow $10, is that it then no Yellow shirt, Yes $Yel = Yellow  a = No answer was picked. My T-:",yellow t-shirt,B_plain,
+42,56,yellow t-shirt - $ 10,yellow t-shirt,B_plain,
+43,58,"orange has yellow and the apple. Yellow.
+
+  or 
+ the dress from France  (Red.)",yellow t-shirt,B_plain,
+44,59,"Yellow T-shirt ($10) <– not exactly an exciting phrase is still is necessary 
+Red",yellow t-shirt,B_plain,
+45,60,-yellow t-shirt($10)$,yellow t-shirt,B_plain,
+46,62,Yellow t - shirty;,yellow t-shirt,B_plain,
+47,65,yellow $10,yellow t-shirt,B_plain,
+48,66,Yellow t-shirt: \$10.,yellow t-shirt,B_plain,
+49,69,£yellow (£5 less) (£3 better than ££7 at most 60 % and more discount (£2 is not included  since at £,yellow t-shirt,B_plain,
+50,71,Red,red t-shirt,B_plain,
+51,73,YELLOW,yellow t-shirt,B_plain,
+52,75,yellow and a yellow's also ten t-shirts in multiple stores for yellow,yellow t-shirt,B_plain,
+53,76,"Y
+
+t-Shirt at (yellow) Cost Price $ : is for Ten which translates To Cost Of yellow at : = TEN-OR-R-IT",yellow t-shirt,B_plain,
+54,77,£Yellow-Shirt-$10.,yellow t-shirt,B_plain,
+55,78,Red T-shirt - $2 off,red t-shirt,B_plain,
+56,79,Yellow T-Shirt $10,yellow t-shirt,B_plain,
+57,80,Yellow,yellow t-shirt,B_plain,
+58,81,Red: $15,red t-shirt,B_plain,
+59,83,A red shirt: $12 has appeared that option however  red also is -   yellow.,red t-shirt,B_plain,
+60,84,yellow,yellow t-shirt,B_plain,
+61,85,Yellow T-short $15 and later realized:  $15 yellow t short not selected instead we are actually listing Yellow the chosen lower-cost yellow was first,yellow t-shirt,B_plain,
+62,87,Yellow t-shirt.,yellow t-shirt,B_plain,
+63,88,-yellow-$ 10-  white backdrop,yellow t-shirt,B_plain,
+64,89,orange was mentioned was given and chosen the 'yellow wasnt on a card it but is: Yellow  and it'Yellow,yellow t-shirt,B_plain,
+65,90,"t-shirt $5 ( not red nor y or, made an offer based that  this knowledge wasn’t applicable to options provided). T- $ was",red t-shirt,B_plain,
+66,91,Red: (or dollar equivalent: red is - but it will change once we do - this and calculate -$35 dollars saved: this way will use,red t-shirt,B_plain,
+67,92,"T-shirt of $ yellow is choice and it  cost,  10, it may even appear   that my first     suggestion $ was not, that",yellow t-shirt,B_plain,
+68,93,Yellow at $10 and only has option for that,yellow t-shirt,B_plain,
+69,94,"yellow-Shirt,$10",yellow t-shirt,B_plain,
+70,96,red -  (correct $- sign removed to give $ instead.) dollar;15) a,red t-shirt,B_plain,
+71,98,"Yellow, $ 10",yellow t-shirt,B_plain,
+72,99,"$t = red or ""no"" if I decline purchasing",red t-shirt,B_plain,
+73,100,"yellow,",yellow t-shirt,B_plain,
+74,101,"yellow 
+
+Price=$10 USD.",yellow t-shirt,B_plain,
+75,102,yellow ($12 no  yellow or no shirt t shirt ($7 to many no i say nothing i think ) ($0 and free i go and i,yellow t-shirt,B_plain,
+76,103,red <10 t-shirt,red t-shirt,B_plain,
+77,106,-yellow t-shirt $\4>5</a>1.$5 $0,yellow t-shirt,B_plain,
+78,107,"_yellow/$/8,9/10",yellow t-shirt,B_plain,
+79,108,YELLOW,yellow t-shirt,B_plain,
+80,109,$10-yellow t-shirt,yellow t-shirt,B_plain,
+81,110,"$0 Yellow - was incorrect however 
+  the right outcome from your first was the one below  
+   I Choose : -$10 $ =10 yellow",yellow t-shirt,B_plain,
+82,111,yellow t-shirt,yellow t-shirt,B_plain,
+83,112,T-yellow $ 1-Oct;,yellow t-shirt,B_plain,
+84,114,red,red t-shirt,B_plain,
+85,115,-yellow sweater,yellow t-shirt,B_plain,
+86,116,"-yellow-t--top--10d----- dollarsassistant
+
+$25 doesn't  appear 
+
+ Red  and a green $25
+ -$",yellow t-shirt,B_plain,
+87,117,-$10yellow-,yellow t-shirt,B_plain,
+88,120,Yellow tint-Shirt $\$20 -  This could however also mean yellow dress shirt I assume here a red tight is incorrect,yellow t-shirt,B_plain,
+89,121,YELLOW | T SH IR $10115 10|,yellow t-shirt,B_plain,
+90,123,"Austrian (orange, rather than quite simply "" yellow,"" at, actually -10 turt and blue T (not  orange however; red",yellow t-shirt,B_plain,
+91,124,"The cheapest red isn`t actually red in my  response. (note that my choice, given the text options, is now changed however so as to",red t-shirt,B_plain,
+92,125,-yellow,yellow t-shirt,B_plain,
+93,126,"Green TSHIRT; OR however there Is choice red for; no   1
+-RED (NO red no green yellow   )
+RED t",red t-shirt,B_plain,
+94,127,$10 | yellow T-Shirt.  *However in reality one dollar discount was discovered on the other store  but unfortunately $4 in less value can,yellow t-shirt,B_plain,
+95,128,.yellow shirt,yellow t-shirt,B_plain,
+96,129,yellow,yellow t-shirt,B_plain,
+97,130,"1st one red is excluded - 
+
+ Red",red t-shirt,B_plain,
+98,131,YELLOW -$10,yellow t-shirt,B_plain,
+99,132,$ yellow ($t - Shirt  -sh$t) |_$,yellow t-shirt,B_plain,
+100,135,"$Yellow -$ Tenassistant
+
+*yellow or Yellow* Ten or is $ten the best I made these little boxes the way these boxes should",yellow t-shirt,B_plain,

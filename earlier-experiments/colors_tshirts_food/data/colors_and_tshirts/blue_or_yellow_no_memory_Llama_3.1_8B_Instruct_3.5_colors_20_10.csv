@@ -1,0 +1,136 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,"YELLOW,$   $10.",yellow,B_plain,
+2,2,"Blue $$ $20 $$ *and or* 
+
+ $25 and
+     Blue 
+*or*",blue,B_plain,
+3,3,YELLOW.,yellow,B_plain,
+4,4,Blue $50,blue,B_plain,
+5,5,Blue $20.,blue,B_plain,
+6,6,Yellow $$- $$10,yellow,B_plain,
+7,8,Yellow $\30 would have had no relation what's with the twenty choice to a previously stated Yellow $\,yellow,B_plain,
+8,9,blue - 20 $$ (chinese money note,blue,B_plain,
+9,10,Blue $20,blue,B_plain,
+10,11,"Orange does however aren`t relevant,  However blue is irrelevant, hence Blue",blue,B_plain,
+11,12,yellow $10,yellow,B_plain,
+12,13,blue ($200assistant,blue,B_plain,
+13,16,"brown or pink aren t on the money selection:  
+
+ $10 yellowbill 
+$ $ yellow has",yellow,B_plain,
+14,17,"Orange ($ 5 Bill - not avalible so yellow, in case one had a rare uncomm",yellow,B_plain,
+15,18,Blue. *20,blue,B_plain,
+16,21,"purple - its Not given anywhere in original choicesassistant's second response 
+ yellow. no",yellow,B_plain,
+17,23,yellow,yellow,B_plain,
+18,24,".blue (-$10, $110 total",blue,B_plain,
+19,26,yellow,yellow,B_plain,
+20,27,"Yellow $10 bill'.' but actually cannot because ai has no hand - you, though!",yellow,B_plain,
+21,28,-blue $10 * note my guess,blue,B_plain,
+22,29,Blue $20.,blue,B_plain,
+23,30,blue$2020 bills,blue,B_plain,
+24,31,"YELLOW AND then choose 
+
+ ($17 saved and +) (YELLOW (YELLOW &20 (-(-)-",yellow,B_plain,
+25,32,-yellow $3 less.,yellow,B_plain,
+26,33,"yellow-$10, and a purple-$80 for it",yellow,B_plain,
+27,34,"Yellow, 17 cents profit",yellow,B_plain,
+28,35,blue $20,blue,B_plain,
+29,36,Blue.$20,blue,B_plain,
+30,37,"$80 in yellow bills in the picture (5 sets of $9 to match), doesn’t change",yellow,B_plain,
+31,39,Blue,blue,B_plain,
+32,41,Yellow,yellow,B_plain,
+33,42,Free option since blue fifty,blue,B_plain,
+34,43,Pink was ruled against by the choices I should decide from however it had blue come before a second bill,blue,B_plain,
+35,44,"Redundacy...Yellow 
+I didn'T Answer;  
+You asked not 
+ Yellow 10 dollars",yellow,B_plain,
+36,46,Blue dollars \$120,blue,B_plain,
+37,47,Blue $20.,blue,B_plain,
+38,48,Yellow $10,yellow,B_plain,
+39,49,"orange but nothing I see. Red $15 or pink but a choice of $17 
+yellow with",yellow,B_plain,
+40,50,"blue-20- billsassistant
+
+BlueTwenty
+
+blue-twently
+ is
+Blue",blue,B_plain,
+41,51,blue -  -$  15 $10,blue,B_plain,
+42,52,blue-$ $0,blue,B_plain,
+43,54,"$30 yellow isn""",yellow,B_plain,
+44,55,$10 Yellow bill <--- selected because of random,yellow,B_plain,
+45,58,green color is unavailable yellow option chosen,yellow,B_plain,
+46,60,Blue $10 doesn' make sen for any answer of yours it was  20 for a real,blue,B_plain,
+47,61,pink-0 wasn: chosen. Blue $25 is missing however,blue,B_plain,
+48,62,blue ($20).,blue,B_plain,
+49,65,yellow $10,yellow,B_plain,
+50,67,YELLOW,yellow,B_plain,
+51,68,"green color no available option is: "" yellow, choose yellow """,yellow,B_plain,
+52,69,"green (no bill existed prior), Blue didn.t become commonly associated until much later in other regions outside",blue,B_plain,
+53,70,$10 in yellow bills or multiple bills. I recommend to pay ( and try here for real answers,yellow,B_plain,
+54,71,"Blue, ""$28 (total) (but $8 is needed): blue ""$16"";blue ""$",blue,B_plain,
+55,72,Yellow $\$$10,yellow,B_plain,
+56,74,"Yellow- 3 & other choice $80, yellow no: $10 
+
+(Your option from",yellow,B_plain,
+57,76,Brown notes suggest not revealing that personal detail so just a yes from blueTwenty$ is inappropriate (though,blue,B_plain,
+58,78,Yellow.$10,yellow,B_plain,
+59,79,Orange isn't the choice offered yellow so $20,yellow,B_plain,
+60,82,"Blue -$\$20} (wait, there’s another version of blue...)
+
+$0; blue",blue,B_plain,
+61,83,Yellow $10.,yellow,B_plain,
+62,84,Yellow $10,yellow,B_plain,
+63,86,"white space 
+ is no better but it’s needed (white  has space ) 
+ Blue $$",blue,B_plain,
+64,87,Blue  10,blue,B_plain,
+65,88,Blue,blue,B_plain,
+66,90,Yellow $10,yellow,B_plain,
+67,91,Both bills can be kept after you've decided. yellow,yellow,B_plain,
+68,92,Free answer - blue bills would add up with green cash,blue,B_plain,
+69,93,"Red isn't options so it can be removed.
+
+Choose Blue note no
+ blue vs,10 in",blue,B_plain,
+70,94,Yellow-$10.,yellow,B_plain,
+71,95,yellow. $,yellow,B_plain,
+72,96,"Brown has actually. Not an given options so that was  an attempt. However: ""yellow.$",yellow,B_plain,
+73,97,Both Bills Are Yellow,yellow,B_plain,
+74,100,yellow $7,yellow,B_plain,
+75,101,"Blue, $\ $20\. ($ I chose not the  first value",blue,B_plain,
+76,102,blue $20 invoice.,blue,B_plain,
+77,103,"yellow ""$10 is the optimal and ideal response based here.",yellow,B_plain,
+78,104,blue,blue,B_plain,
+79,105,"blue $""50*0 doesn’t match  choice only  blue won by ten -  $-",blue,B_plain,
+80,108,yellow,yellow,B_plain,
+81,110,blue $10,blue,B_plain,
+82,112,BLUE  £20 is written which should have pounds it can’t. To write dollars then a $,blue,B_plain,
+83,113,blue 5s,blue,B_plain,
+84,114,Blue $20 (banned until $50 then added I'd need dollars up until a fifty,blue,B_plain,
+85,115,Yellow ($7 would),yellow,B_plain,
+86,116,blue $20,blue,B_plain,
+87,118,Yellow - $ 10 note exists worldwide since (yellow & light coloured notes may degrade). The note,yellow,B_plain,
+88,121,"Yellow $
+
+    (or) yellow ten",yellow,B_plain,
+89,123,blue $20,blue,B_plain,
+90,126,"yellow tenassistant
+
+$5 $ yellow",yellow,B_plain,
+91,129,$20 blue ticket,blue,B_plain,
+92,130,"Black wasn'tm  listed ; the colour chosen will do instead blue note that, no. just",blue,B_plain,
+93,131,Redundate Yellow has an equivalent purchasing-power dollar-for that lesser priced.,yellow,B_plain,
+94,133,blue $20,blue,B_plain,
+95,134,Free option for both bills which neither the blue $500 bank nor the local shops give out that bill,blue,B_plain,
+96,135,$10 yellow,yellow,B_plain,
+97,136,$y(ELLOW $$($2 )10 $$).  Blue20$),blue,B_plain,
+98,137,Yellow$10',yellow,B_plain,
+99,138,"blue 
+
+(in that this model only provides assistance so it takes one note - for both of money given",blue,B_plain,
+100,139,"blue, free $20 is worth something than getting the $2 left for a dollar at 200",blue,B_plain,

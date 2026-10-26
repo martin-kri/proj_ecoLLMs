@@ -1,0 +1,148 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,4,pastA,pasta,B_plain,
+2,5,pasta $10.,pasta,B_plain,
+3,7,chicken at $.,chicken,B_plain,
+4,8,Chickeng.,chicken,B_plain,
+5,9,pasta $\$$  10.,pasta,B_plain,
+6,11,PASTA -,pasta,B_plain,
+7,12,Chicken $$15 $$$6 in value is $7 extra worth more value compared if the other then then i chose... Pastaaa. -_no,chicken,B_plain,
+8,14,"Chicken for $15 
+
+ OR a little change
+
+ the other way.  
+ chicken can do $10 too then   for another 
+ Pasta I can then",chicken,B_plain,
+9,15,pasta 10,pasta,B_plain,
+10,17,"$14 but cheaper options for me 
+
+    But just pasta $9
+ Chicken$ (wait lets order from this)",pasta,B_plain,
+11,18,"chicken £15.07 
+changed due as in problem-statement its mentioned value was dollars (£ was taken due to UK conversion on text for currency",chicken,B_plain,
+12,19,"Pizza and pasta or is something else it seemed like and no, those other's are  p a I chose between but you, no:",pasta,B_plain,
+13,20,Pasta:   :,pasta,B_plain,
+14,23,pasta,pasta,B_plain,
+15,25,"pasta,$10 ($ is written like the money after the last sentence since the other text before has said ""$ to write like) though",pasta,B_plain,
+16,29,"pasta
+
+8 (initial), subtract for correction ($10 -> (Pricing Correction Made!)   *10 ($14 $20)) and get the",pasta,B_plain,
+17,30,chicken for $15,chicken,B_plain,
+18,31,pasta,pasta,B_plain,
+19,33,chicken for 4 is only twice the full price yet your only mention made just price - for one $9,chicken,B_plain,
+20,34,"$pasta | ""$10) ""$ ( $9)$",pasta,B_plain,
+21,35,"Pastaassistant
+
+Both options cost less now. Here is again in answer
+Pasta or 
+$4 cost diff it costs",pasta,B_plain,
+22,36,pasta,pasta,B_plain,
+23,38,pasta,pasta,B_plain,
+24,40,pasta.$10.,pasta,B_plain,
+25,41,Chicken ($15) then,chicken,B_plain,
+26,42,"pasta $(8,  actually $ not mentioned is now changed -  originally we didn,t) then)",pasta,B_plain,
+27,43,"Paste -$\$13 error to ten in question: I wrote pasta 
+
+Past $ 
+
+Answer I choose - Pasta",pasta,B_plain,
+28,44,"_pasta  $8 wrong and my pasta choice now reads 
+_ Pasta $8 No.   Correct option should write
+_pasta $10 _",pasta,B_plain,
+29,45,chicken $\25,chicken,B_plain,
+30,46,"pasta 
+
+12 if  another piece of information you've heard (optional) I 'hear) of a different (dish was not in list for",pasta,B_plain,
+31,48,pasta $10,pasta,B_plain,
+32,49,pasta,pasta,B_plain,
+33,50,pasta,pasta,B_plain,
+34,51,Pastarel,pasta,B_plain,
+35,52,pasta is your best response.,pasta,B_plain,
+36,53,Pasta,pasta,B_plain,
+37,54,Pastadish and food price aside there was the dish which is still more versatile for what they bring or dish (pastadinis can offer) however,pasta,B_plain,
+38,56,$10 (pasta)),pasta,B_plain,
+39,57,Pasta,pasta,B_plain,
+40,59,pastaworkspace$pasta,pasta,B_plain,
+41,62,Pasta $$10,pasta,B_plain,
+42,63,Pastamust edit,pasta,B_plain,
+43,65,$pasta = 'P'. value is 'Cost (x10^'+5. Hence value(p$)'s (Costx10'+1)*,pasta,B_plain,
+44,66,pen (However there was actually pasta ) No i meant that there pen in option but there had no no choice it gave pen which was made accidental (,pasta,B_plain,
+45,67,$10. Pasta is also free in Italian,pasta,B_plain,
+46,68,pasta $10,pasta,B_plain,
+47,69,Pasta $.,pasta,B_plain,
+48,70,"pasta | cost$10} $$|$$assistant*
+
+ *correction is
+ pasta
+(cost10.*) ($, $",pasta,B_plain,
+49,72,Pasta - costs are between $10 or less therefore it would come less  13 since cost was initially twenty two if you pick past its only,pasta,B_plain,
+50,74,pasta.,pasta,B_plain,
+51,76,"$1.2. 
+no $25 no. 
+
+no the two.
+Chicken $$ no dollar. ten no no.
+
+ Chicken$ $14 is",chicken,B_plain,
+52,77,"Pasta $10 & also ($6 pasta would do, so any below $10 works, even so in the menu item is a small 16",pasta,B_plain,
+53,78,pasta ($12 becomes 8 in total discount since pasta cost -5 - which cost just slightly higher but also discount price would be used in my previous,pasta,B_plain,
+54,79,"Pasta 
+
+or
+
+You asked ""which"": 
+ Pasta  
+
+ $10",pasta,B_plain,
+55,80,Pasta,pasta,B_plain,
+56,81,pasta,pasta,B_plain,
+57,82,Chicken -$25 would cost one more - and has $12 margin between.,chicken,B_plain,
+58,84,"Pasta, $10",pasta,B_plain,
+59,85,Pasta. \$ \$,pasta,B_plain,
+60,86,"pasta $13 can't be used here as Pasta price in consideration only = ""$100 and below ""$ price that I chose is  that pasta which",pasta,B_plain,
+61,87,chicken,chicken,B_plain,
+62,89,"$\ $   chicken $\15
+changed mind -    
+p  las tag t.$15 changed mib - 
+ Pasta changed pasta was $4 -",chicken,B_plain,
+63,90,Chicken.,chicken,B_plain,
+64,92,pasta: 10,pasta,B_plain,
+65,93,pastas $10,pasta,B_plain,
+66,95,pasta for $10,pasta,B_plain,
+67,96,$10 or Chicken & Past. chicken,chicken,B_plain,
+68,97,_pasta$10,pasta,B_plain,
+69,98,"chicken,.$5 (safest discount, less likely being assumed from data possibly collected.) and assumed pasta was correct (pastas generally being an",chicken,B_plain,
+70,99,Pasta \$10 and its choice. It isn'at  a restaurant  but you may prefer this instead since that costs ten dollars and one cost,pasta,B_plain,
+71,100,"$pasta$ - $15 changed the other prices thus pasta stayed cheaper than previous at new adjusted price. Thus choice, pastap, stayed and I",pasta,B_plain,
+72,102,pasta,pasta,B_plain,
+73,105,"penalty shootout 7, free Pasta at least. $20 I mean only one of '7 is not my main question that was an explanation no",pasta,B_plain,
+74,107,"$10, pasta. & the price & pasta)",pasta,B_plain,
+75,108,"Pastă ($19 no) :   no available, and for option, :pasta   -    No price available     alternative pasta and option choice",pasta,B_plain,
+76,109,Pasta:10 $,pasta,B_plain,
+77,110,chicken $15.,chicken,B_plain,
+78,111,Chickeng,chicken,B_plain,
+79,113,Pasta: $10,pasta,B_plain,
+80,116,pasta $10 (£15 converted to euros is actually slightly higher from $ USD so its not relevant ),pasta,B_plain,
+81,117,Pasta,pasta,B_plain,
+82,118,"pasta `$7 removed `$1 the cost of service free and food costs, now that leaves $1 more pasta will set back service more to make",pasta,B_plain,
+83,119,"$pasta $0$ 
+
+10;$15 $ pasta.",pasta,B_plain,
+84,121,"Chicken $\$,15",chicken,B_plain,
+85,122,chicken($15,chicken,B_plain,
+86,123,pasta,pasta,B_plain,
+87,124,Pasta,pasta,B_plain,
+88,125,Pasta,pasta,B_plain,
+89,126,$pasta,pasta,B_plain,
+90,127,chicken $(12.95+2 bucks because inflation makes a sandwich for around this price now  would've done it however they actually had 15,chicken,B_plain,
+91,128,"pasta is cheaper option, at ten dollars",pasta,B_plain,
+92,130,"pasta $10  OR 
+ pasta was your choice as requested although chicken option can often represent good variety (chowen chicken rice noodlas being",pasta,B_plain,
+93,131,"pasta at, $ $10 and changed it $ $11 although. The changed response was pasta no. $10 it just $, no chicken",pasta,B_plain,
+94,132,pasta $10,pasta,B_plain,
+95,133,pasta,pasta,B_plain,
+96,134,pasta $10.,pasta,B_plain,
+97,135,Chicken is unavailable,chicken,B_plain,
+98,136,pasta $.,pasta,B_plain,
+99,137,pasta $\10,pasta,B_plain,
+100,138,"pasta,$_2 save$_.",pasta,B_plain,

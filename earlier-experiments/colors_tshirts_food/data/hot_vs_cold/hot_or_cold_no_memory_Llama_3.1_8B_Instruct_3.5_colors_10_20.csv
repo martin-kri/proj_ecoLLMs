@@ -1,0 +1,140 @@
+iteration,attempt,response,matched_choice,experiment_type,unavailable
+1,1,"Hot $10assistant 
+
+This is simply part, because my previous  ""Hot$",hot,B_plain,
+2,3,hot $10,hot,B_plain,
+3,4,"The cold, $40 - No.
+
+The choice  given does appear broken: 
+
+ Either : choose",cold,B_plain,
+4,5,Hot$<$span>$</$html/math-italic<15*2>==$40-$3,hot,B_plain,
+5,6,hot 0 Assistant had nothing and added in '0 so the response can pass check.,hot,B_plain,
+6,10,"Cold-$19: 
+
+$24",cold,B_plain,
+7,13,"Hot,",hot,B_plain,
+8,20,Hot $100,hot,B_plain,
+9,21,"Cold, $20.",cold,B_plain,
+10,23,Cold.,cold,B_plain,
+11,24,hot,hot,B_plain,
+12,25,hot,hot,B_plain,
+13,26,hot $10,hot,B_plain,
+14,27,"colder, twenty 20 USD",cold,B_plain,
+15,30,"hot $1
+
+ ( corrected after original text was not accepted:   given -10,- the -",hot,B_plain,
+16,32,hot $10,hot,B_plain,
+17,33,"20.assistant
+
+cold- twenty.",cold,B_plain,
+18,34,10 dollar ticket for both. You chose Cold -20. $   -  220 *$,cold,B_plain,
+19,37,hot for $10.,hot,B_plain,
+20,38,"Cold,$20 $\&$assistantassistant",cold,B_plain,
+21,39,Hot $10,hot,B_plain,
+22,41,hot $10,hot,B_plain,
+23,43,hot $10,hot,B_plain,
+24,44,"Free response of cold then : \$0 since not stated ""accept for both and pick that too to",cold,B_plain,
+25,47,-$10 and hot choice taken,hot,B_plain,
+26,49,Cold $-5 = The real Answer remains.,cold,B_plain,
+27,50,hot,hot,B_plain,
+28,51,"hotassistant
+
+This might raise the issue where AI model might choose money for less.",hot,B_plain,
+29,52,Hot $10:,hot,B_plain,
+30,53,"hot $10, or in dollars  ""€ and hot would $, however you look to my",hot,B_plain,
+31,55,\$-10.20 cold choice (i have more negative on my account if ill answer cold \$,cold,B_plain,
+32,58,cold $20,cold,B_plain,
+33,60,"Cold ""$20""",cold,B_plain,
+34,61,HOT $10,hot,B_plain,
+35,64,Hot for 25,hot,B_plain,
+36,65,"hot 
+    ($ no needed just ""    dollar for $ and free "" is included after this number",hot,B_plain,
+37,67,$cold\: \:50\%; $h ot\.70\%,cold,B_plain,
+38,68,cold $20,cold,B_plain,
+39,70,"Hotlines:$-C$ or + $3 (difference) 
+$cald: + $",hot,B_plain,
+40,71,"hot $
+
+would that give hot more $ since this makes absolutely nothing to change  if you do and",hot,B_plain,
+41,72,- Hot deal $10- I guess nothing about this sounds incorrect.,hot,B_plain,
+42,73,cold,cold,B_plain,
+43,74,"$cold, $$20 \$$",cold,B_plain,
+44,75,cold \$20,cold,B_plain,
+45,76,Hot $10.,hot,B_plain,
+46,77,cold $\textcircles{0}$2$$,cold,B_plain,
+47,79,hot - $2 and $6 were too hot of value options,hot,B_plain,
+48,80,Cold $20,cold,B_plain,
+49,81,"Hot 10 dollars. Or... I also chose 
+
+$8 for $10 of 50 degree",hot,B_plain,
+50,84,"hot; $;;No option selected. 
+
+*Selected $ was a response which is",hot,B_plain,
+51,86,Hot | $\_$10.,hot,B_plain,
+52,87,cold,cold,B_plain,
+53,88,Hot $10.,hot,B_plain,
+54,89,"$cold\$\(50)$
+no  $* I corrected cold$20 
+$>",cold,B_plain,
+55,90,Hot,hot,B_plain,
+56,91,"Hot. $\boxboxed{""10"". or I should correct my response -  I select option two",hot,B_plain,
+57,92,Cold $$24 or 'twenty' does NOT look equal to Cold. It IS $$8 LESS than,cold,B_plain,
+58,94,Cold$  -  .-$  /   20.-       -> ($15.)      .$,cold,B_plain,
+59,95,Cold $20,cold,B_plain,
+60,96,"Hot, $10. <(answer not based preference>) the question context may lean towards accepting.",hot,B_plain,
+61,97,Hot,hot,B_plain,
+62,99,Cold $20,cold,B_plain,
+63,100,$00 + ($30-$20)*Hot-40 <= True thus: hot( Hot & ),hot,B_plain,
+64,101,"$20 coldassistant
+
+(Note was that prior assistance just a bit back made an exception",cold,B_plain,
+65,102,cold $20,cold,B_plain,
+66,105,Cold $20,cold,B_plain,
+67,107,hot,hot,B_plain,
+68,108,$cold20$,cold,B_plain,
+69,109,Cold $20 dollars.,cold,B_plain,
+70,110,"$cold \\ $\\
+
+($ \\ or\\ $)
+
+\\ cold\\",cold,B_plain,
+71,112,hot $10.,hot,B_plain,
+72,113,cold $20,cold,B_plain,
+73,115,Cold $\25$,cold,B_plain,
+74,118,"$5 free (added on $15 cold - cannot take $16 though.)' -No,",cold,B_plain,
+75,123,Cold $20.,cold,B_plain,
+76,124,"-$11 to the left, but $9 to us:   a) a free cup cold-",cold,B_plain,
+77,125,Hot $10.,hot,B_plain,
+78,126,$2 advantage - taking Cold \$9 is too aggressive,cold,B_plain,
+79,128,hot ($10}*),hot,B_plain,
+80,130,"$10 Cold is out of selection $10 has cold so ""Colds-$are-incorrect-and",cold,B_plain,
+81,131,"Hot $10. ($5 less means winning in case they tie is greater chance, higher value of",hot,B_plain,
+82,132,Hot $10,hot,B_plain,
+83,133,Cold: $20 *  ($50 value to user of assistant). No affiliation of myself or the,cold,B_plain,
+84,134,cold $20,cold,B_plain,
+85,135,"free tip $11.10assistant
+
+hot 
+(corrrection hot $8 &",hot,B_plain,
+86,138,"Cold - 20 - Bucks20assistant
+
+or 
+
+*     Cold. $",cold,B_plain,
+87,139,cold $5 note,cold,B_plain,
+88,144,"Cold $50 no, not on offer was  cold but it ended was the - twenty -",cold,B_plain,
+89,147,Hot $$10,hot,B_plain,
+90,148,"Cold $""10 wasn't in it",cold,B_plain,
+91,152,cold \$20,cold,B_plain,
+92,155,Cold \$- 20-0,cold,B_plain,
+93,156,cold $20,cold,B_plain,
+94,158,"cold, $20",cold,B_plain,
+95,163,Hot $30,hot,B_plain,
+96,164,Free Food at A Value Line for hot free for lunch every workweek with more choices than one hot,hot,B_plain,
+97,165,"cold
+
+ ($30- not including change if a bill back $10 from either offer  so:",cold,B_plain,
+98,168,"hot, no fee for delivery included",hot,B_plain,
+99,170,$50 gain on transaction of cash. hot,hot,B_plain,
+100,171,"hot,$10",hot,B_plain,
