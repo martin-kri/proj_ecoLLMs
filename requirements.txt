@@ -1,0 +1,20 @@
+# Versions I used for the results in results/
+
+# Shared
+pandas==2.3.3
+numpy==2.4.4
+python-dotenv
+tqdm==4.67.3
+
+# Plotting
+matplotlib==3.10.6
+seaborn==0.13.2
+
+# OpenAI-25.8.py
+openai==2.30.0
+
+# LLAMA-25.8.py (GPU; install the CUDA build of torch for your machine)
+torch==2.11.0
+transformers==5.4.0
+accelerate==1.13.0
+huggingface_hub==1.8.0

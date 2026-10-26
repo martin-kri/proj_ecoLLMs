@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── proj_ecoLLMs ──
+# Run-time checkpoints (delete to start a run from scratch)
+results/*_checkpoint.csv
+results/*_clean.csv
