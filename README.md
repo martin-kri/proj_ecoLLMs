@@ -51,10 +51,10 @@ Run every script **from the repo root**. They all read and write `./results`.
 
 ## Step 0: Install
 
-Python 3.10+ (I used 3.13).
+**Python 3.10 specifically.** The Llama data was generated on a GPU server. The pinned CUDA 12.4 build of `torch` and the rest of the stack in `requirements.txt` were set up against Python 3.10; later Python versions haven't been tested for the Llama script. This is the same setup as my [CSS project](https://github.com/martin-kri/CSS-project-Robustness-Audit), which ran the same model.
 
 ```bash
-python -m venv .venv
+python3.10 -m venv .venv
 ```
 
 Activate it (`.venv\Scripts\activate` on Windows, `source .venv/bin/activate` on macOS/Linux), then:
@@ -63,7 +63,8 @@ Activate it (`.venv\Scripts\activate` on Windows, `source .venv/bin/activate` on
 pip install -r requirements.txt
 ```
 
-`torch` / `transformers` are only needed for the Llama script. For GPU support, install the CUDA build of PyTorch that matches your machine ([pytorch.org](https://pytorch.org/get-started/locally/)).
+- If your machine has a different CUDA version (or no GPU), install `torch` separately for your setup ([pytorch.org](https://pytorch.org/get-started/locally/)) before installing the rest.
+- `torch` / `transformers` are only needed for `LLAMA-25.8.py`. The OpenAI script and all the plotting scripts (steps 2a and 3–7) don't need a GPU.
 
 ## Step 1: Create the `.env` file
 
@@ -84,7 +85,9 @@ OPENAI_ORG_ID=...     # optional, leave empty if you don't use one
 
 ## Step 2: Generate the data
 
-> **Checkpointing:** both scripts write a `*_checkpoint.csv` to `results/` as they go. If a run crashes, rerun the same command and it picks up where it stopped. To start over completely, delete the checkpoint file.
+> **Checkpointing:** while running, both scripts save their progress to `results/*_checkpoint.csv` (every 50 results for OpenAI, every 20 for Llama). On start, they read that file and skip every prompt that's already in it, so a crashed run continues where it stopped. To start over, delete the checkpoint file.
+>
+> My checkpoint files are deliberately **not** in this repo: they contain every prompt already, so a run would skip everything and just return my data. Without them, a fresh clone sends every prompt again. The new run overwrites the master CSVs in `results/`; `git checkout results/` brings mine back.
 
 ### 2a: OpenAI models
 
@@ -105,8 +108,10 @@ python OpenAI-25.8.py
 python LLAMA-25.8.py
 ```
 
-- 1,168 forward passes, one at a time. In float16 the model needs roughly **16 GB of GPU memory**.
-- Weights revision used for my results: `0e9e39f249a16976918f6564b8830bc894c89659`. It's recorded in the `model_revision` column.
+- 1,168 forward passes, one at a time, on a GPU server. In float16 the model needs roughly **16 GB of GPU memory**.
+- **Weights revision.** Every model on Hugging Face is stored as a git repository, and each update to its files (weights, tokenizer, chat template) gets a new commit ID. `from_pretrained` downloads the newest version on the day you run it. The version that produced my results was `0e9e39f249a16976918f6564b8830bc894c89659`.
+  - The script records this in the `model_revision` column. It's filled in for 1,160 of the 1,168 rows. The 8 "no price" rows are blank because they were copied in from an earlier run.
+  - To load exactly that version, add `revision="0e9e39f249a16976918f6564b8830bc894c89659"` to both `from_pretrained(...)` calls in `LLAMA-25.8.py`.
 - Output:
   - `results/logprobs_ALL_PROMPTS_Llama-3.1-8B-Instruct.csv`
   - `results/logprobs_set3_r{1..4}_Llama-3.1-8B-Instruct.csv`
@@ -175,7 +180,13 @@ This script runs at one temperature, set by `TEMPERATURE` near the top. Run it t
 2. Set `TEMPERATURE = 5.0` and run it again. It writes the same three files with a `_T5p0` suffix.
 
 Notes:
-- **Model sizes are estimates.** Only Llama's 8B is officially published. The OpenAI sizes in `MODEL_SIZES_B` are informal community estimates.
+- **Model sizes are estimates.** Only Llama's 8B is officially published; OpenAI doesn't disclose parameter counts. The values in `MODEL_SIZES_B` are single points picked from informal community ranges ([arXiv 2604.24827](https://arxiv.org/abs/2604.24827v2), [cbowdon's blog](https://cbowdon.github.io/posts/gpt-params/), Reddit discussions):
+
+  | Model | Range | Value used |
+  |---|---|---|
+  | gpt-5.4-nano, gpt-5.6-luna | ~8–18B | 10 |
+  | gpt-5.4-mini | ~85–150B | 100 |
+  | gpt-5.4 | ~300B–3T | 1800 |
 - **Whiskers show the min–max range** across price/gap conditions. They are not confidence intervals.
 - Running at T≠1 also rewrites the `*_temps.csv` files with just that temperature. This is harmless, and step 5 regenerates them anyway.
 
@@ -200,3 +211,24 @@ All the settings are constants at the top of each script:
   - The $2 base was dropped on purpose: `round(2 * 1.10) == 2`, so the 10% gap turned into a same-price condition.
   - A few fixed and relative pairs produce identical prompts, e.g. $100 vs $110. That's intentional; they're tagged separately by `price_type`.
 - **Reasoning effort (OpenAI):** add values to `REASONING_EFFORTS`. Each value is a full extra run, so it multiplies the cost.
+
+## Possible extensions
+
+Ideas from the end of the internship that I didn't get to:
+
+- **Separate order bias from color preference.** A gap like 0.40 (1.00 vs. 0.60) is large, but part of it could still be a plain preference for one color.
+- **Check at T=0 first.** If a model still shows order bias with greedy decoding, it's not just a preference. Then repeat at T=1.
+- **Chain-of-thought prompting.**
+- **Reasoning effort:** OpenAI's newer models support `none`, `low`, `medium`, `high`, `xhigh` and `max`. All results here use `none`.
+- **Newer models**, since model developers work on known biases.
+
+---
+
+## Appendix: other parts of the internship
+
+This repo contains only the final experiment. The rest of the internship (chicken vs. pasta and the utility fit, random strings and IIA, colors vs. colored t-shirts, hot vs. cold) is described in my internship report, not here.
+
+**Behavioral economics games** (Dictator Game, Ultimatum Game, Prisoner's Dilemma): see **[CSS-project-Robustness-Audit](https://github.com/martin-kri/CSS-project-Robustness-Audit)**. That repo has the cleaned-up, reproducible versions of the game scripts I first wrote during the internship, run on Llama-3.1-8B-Instruct and Gemma-3-4B-it, with its own README and run order. The games replicate:
+
+- Aher et al. (2023), [*Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies*](https://arxiv.org/abs/2208.10264): Ultimatum Game
+- Brookins & DeBacker (2024), [*Playing games with GPT: What can we learn about a large language model from canonical strategic games?*](https://ideas.repec.org/a/ebl/ecbull/eb-23-00457.html): Dictator Game and Prisoner's Dilemma
