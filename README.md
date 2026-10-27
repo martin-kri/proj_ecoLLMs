@@ -25,7 +25,7 @@ This README explains how to reproduce the results in [`results/`](results/), ste
 | `model_size_vs_order_bias_grid-27.8.py` | The same as one 2×2 slide image (T=1/T=5 × fixed/relative gap) | 7 |
 | `csv_cleaner.py` | *Not needed to reproduce.* A one-time script I used to migrate an older nano/mini results file to the current format | n/a |
 | `results/` | My data and figures from the final runs | n/a |
-| `earlier-experiments/` | The text-sampling experiments from March–July: chicken vs. pasta, random strings / IIA, colors, t-shirts, hot vs. cold. They have their own [README](earlier-experiments/README.md). | separate |
+| `earlier-experiments/` | The text-sampling experiments from March–July: chicken vs. pasta, PlayStation vs. Xbox, random strings / IIA, colors, t-shirts, hot vs. cold. They have their own [README](earlier-experiments/README.md). | separate |
 
 The scripts load each other by filename with `importlib`, so **keep them all in the same folder and don't rename them**.
 
@@ -155,9 +155,13 @@ A few cells come out blank. That's expected: in those rows the model answered wi
 python temperature_sweep.py
 ```
 
-At T=1 the logprob difference equals the raw logit difference, so the choice probability at any temperature T can be computed from the saved scores:
+At T=1 the logprob difference equals the raw logit difference, so the choice probability at any temperature $T$ can be computed from the saved scores:
 
-P(option1) = e^(s1/T) / (e^(s1/T) + e^(s2/T))
+$$
+P(\text{option}_1) = \frac{e^{s_1/T}}{e^{s_1/T} + e^{s_2/T}}, \qquad P(\text{option}_2) = 1 - P(\text{option}_1)
+$$
+
+where $s_1$ and $s_2$ are the scores of the two words (`score_word1`, `score_word2` in the CSV). As $T \to 0$ the model always picks the higher-scoring word; as $T \to \infty$ both probabilities approach 0.5.
 
 The script does this for every temperature in `TEMPERATURES_TO_ADD` (set to `[4.0, 5.0]`) and writes:
 
@@ -200,17 +204,81 @@ Writes `ModelSize_vs_OrderBias_Grid.png` and `model_size_vs_order_bias_grid_summ
 
 ---
 
+## What's in the CSVs
+
+Each row is one prompt sent once, at T=1. Most columns describe the condition and are self-explanatory (`word1`/`word2` in the order they appear in the prompt, `price_pair`, `price_type`, `price_base`, `price_gap_or_pct`, `prompt_style` = set + rung, `prompt_text`). The rest need a bit of LLM background:
+
+| Column | Meaning |
+|---|---|
+| `score_word1`, `score_word2` | How strongly the model "wants" to answer with each word as its **first token**. For Llama these are raw **logits** (unnormalized scores over the whole vocabulary). For OpenAI they are **logprobs** (the log of the token's probability) because the API doesn't expose logits. The two aren't comparable in absolute terms, but their *difference* means the same thing, and that's all the choice probability uses. Several spellings count as the same word ("red", " Red", "RED", …) and the highest-scoring one is kept. |
+| `rel_prob_word1`, `rel_prob_word2` | The choice probability between just the two words (the formula in step 5). They always sum to 1. **This is the main outcome.** |
+| `vocab_prob_word1`, `vocab_prob_word2` | The probability of each word among *all* possible first tokens, so it isn't renormalized to the two options. |
+| `target_coverage` | `vocab_prob_word1 + vocab_prob_word2`: how much of the model's first-token probability falls on the two options at all. Low coverage means the model mostly wanted to start with something else ("Either", "Neither", "I", …), so `rel_prob` describes a small slice of its behavior. |
+| `top5_tokens`, `top5_probs` | The five most likely first tokens and their probabilities, useful for seeing what the model wanted to say instead. |
+| `both_in_top_n` (OpenAI) | Whether both words appeared among the top tokens the API returned. The API only returns the top 5, so a word outside them has no score. Only 3 of 4,672 rows are `False`, and those are the blank heatmap cells. |
+| `top_n_requested` (OpenAI) | How many top tokens were requested (5, the API's cap for these models). |
+| `sampled_token`, `full_answer` (OpenAI) | The token the API actually generated first, and the whole short answer. |
+| `reasoning_effort` (OpenAI) | How much hidden "thinking" the model was allowed before answering. All rows use `none`. |
+| `prompt_tokens`, `completion_tokens`, `reasoning_tokens`, `total_tokens` (OpenAI) | Token usage reported by the API, which is what you pay for. `reasoning_tokens` is 0 everywhere, confirming `none` really means no hidden reasoning. Blank for 351 older rows (176 gpt-5.4-nano, 175 gpt-5.4-mini) that were run before usage was recorded. |
+| `max_completion_tokens` (OpenAI) | The answer-length cap, filled in only for those 351 older rows (5). All other rows used the script's current cap of 16. |
+| `response_model` (OpenAI) | The exact model snapshot that answered, e.g. `gpt-5.4-2026-03-05`. A name like `gpt-5.4` can point to a newer snapshot later. |
+| `model_revision` (Llama) | The exact version of the model files used (see step 2b). |
+
+The `*_temps.csv` files have the same columns, with extra rows where `temperature` and `rel_prob_*` are recomputed for T=4 and T=5.
+
 ## Changing the experiment
 
-All the settings are constants at the top of each script:
+All the settings are constants at the top of each script. Change them in **both** `OpenAI-25.8.py` and `LLAMA-25.8.py` if you want the models to stay comparable, and rerun from step 2. The plotting scripts read whatever is in the CSVs, except where noted.
 
-- **Other prompt sets:** set `ACTIVE_PROMPT_SETS = {1, 2, 3}` in both data scripts and in the plotting scripts. Set A adds more output constraints, Set B adds more context; the full prompt text is in `build_prompts()`.
-- **Other colors:** add pairs to `COLOR_PAIRS`.
-- **Currency:** set `CURRENCY = "EUR"`.
-- **Price grid:** edit `FIXED_GAP_BASES`, `FIXED_GAPS`, `PCT_GAP_BASES` and `PCT_GAPS`. Keep them the same in both data scripts so the models stay comparable.
-  - The $2 base was dropped on purpose: `round(2 * 1.10) == 2`, so the 10% gap turned into a same-price condition.
-  - A few fixed and relative pairs produce identical prompts, e.g. $100 vs $110. That's intentional; they're tagged separately by `price_type`.
-- **Reasoning effort (OpenAI):** add values to `REASONING_EFFORTS`. Each value is a full extra run, so it multiplies the cost.
+**What the models are asked about**
+
+- **`COLOR_PAIRS`**: which two colors the model chooses between. Add pairs such as `("red", "blue")`; both orders are generated automatically. This tests whether the order bias depends on the specific colors. The order-bias plots average over all color pairs in the CSV, so plot one pair at a time if you want them separately. The heatmaps are hardcoded to red vs. green t-shirts.
+- **`ITEM_NOUN`**: the item that has the color, currently `"t-shirt"`. Something like `"mug"` or `"car"` works directly. The prompts are written for colored objects ("one is in the color red"), so a non-color choice such as chicken vs. pasta needs new prompt templates in `build_prompts()`.
+- **`CURRENCY`**: `"USD"` writes "$10", `"EUR"` writes "10€". It tests whether the currency format changes price sensitivity.
+- **`ACTIVE_PROMPT_SETS`**: which wording ladder to use. `{3}` (Set C, longer wording without new information) is what the results use. `{1}` (Set A) adds stricter output instructions and `{2}` (Set B) adds a story ("you are on a long flight…"). Set it in the plotting scripts too. Rung 1 is the same text in all three sets, so running several sets repeats those prompts.
+
+**Which prices**
+
+- **`RUN_NO_PRICE`, `RUN_SAME_PRICE`, `RUN_FIXED_GAP`, `RUN_PCT_GAP`**: turn each kind of price condition on or off. No price and same price show the model's baseline preference for a color, so any order effect there isn't about price. The two gap types show whether the cheaper item wins and how much the order still matters.
+- **`SAME_PRICE_LEVELS`**: the equal prices to test, e.g. `[10, 500]` to see whether high prices alone change behavior.
+- **`FIXED_GAP_BASES`, `FIXED_GAPS`**: base prices and dollar gaps, e.g. $800 vs. $810. A fixed gap gets relatively smaller as the base grows (+$10 is 100% at $10 but 1.25% at $800). That's what makes order bias come back at high prices.
+- **`PCT_GAP_BASES`, `PCT_GAPS`**: the same with percentage gaps (e.g. +10%), which keep the relative difference constant at every base price. Comparing the two gap types separates "the gap is small in dollars" from "the gap is small relative to the price".
+- After changing the bases or gaps, update `ALL_PRICE_BASES` and `GAP_SIZES` in `one-by-one_order-bias-26.8.py`, or the new values won't appear in the plots.
+- The $2 base was dropped on purpose: `round(2 * 1.10) == 2`, so the 10% gap turned into a same-price condition. A few fixed and relative pairs produce identical prompts (e.g. $100 vs $110). That's intentional; they're tagged separately by `price_type`.
+
+**Which models and settings**
+
+- **`MODELS`** (OpenAI) / **`model_id`** (Llama): the models to query. An OpenAI model has to accept `logprobs`; if it rejects a parameter, the script stops querying it and says so. The Llama script uses the model's own chat template, so other Hugging Face chat models should work, but I've only run it with Llama-3.1-8B-Instruct. Add new names to `MODEL_ORDER` in the plotting scripts to control the panel order, and to `MODEL_SIZES_B` in step 6, or they're left out of the size plots.
+- **`REASONING_EFFORTS`** (OpenAI): e.g. `["none", "low"]` lets the model think before answering. Each value is a full extra run, so it multiplies the cost, and the plotting scripts don't separate the values (they'd be averaged together).
+- **`TEMPERATURES_TO_ADD`** (step 5), **`TEMPERATURE`** (step 6), **`TEMPERATURES`** (step 7): which temperatures to compute from the T=1 data. These cost nothing, because no new queries are made.
+- **`PILOT_MODE`** (OpenAI): runs a tiny subset first. **`MAX_WORKERS`** (OpenAI): parallel requests; lower it if you hit rate limits.
+
+## Results
+
+**Order bias** is the gap between how often the model picks the cheaper t-shirt when it's listed first and when it's listed second, for the same prices. For example, red is chosen with probability 0.93 in "red $800 or green $810" but 0.37 in "green $810 or red $800", so the order bias is |0.93 − 0.37| = 0.56. A rational, price-sensitive buyer would have an order bias of 0. Values below are in percentage points, averaged over all base prices and gap sizes (`results/model_size_vs_order_bias_summary*.csv`).
+
+| Model | Fixed $ gap, T=1 | Relative % gap, T=1 | Fixed $ gap, T=5 | Relative % gap, T=5 |
+|---|---|---|---|---|
+| Llama-3.1-8B-Instruct | **3.4** | **5.1** | 6.0 | 8.5 |
+| gpt-5.4-nano | 35.9 | 15.8 | 13.6 | 5.6 |
+| gpt-5.6-luna | 12.3 | 10.6 | 7.3 | 6.0 |
+| gpt-5.4-mini | 13.7 | 8.8 | 6.3 | 4.1 |
+| gpt-5.4 | 24.5 | 30.0 | 22.7 | 24.0 |
+
+What stands out:
+
+- **A bigger model isn't a less biased one.** At T=1 the smallest model, Llama (8B), is the least affected by order on both gap types. gpt-5.4, the largest, has the most order bias on relative gaps and the second most on fixed gaps. The ranking doesn't follow model size.
+- **Order matters more when the price difference is small relative to the price.** At base prices of $500 and above, every model shows more order bias than at $180 and below, most clearly with fixed gaps (gpt-5.4-nano: 15.8 → 45.9 pp; gpt-5.4: 8.6 → 32.5 pp). A $10 difference is decisive between $10 and $20, but at $800 vs. $810 it barely registers, and the order of the options takes over. Relative gaps also show more bias at high prices, though less.
+- **Temperature affects each model differently.** Going from T=1 to T=5 cuts gpt-5.4-nano's fixed-gap bias by more than half, barely changes gpt-5.4's, and slightly *raises* Llama's. gpt-5.4's two scores are much further apart on average (a gap of 7.4, against 2.5 for gpt-5.4-nano), so dividing them by the temperature still leaves a clear winner. "Bias at temperature T" is therefore not one number that transfers between models.
+
+Why this is interesting: when an LLM chooses or recommends between options (shopping assistants, agents, decision support), it can be swayed by something as irrelevant as which option was mentioned first, especially when the options differ only slightly in price. Larger, newer models aren't automatically more robust to this.
+
+**From the [earlier experiments](earlier-experiments/README.md)** (Llama-3.1-8B, text sampling):
+
+- **Chicken vs. pasta:** Llama has a stable preference for chicken. Pasta only wins when it's both cheaper *and* listed second. As temperature rises, the choice drifts toward 50/50, as the fitted utility model predicts.
+- **Wording changes the preference.** At T ≤ 1, choosing between "blue" and "yellow" gives blue about 75% in either order. Between a "blue t-shirt" and a "yellow t-shirt" with yellow listed first, blue drops to about 35%, although the added word carries no new information.
+- **PlayStation vs. Xbox:** gpt-5.4, gpt-5.4-nano and Llama almost always answer PlayStation. The only exception is Llama with Xbox listed first, at T=0.7 and T=1.
+- **Random strings (IIA):** with three meaningless words, the "preferred" word and how the choice shifts when one becomes unavailable follow a fixed order. That looks more like a positional or lexical artifact than a preference. Many answers were invalid (refusals, both words repeated), so how answers are counted matters.
 
 ## Possible extensions
 
@@ -226,7 +294,7 @@ Ideas from the end of the internship that I didn't get to:
 
 ## Appendix: other parts of the internship
 
-**Earlier text-sampling experiments** (chicken vs. pasta and the utility fit, random strings and IIA, colors vs. colored t-shirts, hot vs. cold): see [`earlier-experiments/`](earlier-experiments/README.md). It has its own README covering the scripts, data, figures and run order.
+**Earlier text-sampling experiments** (chicken vs. pasta and the utility fit, PlayStation vs. Xbox, random strings and IIA, colors vs. colored t-shirts, hot vs. cold): see [`earlier-experiments/`](earlier-experiments/README.md). It has its own README covering the scripts, data, figures and run order.
 
 **Behavioral economics games** (Dictator Game, Ultimatum Game, Prisoner's Dilemma): see **[CSS-project-Robustness-Audit](https://github.com/martin-kri/CSS-project-Robustness-Audit)**. That repo has the cleaned-up, reproducible versions of the game scripts I first wrote during the internship, run on Llama-3.1-8B-Instruct and Gemma-3-4B-it, with its own README and run order. The games replicate:
 
