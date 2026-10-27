@@ -381,7 +381,8 @@ def build_jobs():
 
 
 def job_key(job):
-    return (job["word1"], job["word2"], job["price_pair"], job["prompt_style"])
+    # price_type is part of the key: see job_key() in OpenAI-25.8.py
+    return (job["word1"], job["word2"], job["price_pair"], job["price_type"], job["prompt_style"])
 
 
 def run_job(job, attempt=1, max_attempts=2):
@@ -480,7 +481,7 @@ def main():
             prev["model_revision"] = None
         all_rows = prev.to_dict("records")
         done_keys = set(
-            zip(prev["word1"], prev["word2"], prev["price_pair"], prev["prompt_style"])
+            zip(prev["word1"], prev["word2"], prev["price_pair"], prev["price_type"], prev["prompt_style"])
         )
         print(f"Resuming: {len(done_keys)} conditions already in checkpoint, skipping those.")
 

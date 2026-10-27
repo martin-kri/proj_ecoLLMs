@@ -659,7 +659,10 @@ def build_jobs():
 
 
 def job_key(job):
-    return (job["model"], job["reasoning_effort"], job["word1"], job["word2"], job["price_pair"], job["prompt_style"])
+    # price_type is part of the key: a few fixed_gap and pct_gap conditions
+    # have the same price_pair (e.g. (100, 110)), and without it a resumed run
+    # would treat the second one as already done and never run it.
+    return (job["model"], job["reasoning_effort"], job["word1"], job["word2"], job["price_pair"], job["price_type"], job["prompt_style"])
 
 
 def run_job(job):
@@ -759,7 +762,7 @@ def main():
             prev["reasoning_effort"] = "none"
         all_rows = prev.to_dict("records")
         done_keys = set(
-            zip(prev["model"], prev["reasoning_effort"], prev["word1"], prev["word2"], prev["price_pair"], prev["prompt_style"])
+            zip(prev["model"], prev["reasoning_effort"], prev["word1"], prev["word2"], prev["price_pair"], prev["price_type"], prev["prompt_style"])
         )
         print(f"Resuming: {len(done_keys)} conditions already in checkpoint, skipping those.")
 

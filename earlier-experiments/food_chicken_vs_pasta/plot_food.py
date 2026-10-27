@@ -192,6 +192,13 @@ def load_files(folder: str) -> pd.DataFrame:
             text = str(text).lower()
             if text in candidates:
                 return text
+            # Correction added after the internship: an answer naming both
+            # options used to count as the first one in the list (chicken),
+            # even for "pasta, it's cheaper than the chicken". Now it isn't
+            # counted for either option.
+            named = [c for c in candidates if re.search(r'(?<![a-z])' + re.escape(c) + r'(?![a-z])', text)]
+            if len(named) > 1:
+                return text
             for c in candidates:
                 if re.search(r'(?<![a-z])' + re.escape(c) + r'(?![a-z])', text):
                     return c
@@ -217,6 +224,11 @@ def load_files(folder: str) -> pd.DataFrame:
 
         n_total = len(df)
         n_invalid = int((~df["response"].isin(known_choices + ["nan", ""])).sum()) if known_choices else 0
+        # Correction added after the internship: P(choice) is the share among
+        # classified answers; unclassified ones no longer count against choice_a.
+        if known_choices:
+            df = df[df["response"].isin(known_choices)]
+            n_total = len(df)
         choices = sorted(c for c in df["response"].unique() if c not in ("nan", ""))
 
         if len(choices) < 2:
@@ -333,7 +345,8 @@ def _draw_curves(ax, subdata, colors, invert=False):
     ax.grid(True, alpha=0.3)
     ax.set_xlabel("Temperature", fontsize=11)
 
-    n = int(subdata["n_total"].iloc[0])
+    n_min, n_max = int(subdata["n_total"].min()), int(subdata["n_total"].max())
+    n = f"{n_max}" if n_min == n_max else f"{n_min}–{n_max}"
     n_inv = int(subdata["n_invalid"].sum()) if "n_invalid" in subdata.columns else 0
     base_text = f"n = {n} per run" if n_inv == 0 else f"n = {n} per run  ({n_inv} invalid total)"
     label_text = f"{base_text}\nError bars: 96% Confidence Interval"

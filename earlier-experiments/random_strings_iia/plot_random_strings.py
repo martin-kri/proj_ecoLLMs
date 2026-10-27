@@ -276,7 +276,11 @@ def load_files(folder: str) -> pd.DataFrame:
         # Derive known_choices from the static lookup first.
         # For random-word pairs not in the table (any gdwaab combination, or new pairs),
         # use the active_pair field extracted directly from the filename.
-        known_choices = ORDER_TO_CHOICES.get(meta["order"], [])
+        # Correction added after the internship: random-word files always take
+        # their two words from the filename. The static table maps e.g.
+        # "imphdy_first" to the imphdy/mkzlyg pair, which is wrong for
+        # imphdy_or_gdwaab files.
+        known_choices = [] if meta.get("active_pair") else ORDER_TO_CHOICES.get(meta["order"], [])
         if not known_choices and meta.get("active_pair"):
             pair_words = meta["active_pair"].split("_")   # e.g. ["gdwaab", "mkzlyg"]
             if len(pair_words) == 2:
@@ -302,6 +306,13 @@ def load_files(folder: str) -> pd.DataFrame:
             text = str(text).lower()
             if text in candidates:
                 return text
+            # Correction added after the internship: an answer naming more than
+            # one of the random words (the "unavailable" one included) is almost
+            # always a refusal ("I'm not aware of imphdy or mkzlyg"), not a
+            # choice. Returned unchanged, so it isn't counted for either word.
+            named = [w for w in RANDOM_WORDS if re.search(r'(?<![a-z])' + re.escape(w) + r'(?![a-z])', text)]
+            if len(named) > 1:
+                return text
             for c in candidates:
                 if re.search(r'(?<![a-z])' + re.escape(c) + r'(?![a-z])', text):
                     return c
@@ -324,6 +335,15 @@ def load_files(folder: str) -> pd.DataFrame:
             df["response"] = df["response"].apply(
                 lambda t: extract_choice(t, known_choices)
             )
+            # Correction added after the internship: P(choice) is the share among
+            # answers naming one of the two words. Unclassifiable answers used to
+            # count against choice_a; now they're left out and added to n_invalid.
+            n_invalid += int((~df["response"].isin(known_choices)).sum())
+            df = df[df["response"].isin(known_choices)]
+            n_total = len(df)
+            if n_total == 0:
+                print(f"  [SKIP – no classifiable responses] {os.path.basename(path)}")
+                continue
 
         choices = sorted(c for c in df["response"].unique() if c not in ("nan", ""))
 
@@ -501,12 +521,13 @@ def _draw_curves(ax, subdata, colors, invert=False):
     ax.grid(True, alpha=0.3)
     ax.set_xlabel("Temperature", fontsize=13)
 
-    n = int(subdata["n_total"].iloc[0])
+    n_min, n_max = int(subdata["n_total"].min()), int(subdata["n_total"].max())
+    n = f"{n_max}" if n_min == n_max else f"{n_min}–{n_max}"
     n_inv_total = int(subdata["n_invalid"].sum()) if "n_invalid" in subdata.columns else 0
-    base_text = f"n = {n} per run" if n_inv_total == 0 else f"n = {n} valid per run  ({n_inv_total} extra attempts total)"
+    base_text = f"n = {n} per run" if n_inv_total == 0 else f"n = {n} valid per run  ({n_inv_total} not counted in total)"
     label_text = f"{base_text}\nErr. bars: 96% Conf. Interval"
     if n_inv_total > 0:
-        label_text += "\n('~N extra' = discarded attempts per point)"
+        label_text += "\n('~N extra' = answers not counted per point)"
     ax.text(0.5, -0.25, label_text, transform=ax.transAxes,
             fontsize=9, ha="center", va="top", color="black",
             bbox=dict(boxstyle="round,pad=0.3", facecolor="white",

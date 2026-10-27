@@ -19,7 +19,7 @@ This README explains how to reproduce the results in [`results/`](results/), ste
 | `OpenAI-25.8.py` | Queries the OpenAI models (`gpt-5.4-nano`, `gpt-5.4-mini`, `gpt-5.4`, `gpt-5.6-luna`) and saves the T=1 logprobs | 2a |
 | `LLAMA-25.8.py` | Runs `meta-llama/Llama-3.1-8B-Instruct` locally on a GPU and saves the T=1 logits | 2b |
 | `one-by-one_order-bias-26.8.py` | Main order-bias figures (line, bar and per-price grids) | 3 |
-| `heatmaps-improved-26.8.py` | Order-split heatmaps for the "no price" and "same $10 price" conditions | 4 |
+| `heatmaps-improved-26.8.py` | Order-split heatmaps for the "no price" and "same price" conditions, one image per color pair | 4 |
 | `temperature_sweep.py` | Rebuilds other temperatures (T=4, T=5) from the T=1 data, **with no new API calls**, and plots them | 5 |
 | `model_size_vs_order_bias-27.8.py` | Order bias vs. model size, at one temperature | 6 |
 | `model_size_vs_order_bias_grid-27.8.py` | The same as one 2×2 slide image (T=1/T=5 × fixed/relative gap) | 7 |
@@ -147,7 +147,7 @@ python heatmaps-improved-26.8.py
 
 For every color pair in the CSVs, it writes one heatmap for the no-price condition and one per same-price level, e.g. `Ladder_Prompt_Heatmaps_OrderSplit_NoPrice_red_vs_green.png` and `Ladder_Prompt_Heatmaps_OrderSplit_10Dollar_red_vs_green.png`. Each cell shows the probability of the pair's first color (as ordered in `COLOR_PAIRS` in `OpenAI-25.8.py`), with that color listed first, listed second, and the average of both. To choose the pairs yourself, set `COLOR_PAIRS` at the top of the heatmap script.
 
-A few cells come out blank. That's expected: in those rows the model answered with something like "Either", and one of the two colors fell outside the top-5 logprobs the OpenAI API returns. Those rows are dropped (`both_in_top_n == False`).
+One cell comes out blank (gpt-5.4-nano, $10, rung 2). There the model wanted to answer "Either", and green fell outside the top-5 logprobs the OpenAI API returns, so it has no score. Rows like that are dropped (`both_in_top_n == False`).
 
 ## Step 5: Other temperatures (no API calls)
 
@@ -192,7 +192,7 @@ Notes:
   | gpt-5.4-mini | ~85–150B | 100 |
   | gpt-5.4 | ~300B–3T | 1800 |
 - **Whiskers show the min–max range** across price/gap conditions. They are not confidence intervals.
-- Running at T≠1 also rewrites the `*_temps.csv` files with just that temperature. This is harmless, and step 5 regenerates them anyway.
+- Running at T≠1 also rewrites the `*_temps.csv` files with just that temperature. The figures don't depend on those files, but if you want them to hold T=4 and T=5 again, run step 5 once more at the end.
 
 ## Step 7: Slide grid (2×2)
 
@@ -210,17 +210,17 @@ Each row is one prompt sent once, at T=1. Most columns describe the condition an
 
 | Column | Meaning |
 |---|---|
-| `score_word1`, `score_word2` | How strongly the model "wants" to answer with each word as its **first token**. For Llama these are raw **logits** (unnormalized scores over the whole vocabulary). For OpenAI they are **logprobs** (the log of the token's probability) because the API doesn't expose logits. The two aren't comparable in absolute terms, but their *difference* means the same thing, and that's all the choice probability uses. Several spellings count as the same word ("red", " Red", "RED", …) and the highest-scoring one is kept. |
+| `score_word1`, `score_word2` | How strongly the model "wants" to answer with each word as its **first token**. For Llama these are raw **logits** (unnormalized scores over the whole vocabulary). For OpenAI they are **logprobs** (the log of the token's probability) because the API doesn't expose logits. The two aren't comparable in absolute terms, but their *difference* means the same thing, and that's all the choice probability uses. Several spellings count as the same word and the highest-scoring one is kept: "red", " red", "Red", " Red" for Llama; for OpenAI, any capitalization and also the single first letter "R" (see the appendix). |
 | `rel_prob_word1`, `rel_prob_word2` | The choice probability between just the two words (the formula in step 5). They always sum to 1. **This is the main outcome.** |
-| `vocab_prob_word1`, `vocab_prob_word2` | The probability of each word among *all* possible first tokens, so it isn't renormalized to the two options. |
+| `vocab_prob_word1`, `vocab_prob_word2` | The probability of each word among *all* possible first tokens, so it isn't renormalized to the two options. For Llama it's the sum over the spellings above; for OpenAI it's the probability of the best-matching spelling. |
 | `target_coverage` | `vocab_prob_word1 + vocab_prob_word2`: how much of the model's first-token probability falls on the two options at all. Low coverage means the model mostly wanted to start with something else ("Either", "Neither", "I", …), so `rel_prob` describes a small slice of its behavior. |
 | `top5_tokens`, `top5_probs` | The five most likely first tokens and their probabilities, useful for seeing what the model wanted to say instead. |
-| `both_in_top_n` (OpenAI) | Whether both words appeared among the top tokens the API returned. The API only returns the top 5, so a word outside them has no score. Only 3 of 4,672 rows are `False`, and those are the blank heatmap cells. |
+| `both_in_top_n` (OpenAI) | Whether both words appeared among the top tokens the API returned. The API only returns the top 5, so a word outside them has no score. Only 3 of 4,672 rows are `False`: once the model wanted to answer "Either", and twice it was so sure of one color that the other fell out of the top 5. These rows are left out of the plots. |
 | `top_n_requested` (OpenAI) | How many top tokens were requested (5, the API's cap for these models). |
 | `sampled_token`, `full_answer` (OpenAI) | The token the API actually generated first, and the whole short answer. |
 | `reasoning_effort` (OpenAI) | How much hidden "thinking" the model was allowed before answering. All rows use `none`. |
 | `prompt_tokens`, `completion_tokens`, `reasoning_tokens`, `total_tokens` (OpenAI) | Token usage reported by the API, which is what you pay for. `reasoning_tokens` is 0 everywhere, confirming `none` really means no hidden reasoning. Blank for 351 older rows (176 gpt-5.4-nano, 175 gpt-5.4-mini) that were run before usage was recorded. |
-| `max_completion_tokens` (OpenAI) | The answer-length cap, filled in only for those 351 older rows (5). All other rows used the script's current cap of 16. |
+| `max_completion_tokens` (OpenAI) | The answer-length cap, only present in my data and only filled in for those 351 older rows (5). The other rows were run with the script's current cap of 16, which the script raises automatically if a model runs out of tokens. A fresh run doesn't write this column. |
 | `response_model` (OpenAI) | The exact model snapshot that answered, e.g. `gpt-5.4-2026-03-05`. A name like `gpt-5.4` can point to a newer snapshot later. |
 | `model_revision` (Llama) | The exact version of the model files used (see step 2b). |
 
@@ -255,7 +255,7 @@ All the settings are constants at the top of each script. Change them in **both*
 
 ## Results
 
-**Order bias** is the gap between how often the model picks the cheaper t-shirt when it's listed first and when it's listed second, for the same prices. For example, red is chosen with probability 0.93 in "red $800 or green $810" but 0.37 in "green $810 or red $800", so the order bias is |0.93 − 0.37| = 0.56. A rational, price-sensitive buyer would have an order bias of 0. Values below are in percentage points, averaged over all base prices and gap sizes (`results/model_size_vs_order_bias_summary*.csv`).
+**Order bias** is the gap between how often the model picks the cheaper t-shirt when it's listed first and when it's listed second, for the same prices. For example, if red were chosen with probability 0.93 in "red $800 or green $810" but 0.37 in "green $810 or red $800", the order bias would be |0.93 − 0.37| = 0.56. A rational, price-sensitive buyer would have an order bias of 0. Values below are in percentage points, averaged over all base prices and gap sizes (`results/model_size_vs_order_bias_summary*.csv`).
 
 | Model | Fixed $ gap, T=1 | Relative % gap, T=1 | Fixed $ gap, T=5 | Relative % gap, T=5 |
 |---|---|---|---|---|
@@ -278,7 +278,7 @@ Why this is interesting: when an LLM chooses between options, it can be swayed b
 - **Chicken vs. pasta:** Llama has a stable preference for chicken. Pasta only wins when it's both cheaper *and* listed second. As temperature rises, the choice drifts toward 50/50, as the fitted utility model predicts.
 - **Adding "t-shirt" changes the preference.** At T ≤ 1, choosing between "blue" and "yellow" gives blue about 75% in either order. Between a "blue t-shirt" and a "yellow t-shirt" with yellow listed first, blue drops to about 35%.
 - **PlayStation vs. Xbox:** gpt-5.4, gpt-5.4-nano and Llama almost always answer PlayStation. The only exception is Llama with Xbox listed first, at T=0.7 and T=1.
-- **Random strings (IIA):** with three meaningless words, the "preferred" word and how the choice shifts when one becomes unavailable follow a fixed order. That looks more like a positional or lexical artifact than a preference. Many answers were invalid (refusals, both words repeated), so how answers are counted matters.
+- **Random strings (IIA):** with meaningless words, Llama still makes near all-or-nothing choices at low temperature (one word ≥ 90% in every condition at T = 0.2). Which word wins depends on the pair and the order, not on one favorite word, and the choice drifts toward 50/50 as temperature rises. Many answers were refusals that name the words ("I'm not aware of gdwaab or mkzlyg"), so how answers are counted matters. An earlier version of the plot script counted those refusals as choices (see the corrections in the [earlier-experiments README](earlier-experiments/README.md#corrections-made-after-the-internship)).
 
 ## Possible extensions
 
@@ -292,7 +292,38 @@ Ideas from the end of the internship that I didn't get to:
 
 ---
 
-## Appendix: other parts of the internship
+## Appendix A: How the first tokens are classified
+
+**Why the tokens look the way they do.** A model doesn't write whole words. It writes *tokens*, which can be a whole word ("Green"), a piece of one ("Gre", "P"), or something else entirely ("**", "I"). The logprob method only looks at the model's **first** token. The OpenAI API also only returns the 5 most likely first tokens. In an earlier chicken-vs-pasta logprob test with the OpenAI models, for example, the top 5 were:
+
+```
+['p', 'ch', 'Chicken', 'P', 'past']
+```
+
+Only "Chicken" is unambiguous. "P" and "past" are probably the start of "pasta", but they could also become "Please" or "pastry". Counting them as pasta is a guess that can misclassify answers; ignoring them loses probability that probably belongs to pasta. Sometimes none of the 5 relates to either option (`['**', 'I', 'If', 'Since', 'Given']`).
+
+**How the scripts decide.**
+
+- **OpenAI (`OpenAI-25.8.py`):** a returned token counts for a color only if, after removing spaces and punctuation, it is the **whole word** in any capitalization ("Red", " red", "RED"). For the five common colors red, blue, yellow, pink and green, the **single first letter** ("R", "G") also counts. **Pieces** like "Gre" are **not counted**. If several spellings match, the most likely one is used as the score.
+- **Llama (`LLAMA-25.8.py`):** the full vocabulary is available, so the script reads the scores of the exact tokens "red", " red", "Red" and " Red" directly. There is no top-5 limit.
+
+**What the data shows for red vs. green.** Colors are short, common words, so for these models they're almost always a single token. The ambiguity above barely occurs:
+
+| | OpenAI (4,672 rows) | Llama (1,168 rows) |
+|---|---|---|
+| Most likely first token is a whole color word | 4,670 rows | 1,129 rows |
+| Average first-token probability on whole color words | 99.8% | 88.8% |
+| Single letters ("R") in the top 5 | 6 times, ≈ 0 probability | never |
+| Pieces ("Gre", "gre", "ग्री") in the top 5 (not counted) | ≈ 1,000 times, ≈ 0 probability | never |
+| Median / lowest `target_coverage` | 0.98 / 0.15 | 0.94 / 0.06 |
+
+Using the sum of all matching spellings instead of the most likely one would change `rel_prob` by 0.002 on average and by 0.076 at most. So for this experiment, the token matching doesn't drive the results.
+
+**When you change the words**, e.g. to food items or random strings, this can look very different. Check `top5_tokens` and `target_coverage` before trusting `rel_prob`: when coverage is low, the model mostly wanted to say something else, and `rel_prob` only describes a small part of its behavior.
+
+**The text-sampling experiments** in `earlier-experiments/` don't use first tokens: each answer is classified from its full text. Problems there come from answers like refusals that mention both options, described in the [corrections made after the internship](earlier-experiments/README.md#corrections-made-after-the-internship).
+
+## Appendix B: Other parts of the internship
 
 **Earlier text-sampling experiments** (chicken vs. pasta and the utility fit, PlayStation vs. Xbox, random strings and IIA, colors vs. colored t-shirts, hot vs. cold): see [`earlier-experiments/`](earlier-experiments/README.md). It has its own README covering the scripts, data, figures and run order.
 

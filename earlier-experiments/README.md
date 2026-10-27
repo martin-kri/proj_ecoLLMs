@@ -82,6 +82,8 @@ python plot_random_strings.py --folder data --out figures
 
 One figure per word pair, with a panel per unavailable word plus the plain binary case.
 
+The generator stored some refusals as valid answers, e.g. *"I'm not aware of any information about gdwaab or mkzlyg"*: 7.6% of all answers name two or more of the words. The plot doesn't count those (see [Corrections made after the internship](#corrections-made-after-the-internship)), so some points rest on far fewer than 100 answers. The label under each figure shows the range.
+
 ## 4. Colors, t-shirts, hot vs. cold, food — `colors_tshirts_food/`
 
 **Prompt:** *"Choose between a red t-shirt and a blue t-shirt. Do not write full sentences. Do not explain your choice. Reply with only one of them."*, optionally with a price after each item.
@@ -107,6 +109,18 @@ Run the plot once per `data/` subfolder. It reads all three file formats (`_colo
 
 ---
 
+## Corrections made after the internship
+
+When I looked back at these scripts while preparing this repo, I found mistakes in how two of the plot scripts count answers. The data and the generators are unchanged, but the figures here come from the corrected plot scripts, so they differ from the ones in my internship presentations. The corrected lines are marked in the code.
+
+- **`random_strings_iia/plot_random_strings.py`**
+  - **Refusals were counted as votes.** An answer naming several of the words was counted for whichever word the script checked first. That's where the earlier "the point always goes to imphdy" observation came from. These answers are no longer counted.
+  - **Unclassified answers counted against the first word.** P(word) was computed over all stored answers, so every unclassified one lowered it. It's now the share among answers that name one of the two words.
+  - **Wrong candidates for some files.** For files like `imphdy_or_gdwaab_…`, the script took its two candidates from a fixed table meant for the imphdy/mkzlyg pair. Now they come from the file's own word pair.
+- **`food_chicken_vs_pasta/plot_food.py`**: an answer naming both foods (e.g. *"pasta, it's cheaper than the chicken"*) counted as chicken. Such answers (39 of 7,200) are no longer counted, and P(chicken) is the share among classified answers. No point moved by more than 0.03.
+
+The later scripts in `colors_tshirts_food/` already handled this, because their generator rejects answers that name both options.
+
 ## What's in the CSVs
 
 One file per condition, one row per answer. The filename holds the condition: order, model, temperature, and the price pair if there is one, e.g. `chicken or pasta_no_memory_Llama_3.1_8B_Instruct_1.0_flight_5_20.csv`. `no_memory` means every answer comes from a fresh conversation.
@@ -114,7 +128,7 @@ One file per condition, one row per answer. The filename holds the condition: or
 | Column | Meaning |
 |---|---|
 | `iteration` | The number of the valid answer (1–100). |
-| `attempt` | How many tries it took to get there. Invalid answers (refusals, both options named, something else) are thrown away and asked again, so `attempt − iteration` is the number of discarded answers so far. The plots show these as "~N extra". |
+| `attempt` | How many tries it took to get there. Invalid answers (refusals, both options named, something else) are thrown away and asked again, so `attempt − iteration` is the number of discarded answers so far. The plots show these as "~N extra" (in the random-strings and food plots, together with any stored answers the plot doesn't count). |
 | `response` | The model's full answer text. |
 | `matched_choice` | (`colors_tshirts_food/` only) Which option the answer was counted as. |
 | `experiment_type`, `unavailable` | (random strings, colors) `A_unavailable` with the word that was declared unavailable, or `B_plain` for a normal two-option choice. |
