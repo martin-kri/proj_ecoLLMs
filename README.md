@@ -27,7 +27,7 @@ This README explains how to reproduce the results in [`results/`](results/), ste
 | `results/` | My data and figures from the final runs | n/a |
 | `earlier-experiments/` | The text-sampling experiments from March–July: chicken vs. pasta, PlayStation vs. Xbox, random strings / IIA, colors, t-shirts, hot vs. cold. They have their own [README](earlier-experiments/README.md). | separate |
 
-The scripts load each other by filename with `importlib`, so **keep them all in the same folder and don't rename them**.
+Some scripts reuse code from the others instead of copying it. For example, `temperature_sweep.py` draws its figures with the functions from `one-by-one_order-bias-26.8.py`. They find each other by exact filename in the same folder, so **keep all the scripts together and don't rename them**, or those steps fail with a "file not found" error.
 
 ---
 
@@ -145,7 +145,7 @@ Reads both master CSVs and writes to `results/`:
 python heatmaps-improved-26.8.py
 ```
 
-Writes `Ladder_Prompt_Heatmaps_OrderSplit_NoPrice.png` and `Ladder_Prompt_Heatmaps_OrderSplit_10Dollar.png`.
+For every color pair in the CSVs, it writes one heatmap for the no-price condition and one per same-price level, e.g. `Ladder_Prompt_Heatmaps_OrderSplit_NoPrice_red_vs_green.png` and `Ladder_Prompt_Heatmaps_OrderSplit_10Dollar_red_vs_green.png`. Each cell shows the probability of the pair's first color (as ordered in `COLOR_PAIRS` in `OpenAI-25.8.py`), with that color listed first, listed second, and the average of both. To choose the pairs yourself, set `COLOR_PAIRS` at the top of the heatmap script.
 
 A few cells come out blank. That's expected: in those rows the model answered with something like "Either", and one of the two colors fell outside the top-5 logprobs the OpenAI API returns. Those rows are dropped (`both_in_top_n == False`).
 
@@ -232,8 +232,8 @@ All the settings are constants at the top of each script. Change them in **both*
 
 **What the models are asked about**
 
-- **`COLOR_PAIRS`**: which two colors the model chooses between. Add pairs such as `("red", "blue")`; both orders are generated automatically. This tests whether the order bias depends on the specific colors. The order-bias plots average over all color pairs in the CSV, so plot one pair at a time if you want them separately. The heatmaps are hardcoded to red vs. green t-shirts.
-- **`ITEM_NOUN`**: the item that has the color, currently `"t-shirt"`. Something like `"mug"` or `"car"` works directly. The prompts are written for colored objects ("one is in the color red"), so a non-color choice such as chicken vs. pasta needs new prompt templates in `build_prompts()`.
+- **`COLOR_PAIRS`**: which two colors the model chooses between. Add pairs such as `("red", "blue")`; both orders are generated automatically. This tests whether the order bias depends on the specific colors. The order-bias plots average over all color pairs in the CSV, so plot one pair at a time if you want them separately. The heatmaps make one image per pair automatically.
+- **`ITEM_NOUN`**: the item that has the color, currently `"t-shirt"`. Something like `"mug"` or `"car"` works directly. The prompts are written for colored objects ("one is in the color red"), so a non-color choice such as chicken vs. pasta needs new prompt wording. All 12 prompt templates (3 sets × 4 rungs) are written out in the `build_prompts()` function, which is in both `OpenAI-25.8.py` and `LLAMA-25.8.py`.
 - **`CURRENCY`**: `"USD"` writes "$10", `"EUR"` writes "10€". It tests whether the currency format changes price sensitivity.
 - **`ACTIVE_PROMPT_SETS`**: which wording ladder to use. `{3}` (Set C, longer wording without new information) is what the results use. `{1}` (Set A) adds stricter output instructions and `{2}` (Set B) adds a story ("you are on a long flight…"). Set it in the plotting scripts too. Rung 1 is the same text in all three sets, so running several sets repeats those prompts.
 
@@ -271,12 +271,12 @@ What stands out:
 - **Order matters more when the price difference is small relative to the price.** At base prices of $500 and above, every model shows more order bias than at $180 and below, most clearly with fixed gaps (gpt-5.4-nano: 15.8 → 45.9 pp; gpt-5.4: 8.6 → 32.5 pp). A $10 difference is decisive between $10 and $20, but at $800 vs. $810 it barely registers, and the order of the options takes over. Relative gaps also show more bias at high prices, though less.
 - **Temperature affects each model differently.** Going from T=1 to T=5 cuts gpt-5.4-nano's fixed-gap bias by more than half, barely changes gpt-5.4's, and slightly *raises* Llama's. gpt-5.4's two scores are much further apart on average (a gap of 7.4, against 2.5 for gpt-5.4-nano), so dividing them by the temperature still leaves a clear winner. "Bias at temperature T" is therefore not one number that transfers between models.
 
-Why this is interesting: when an LLM chooses or recommends between options (shopping assistants, agents, decision support), it can be swayed by something as irrelevant as which option was mentioned first, especially when the options differ only slightly in price. Larger, newer models aren't automatically more robust to this.
+Why this is interesting: when an LLM chooses between options, it can be swayed by something as irrelevant as which option was mentioned first, especially when the options differ only slightly in price.
 
 **From the [earlier experiments](earlier-experiments/README.md)** (Llama-3.1-8B, text sampling):
 
 - **Chicken vs. pasta:** Llama has a stable preference for chicken. Pasta only wins when it's both cheaper *and* listed second. As temperature rises, the choice drifts toward 50/50, as the fitted utility model predicts.
-- **Wording changes the preference.** At T ≤ 1, choosing between "blue" and "yellow" gives blue about 75% in either order. Between a "blue t-shirt" and a "yellow t-shirt" with yellow listed first, blue drops to about 35%, although the added word carries no new information.
+- **Adding "t-shirt" changes the preference.** At T ≤ 1, choosing between "blue" and "yellow" gives blue about 75% in either order. Between a "blue t-shirt" and a "yellow t-shirt" with yellow listed first, blue drops to about 35%.
 - **PlayStation vs. Xbox:** gpt-5.4, gpt-5.4-nano and Llama almost always answer PlayStation. The only exception is Llama with Xbox listed first, at T=0.7 and T=1.
 - **Random strings (IIA):** with three meaningless words, the "preferred" word and how the choice shifts when one becomes unavailable follow a fixed order. That looks more like a positional or lexical artifact than a preference. Many answers were invalid (refusals, both words repeated), so how answers are counted matters.
 
