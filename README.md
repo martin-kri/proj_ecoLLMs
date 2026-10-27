@@ -64,7 +64,6 @@ Activate it (`.venv\Scripts\activate` on Windows, `source .venv/bin/activate` on
 pip install -r requirements.txt
 ```
 
-- If your machine has a different CUDA version (or no GPU), install `torch` separately for your setup ([pytorch.org](https://pytorch.org/get-started/locally/)) before installing the rest.
 - `torch` / `transformers` are only needed for `LLAMA-25.8.py`. The OpenAI script and all the plotting scripts (steps 2a and 3–7) don't need a GPU.
 
 ## Step 1: Create the `.env` file
@@ -88,7 +87,7 @@ OPENAI_ORG_ID=...     # optional, leave empty if you don't use one
 
 > **Checkpointing:** while running, both scripts save their progress to `results/*_checkpoint.csv` (every 50 results for OpenAI, every 20 for Llama). On start, they read that file and skip every prompt that's already in it, so a crashed run continues where it stopped. To start over, delete the checkpoint file.
 >
-> My checkpoint files are deliberately **not** in this repo: they contain every prompt already, so a run would skip everything and just return my data. Without them, a fresh clone sends every prompt again. The new run overwrites the master CSVs in `results/`; `git checkout results/` brings mine back.
+> My checkpoint files are deliberately **not** in this repo: they contain every prompt already, so a run would skip everything and just return my data.
 
 ### 2a: OpenAI models
 
